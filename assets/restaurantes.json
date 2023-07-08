@@ -1,0 +1,965 @@
+[{
+    "nombre": "KOSINA",
+    "video": "https://www.youtube.com/embed/L2mkweB3lds?feature=oembed",
+    "direccion": "Sor Juana Ines de la Cruz #64, Santa María la Ribera"
+},
+{
+    "nombre": "RESTAURANTE AMALIA",
+    "video": "https://www.youtube.com/embed/Yf8z5rSlcn0?feature=oembed",
+    "direccion": "Calle Violeta 57, col. Buenavista"
+},
+{
+    "nombre": "BAR EL HIPOPÓTAMO",
+    "video": "https://www.youtube.com/embed/d9z4ZDCrTsE?feature=oembed",
+    "direccion": "Avenida Brasil #401, San Telmo, Buenos Aires"
+},
+{
+    "nombre": "CALDOS DE GALLINA “EL GORDITO”",
+    "video": "https://www.youtube.com/embed/TF4rERilVvU?feature=oembed",
+    "direccion": "Av. Ricardo Flores Magón 325, Atlampa"
+},
+{
+    "nombre": "COYOTA",
+    "video": "https://www.youtube.com/embed/ICujUu1X4qY?feature=oembed",
+    "direccion": "Jardín Mascarones, Santa María La Ribera no. 12, Local 9"
+},
+{
+    "nombre": "EL ACETATO CAFÉ",
+    "video": "https://www.youtube.com/embed/0dsC-VO_dIo?feature=oembed",
+    "direccion": "Puerto Topolobampo 56, col. Casas Alemán"
+},
+{
+    "nombre": "LAS PANAS",
+    "video": "https://www.youtube.com/embed/vip9vQzPjGk?feature=oembed",
+    "direccion": "Av. del Taller #32, col. Tránsito"
+},
+{
+    "nombre": "LOS 3 KUINITOS",
+    "video": "https://www.youtube.com/embed/vNrj4YlNkVA?feature=oembed",
+    "direccion": "Degollado 142 B, col. Guerrero, Ciudad de México"
+},
+{
+    "nombre": "CENADURÍA PORTALES DE SAN FRANCISCO",
+    "video": "https://youtu.be/35KOmlJz8rg",
+    "direccion": "Calle 10 #86, Barrio de San Francisco, Ciudad de México"
+},
+{
+    "nombre": "TAQUERÍA CHICO CHÉ",
+    "video": "https://youtu.be/aNTpBYJW-Zg",
+    "direccion": "Calle 10, Barrio de San Francisco, Campeche"
+},
+{
+    "nombre": "TAQUERÍA NORMA RUELAS",
+    "video": "https://youtu.be/GzUyU8mW7Dk",
+    "direccion": "Fidel Velázquez, # 24023, San Francisco de Campeche"
+},
+{
+    "nombre": "EL MERCADITO PERUANO",
+    "video": "https://www.youtube.com/embed/1mKI1H6XjZw?feature=oembed",
+    "direccion": "Mercado de San Juan, 2ᵃ Calle de Ernesto Pugibet s/n, local 279, col. Centro"
+},
+{
+    "nombre": "PASTELERÍA LANDHAUS",
+    "video": "https://www.youtube.com/embed/tBioNY99cMw?feature=oembed",
+    "direccion": "Giotto 30, Mixcoac"
+},
+{
+    "nombre": "LA CASA DEL PAVO",
+    "video": "https://www.youtube.com/embed/_0EchVt8VnE?feature=oembed",
+    "direccion": "Calle de Motolinia 40, col. Centro"
+},
+{
+    "nombre": "CUARENTENA BAKING",
+    "video": "https://www.youtube.com/embed/3X9tP8_vWDQ?feature=oembed",
+    "direccion": "Puebla 57, Roma Norte"
+},
+{
+    "nombre": "JAWA RESTAURANTE DE INDONESIA",
+    "video": "https://www.youtube.com/embed/MuaMUDnDmrQ?feature=oembed",
+    "direccion": "Alejandro Dumas 125, Polanco"
+},
+{
+    "nombre": "CUBA CARIBE",
+    "video": "https://www.youtube.com/embed/3srcYZlxJGw?feature=oembed",
+    "direccion": "José María Roa Bárcenas #77, col. Obrera"
+},
+{
+    "nombre": "PUPUSAS SALVADOREÑAS MELI",
+    "video": "https://www.youtube.com/embed/V_8Bvo3mbLc?feature=oembed",
+    "direccion": "Gral. Heriberto Jara 90, Constitución de 1917, Iztapalapa"
+},
+{
+    "nombre": "BIRRIA TECATITLÁN",
+    "video": "https://www.youtube.com/embed/XNWs3ls6vxM?feature=oembed",
+    "direccion": "Nogal 12, Santa María la Ribera"
+},
+{
+    "nombre": "TAQUERÍA LOS CARAMELOS",
+    "video": "https://www.youtube.com/embed/NNDw-FSJPnw?feature=oembed",
+    "direccion": "Bajío 321, Roma Sur"
+},
+{
+    "nombre": "LAS BRUJAS WITCHCRAFT CAFÉ",
+    "video": "https://www.youtube.com/embed/JVoa2oSAI-o?feature=oembed",
+    "direccion": "Rubens 67, col. San Juan Mixcoac"
+},
+{
+    "nombre": "MONJAS CLARISAS DE SAN JUANICO",
+    "video": "https://www.youtube.com/embed/sB7BD9a0iXk?feature=oembed",
+    "direccion": "Tláloc 3, Tlalnepantla, Estado de México"
+},
+{
+    "nombre": "MEGA ANTOJITOS MEXICANOS MARTÍNEZ",
+    "video": "https://www.youtube.com/embed/8vIO6e2EcZk?feature=oembed",
+    "direccion": "Prolongación Cerrada José López Bonaga #260, Local 197"
+},
+{
+    "nombre": "CASA KIM",
+    "video": "https://fb.watch/lDoZ1pAT2z/",
+    "direccion": "Av. Insurgentes Sur 488, col. Roma Sur"
+},
+{
+    "nombre": "VENDAVAL",
+    "video": "https://www.youtube.com/embed/tGOnYBzQpxs?feature=oembed",
+    "direccion": "Guillermo Prieto 46, col. San Rafael"
+},
+{
+    "nombre": "COMEDOR ZIBA",
+    "video": "https://www.youtube.com/embed/NlRNqiLT2ik?feature=oembed",
+    "direccion": "Filosofía y Letras 51, col. Copilco Universidad, Coyoacán"
+},
+{
+    "nombre": "RESTAURANTE ALIOLI",
+    "video": "https://www.youtube.com/embed/fgiXZuSh6RQ?feature=oembed",
+    "direccion": "Medellín 238, col. Roma Sur"
+},
+{
+    "nombre": "POLLOS SIN-ALOAS",
+    "video": "https://www.youtube.com/embed/fx-RVrgR7Ok?feature=oembed",
+    "direccion": "Doctor Rafael Lucio 134, col. Doctores"
+},
+{
+    "nombre": "PULQUERÍA LA ROSITA",
+    "video": "https://www.youtube.com/embed/8C6G0xNIXgo?feature=oembed",
+    "direccion": "Callejón San Antonio Abad 106, col. Esperanza"
+},
+{
+    "nombre": "PERRO FLACO",
+    "video": "https://www.youtube.com/embed/uC-dMR4x1hQ?feature=oembed",
+    "direccion": "Pedro Romero de Terreros 520, código 2, col. Del ValleInstagram: @perroflacococinombrediterranea"
+},
+{
+    "nombre": "PANADERÍA PANK",
+    "video": "https://www.youtube.com/embed/fXOApA-DoHM?feature=oembed",
+    "direccion": "Dr. Mariano Azuela 92, col. Santa María la Ribera"
+},
+{
+    "nombre": "LOS TURCOS",
+    "video": "https://www.youtube.com/embed/4-0VvgDZG74?feature=oembed",
+    "direccion": "Medellín 166, col. Roma Norte"
+},
+{
+    "nombre": "BAMBÚ BISTROT",
+    "video": "https://www.youtube.com/embed/5Xt7BacITuA?feature=oembed",
+    "direccion": "Calle Chimalcoyotl 116A, Toriello Guerra, Tlalpan"
+},
+{
+    "nombre": "MAÍZ DE CACAO",
+    "video": "https://www.youtube.com/embed/x7aQyfYhou4?feature=oembed",
+    "direccion": "Córdoba 148, col. Roma Norte, Ciudad de MéxicoInstagram y FB: @maizdecacao"
+},
+{
+    "nombre": "LA COCINA DE SEIGRI",
+    "video": "https://www.youtube.com/embed/LnVR5_RvGi0?feature=oembed",
+    "direccion": "Calle Salvador Díaz Mirón 110, Santa María la Ribera"
+},
+{
+    "nombre": "ERRANTE CHOCOLATERÍA",
+    "video": "https://www.youtube.com/embed/NShi3FO6Vy8?feature=oembed",
+    "direccion": "Calzada México-Tacuba 114, col. Anáhuac 1a Secc., Miguel Hidalgo "
+},
+{
+    "nombre": "CAFÉ ESTACIONES",
+    "video": "https://www.youtube.com/embed/l_Xh06rni1U?feature=oembed",
+    "direccion": "Héroes Ferrocarril 28, Buenavista, Ciudad de México"
+},
+{
+    "nombre": "KANG'S COCINA",
+    "video": "https://www.youtube.com/embed/OMCfLz88H3A?feature=oembed",
+    "direccion": "Miguel Negrete #6, Niños Héroes de Chapultepec"
+},
+{
+    "nombre": "RAÍCES CENTRO CULTURAL",
+    "video": "https://www.youtube.com/embed/MpEQ62S3Pjs?feature=oembed",
+    "direccion": "Av. Pdte. Plutarco Elías Calles #1810, Banjidal"
+},
+{
+    "nombre": "KURUCH",
+    "video": "https://www.youtube.com/embed/_X_uL-I5gMI?feature=oembed",
+    "direccion": "Calle Mitla 88, col. Narvarte"
+},
+{
+    "nombre": "LA CONCHERÍA",
+    "video": "https://www.youtube.com/embed/Pv_uVHr9p4o?feature=oembed",
+    "direccion": "Av. Azcapotzalco 706 C, Centro de Azcapotzalco"
+},
+{
+    "nombre": "PAUSITA CAFÉ",
+    "video": "https://www.youtube.com/embed/l8T_vgynFH8?feature=oembed",
+    "direccion": "Manuel Carpio 149, col. Santa María la Ribera"
+},
+{
+    "nombre": "LA CHALUPERÍA",
+    "video": "https://www.youtube.com/embed/ainU711dEts?feature=oembed",
+    "direccion": "Miguel E. Schultz 8, col. San Rafael"
+},
+{
+    "nombre": "HORTY SALTEÑERÍA",
+    "video": "https://youtu.be/4nmGbVkygok",
+    "direccion": "Av. Yucatán 84 B, col. Roma"
+},
+{
+    "nombre": "LA SÚPER ATÓMICA, TORTAS DE LENGUA DESDE 1947",
+    "video": "https://youtu.be/QivcobQN27s",
+    "direccion": "Eligio Ancona 238, Santa María la Ribera"
+},
+{
+    "nombre": "BUCHIDO",
+    "video": "https://youtu.be/jp7rK_2dD0g",
+    "direccion": "Calle Norte 89-A, Local 24-C, Clavería"
+},
+{
+    "nombre": "AHUMADOS PELICAN",
+    "video": "https://www.youtube.com/embed/4YW7U2hc5V0?feature=oembed",
+    "direccion": "Jaime Torres Bodet 204, Santa María La Ribera"
+},
+{
+    "nombre": "DHARMA BUNS",
+    "video": "https://www.youtube.com/embed/dba5mWiMGcU?feature=oembed",
+    "direccion": "Tehuantepec 254, col. Roma Sur"
+},
+{
+    "nombre": "KYRIE VASILI",
+    "video": "https://www.youtube.com/embed/p3RbF-QPFGM?feature=oembed",
+    "direccion": "Ángel Urraza 1503, col. Vértiz Narvarte"
+},
+{
+    "nombre": "GRIS CAFÉ",
+    "video": "https://www.youtube.com/embed/0j7-uUt_mak?feature=oembed",
+    "direccion": "Lerdo 304, Edificio Ignacio Zaragoza, local 9, Nonoalco Tlatelolco"
+},
+{
+    "nombre": "DOG & ROLL",
+    "video": "https://www.youtube.com/embed/-GfvJO95jWA?feature=oembed",
+    "direccion": "Tokio #319, Portales"
+},
+{
+    "nombre": "LONCHERÍA SUVAI",
+    "video": "https://www.youtube.com/embed/bl6JXrme_Jg?feature=oembed",
+    "direccion": "Concepción Beistegui #619, Del Valle"
+},
+{
+    "nombre": "MIELMESABE BAKERY",
+    "video": "https://www.youtube.com/embed/VYJEGdHGrwc?feature=oembed",
+    "direccion": "Monterrey 225-1A, Roma Norte"
+},
+{
+    "nombre": "COCINA DE HUMO Y AGUARDIENTE “DON TOÑO”",
+    "video": "https://www.youtube.com/embed/IXQwC7VrXk8?feature=oembed",
+    "direccion": "Calle Mina #13, Acatlán de Osorio"
+},
+{
+    "nombre": "BLU CAFÉ",
+    "video": "https://www.youtube.com/embed/pSjht1_aeLY?feature=oembed",
+    "direccion": "Saratoga #525 Bis, col. Portales"
+},
+{
+    "nombre": "SALEM WITCH STORE & COFFEE",
+    "video": "https://www.youtube.com/embed/opbufqt-E7s?feature=oembed",
+    "direccion": "Diag. San Antonio #1747, Narvarte Poniente"
+},
+{
+    "nombre": "HUESITOS EL GÜERO",
+    "video": "https://www.youtube.com/embed/Hc_DDZhnks8?feature=oembed",
+    "direccion": "H. Congreso de la Unión Oriente #95, col. Mártires de Río Blanco"
+},
+{
+    "nombre": "XUVA",
+    "video": "https://www.youtube.com/embed/SaYnEGm4Qs0?feature=oembed",
+    "direccion": "Salvador Díaz Mirón #128, Santa María La Ribera"
+},
+{
+    "nombre": "SALVAXE",
+    "video": "https://www.youtube.com/embed/ipsCbNUZBeU?feature=oembed",
+    "direccion": "Isabel La Católica #1147, local i, Independencia, Ciudad de México"
+},
+{
+    "nombre": "2 CONEJO. HELADOS DE PULQUE",
+    "video": "https://www.youtube.com/embed/qMbsr2kzvO4?feature=oembed",
+    "direccion": "Insurgentes Centro #60, Tabacalera"
+},
+{
+    "nombre": "LA BELLA CAROLINA",
+    "video": "https://www.youtube.com/embed/-ynJF0_14ek?feature=oembed",
+    "direccion": "Nicolás Bravo 29, Magdalena Mixhuca"
+},
+{
+    "nombre": "DON LÁZARO EL VIAJERO",
+    "video": "https://www.youtube.com/embed/XisfUTP43Xs?feature=oembed",
+    "direccion": "Av. Instituto Técnico Industrial #241, Col. Santa María la Ribera"
+},
+{
+    "nombre": "VEGANÍSIMO. LONCHERÍA VEGANA",
+    "video": "https://www.youtube.com/embed/au0ZDaLjuu0?feature=oembed",
+    "direccion": "Av. Coyoacán #1435, col. Del Valle"
+},
+{
+    "nombre": "LAS AUTÉNTICAS GORDITAS DE TACUBA",
+    "video": "https://www.youtube.com/embed/PgtjnQNdqoQ?feature=oembed",
+    "direccion": "Calle Golfo de Bengala #1211, Tacuba"
+},
+{
+    "nombre": "ESQUIMOS LA MODERNA",
+    "video": "https://www.youtube.com/embed/G3QcaRArRCY?feature=oembed",
+    "direccion": "Mercado La Moderna L- 140, La Moderna, Ciudad de México"
+},
+{
+    "nombre": "KROKET",
+    "video": "https://www.youtube.com/embed/KyJFmG1JSqE?feature=oembed",
+    "direccion": "Pedro Romero de Terreros #19, col. Del Valle"
+},
+{
+    "nombre": "EL SUEÑO DE FRIDA (CAFÉ)",
+    "video": "https://www.youtube.com/embed/4-gA7ewoU4I?feature=oembed",
+    "direccion": "Tizimín #193, esq. Hopelchén, col. Lomas de Padierna"
+},
+{
+    "nombre": "MAIZAJO",
+    "video": "https://www.youtube.com/embed/rgce7fCj4nU?feature=oembed",
+    "direccion": "Soledad #556, El Jaguey, Azcapotzalco"
+},
+{
+    "nombre": "Pupusería La Piscucha",
+    "video": "https://www.youtube.com/embed/FarkgrR816E?feature=oembed",
+    "direccion": "Nogal #275, Santa María la Ribera"
+},
+{
+    "nombre": "PIZZAS IXIM",
+    "video": "https://www.youtube.com/embed/kO59Ch7Q7b0?feature=oembed",
+    "direccion": "Calle 24 #595, col. Trabajadores de Hierro"
+},
+{
+    "nombre": "TORTAS DE LA CUCHILLA DESDE 1915",
+    "video": "https://www.youtube.com/embed/Yz3TSMD1Es8?feature=oembed",
+    "direccion": "Dr. Liceaga #167, col. Doctores"
+},
+{
+    "nombre": "PITIWIS",
+    "video": "https://www.youtube.com/embed/FLzx9oyFbpo?feature=oembed",
+    "direccion": "Mártires Irlandeses #131, San Diego Churubusco"
+},
+{
+    "nombre": "YALA YALA TAQUERA",
+    "video": "https://www.youtube.com/embed/PRGf_cRd7Zo?feature=oembed",
+    "direccion": "Matías Romero 98-Local 2, col. Del Valle"
+},
+{
+    "nombre": "HOLLAND WAFELS",
+    "video": "https://www.youtube.com/embed/xpAcMIxDzMI?feature=oembed",
+    "direccion": "Versalles #78, col. Juárez"
+},
+{
+    "nombre": "LA AHOGADA DE DON FEDE",
+    "video": "https://www.youtube.com/embed/fkx3JnLhArY?feature=oembed",
+    "direccion": "Bretaña #147 D, Zacahuitzco"
+},
+{
+    "nombre": "VEGGIE KOI SUSHI",
+    "video": "https://www.youtube.com/embed/Uia96OxhGIE?feature=oembed",
+    "direccion": "Sur 73, #273, col. Sinatel"
+},
+{
+    "nombre": "PÁT PATZ",
+    "video": "https://www.youtube.com/embed/T0QTAjKUg1U?feature=oembed",
+    "direccion": "Obrero Mundial #634, col. Atenor Salas"
+},
+{
+    "nombre": "GATO GORDO",
+    "video": "https://www.youtube.com/embed/hJIRJgmk1tw?feature=oembed",
+    "direccion": "Río Pánuco #191, Cuauhtémoc"
+},
+{
+    "nombre": "EL DESASTRE",
+    "video": "https://www.youtube.com/embed/Dq6fCgGF8Js?feature=oembed",
+    "direccion": "San Francisco #521, col. del Valle"
+},
+{
+    "nombre": "SOCARRAT",
+    "video": "https://www.youtube.com/embed/DkIHVOXvj4I?feature=oembed",
+    "direccion": "Heriberto Frías 573 Local A-1, Narvarte Poniente"
+},
+{
+    "nombre": "SABORES DE JALISCO",
+    "video": "https://www.youtube.com/embed/Yh2CyJYE70g?feature=oembed",
+    "direccion": "Av. Patriotismo #84, Escandón"
+},
+{
+    "nombre": "TALLER SIROP",
+    "video": "https://www.youtube.com/embed/pBGg-WSo0yw?feature=oembed",
+    "direccion": "Av. Camarones #155 B, col. Nueva Santa María, Azcapotzalco"
+},
+{
+    "nombre": "TALLER XILOTL",
+    "video": "https://www.youtube.com/embed/3D7ITSuph78?feature=oembed",
+    "direccion": "Privada Arce #3, esquina Dr. Arce, col. Doctores, CDMX"
+},
+{
+    "nombre": "RESTAURANTE ALBERTO'S",
+    "video": "https://www.youtube.com/embed/M6g5HmHJ_oo?feature=oembed",
+    "direccion": "Tepantongo #246, Reynosa Tamaulipas, Azcapotzalco"
+},
+{
+    "nombre": "CHICAGO BERNIE'S BEEF BIKE",
+    "video": "https://www.youtube.com/embed/8eYgysqx3ps?feature=oembed",
+    "direccion": "Francisco Pimentel #14, col. San Rafael"
+},
+{
+    "nombre": "RESTAURANTE TEMPORADA",
+    "video": "https://www.youtube.com/embed/HEfpYOrl3yk?feature=oembed",
+    "direccion": "Joaquín Velázquez de León #89, col. San Rafael"
+},
+{
+    "nombre": "Srita. PIBIL",
+    "video": "https://www.youtube.com/embed/7MLIsoyVzFM?feature=oembed",
+    "direccion": "Miguel Laurent 75 - L34 Mercado, Tlacoquemecatl del Valle, Ciudad de México"
+},
+{
+    "nombre": "FAT VEGAN",
+    "video": "https://www.youtube.com/embed/u4al3tqJRmQ",
+    "direccion": "San Luis Potosí #130, Roma Norte."
+},
+{
+    "nombre": "AMASIJO PANADERÍA",
+    "video": "https://www.youtube.com/embed/zmszKLysmy4",
+    "direccion": "Caleta #554 Local A, col. Narvarte, Ciudad de México"
+},
+{
+    "nombre": "NAAN. CURRY VEGANO",
+    "video": "https://www.youtube.com/embed/BI2_ocvfPCY",
+    "direccion": "Santa María la Ribera #12 (entrada por el Jardín Mascarones)"
+},
+{
+    "nombre": "DIINOS TACOS & ANTOJOS",
+    "video": "https://www.youtube.com/embed/gM5YTlKfG2k",
+    "direccion": "Gabino Barreda #117 Local A, Col. San Rafael, Ciudad de México"
+},
+{
+    "nombre": "RESTAURANTE CORREO ESPAÑOL",
+    "video": "https://www.youtube.com/embed/b_kPknzfBWc",
+    "direccion": "Peralvillo #30, Col. Morelos"
+},
+{
+    "nombre": "HAMBURGUESAS EL CABALLO DE TROYA RACING",
+    "video": "https://www.youtube.com/embed/HcSaXfoAOdI",
+    "direccion": "Oriente 170 # 309, col. Moctezuma, 2ª sección"
+},
+{
+    "nombre": "PULQUERÍA LA BELLA CANDE",
+    "video": "https://www.youtube.com/embed/97Df9ZRxjsY",
+    "direccion": "Av. Emilio Carranza 10, col. Moctezuma 1ª Secc., Venustiano Carranza"
+},
+{
+    "nombre": "AFROMENÚ",
+    "video": "",
+    "direccion": "Oriente 184 362, col. Moctezuma 2ª Sección"
+},
+{
+    "nombre": "FERIA DEL TAMAL",
+    "video": "https://www.youtube.com/embed/xsiVxLYLn9M",
+    "direccion": "Av. Miguel Hidalgo #289, col. Del Carmen, Coyoacán"
+},
+{
+    "nombre": "PELIGRO AL FONDO",
+    "video": "https://www.youtube.com/embed/cC06m4IIV6c",
+    "direccion": "Lerdo de Tejada #2170, col. Americana, Guadalajara, Jal."
+},
+{
+    "nombre": "TEJUINO MARCELINO",
+    "video": "https://www.youtube.com/embed/2FwWGTdfY3M",
+    "direccion": "Joaquín Angulo #819, col. Capilla de Jesús, Guadalajara, Jalisco."
+},
+{
+    "nombre": "EL ARTE DE COMER INSECTOS",
+    "video": "https://www.youtube.com/embed/olSzViiYG3k",
+    "direccion": "Justo Sierra #16, Centro Histórico"
+},
+{
+    "nombre": "DHARMA MOMOS",
+    "video": "https://www.youtube.com/embed/c55o6-SIL0E",
+    "direccion": "Gobernador Rafael Rebollar #138, Col. San Miguel Chapultepec."
+},
+{
+    "nombre": "CAFÉ LA PAGODA",
+    "video": "https://www.youtube.com/embed/tgP_FZBsDvw",
+    "direccion": "Av. 5 de Mayo #10, Col. Centro"
+},
+{
+    "nombre": "CHANTICO",
+    "video": "https://www.youtube.com/embed/Uy0PPmHWMtk",
+    "direccion": "Azalea # 39, Xaltocan, Xochimilco"
+},
+{
+    "nombre": "EL ESCAPULARIO",
+    "video": "https://www.youtube.com/embed/wj_3MqDup6M",
+    "direccion": "García Vigil #617 altos, Centro, Oaxaca de Juárez, Oax."
+},
+{
+    "nombre": "MEXCAL “DEL AMIGO”",
+    "video": "https://www.youtube.com/embed/Cuv_B-p10cE",
+    "direccion": "Carretera internacional 190, kilómetro 48.4, Santiago Matatlán, Oaxaca"
+},
+{
+    "nombre": "RICOS JUGOS",
+    "video": "https://www.youtube.com/watch?v=EYaUC2v_v_g&pp=ygUWUklDT1MgSlVHT1MgaXRpbmVyYXJpbw%3D%3D",
+    "direccion": "Prisciliano Sánchez #1045, col. Americana, Guadalajara, Jalisco."
+},
+{
+    "nombre": "TLAYUDAS EL NEGRO",
+    "video": "https://www.youtube.com/embed/cWUs65y5BJ0",
+    "direccion": "Av. Independencia # 310, Centro, Oaxaca de Juárez, Oax."
+},
+{
+    "nombre": "FRUTAS CRISTALIZADAS",
+    "video": "https://www.youtube.com/embed/XTeo99eEHAQ",
+    "direccion": "Av. República Federal Sur, # 53, col. Santa Martha Acatitla"
+},
+{
+    "nombre": "BIRRIA DON CHUY",
+    "video": "https://www.youtube.com/embed/4r-MYZD3Iho",
+    "direccion": "Calle Violeta #30, col. Guerrero"
+},
+{
+    "nombre": "VAGO IMPERIAL CAFÉ",
+    "video": "https://www.youtube.com/embed/Jm8JMzgrDic",
+    "direccion": "José Guadalupe Zuno #2143, Col. Lafayette, Guadalajara, Jal."
+},
+{
+    "nombre": "TOUR SONORENSE",
+    "video": "https://www.youtube.com/embed/KDioMtVL-nM",
+    "direccion": "Esperanza # 1205, Col. Narvarte."
+},
+{
+    "nombre": "TIERRADENTRO",
+    "video": "https://www.youtube.com/embed/V3Tpca7ULKI",
+    "direccion": "Milán #22, Col. Juárez, Ciudad de México"
+},
+{
+    "nombre": "PANADERÍA COSTRA",
+    "video": "https://www.youtube.com/embed/UwzrLFZW7Yk",
+    "direccion": "Av. Universidad #371-B, col. Narvarte Poniente"
+},
+{
+    "nombre": "TOUR DE GASTRONOMÍA ALEMANA",
+    "video": "https://www.youtube.com/embed/cnNGmixokOg",
+    "direccion": "Av. Municipio Libre #344, Sta. Cruz Atoyac"
+},
+{
+    "nombre": "RESTAURANTE ODRA",
+    "video": "https://www.youtube.com/embed/kxjNaMJKGo8",
+    "direccion": "Miguel Ramos Arizpe #38A, 38B, col. Tabacalera."
+},
+{
+    "nombre": "FODOR COCINA RUMANA",
+    "video": "https://www.youtube.com/embed/ud63_bCCxG4",
+    "direccion": "Londres #187, Col. Juárez, Ciudad de México"
+},
+{
+    "nombre": "LA VASCONIA",
+    "video": "https://www.youtube.com/embed/1JZ9n4qcI7I",
+    "direccion": "Tacuba #73, Centro Histórico"
+},
+{
+    "nombre": "MUKYU",
+    "video": "https://www.youtube.com/embed/YfkJF2e66vQ",
+    "direccion": "Herodoto #53, col. Nueva Anzures"
+},
+{
+    "nombre": "UN RINCÓN DE CHILE",
+    "video": "https://www.youtube.com/embed/QZqwkcE3mYg",
+    "direccion": "Patricio Sanz #1609, col. Del Valle"
+},
+{
+    "nombre": "CAL Y MAÍZ",
+    "video": "https://www.youtube.com/embed/z6IqAf_AUko",
+    "direccion": "Málaga #94, Insurgentes Mixcoac"
+},
+{
+    "nombre": "QUESOS SIERRA ENCANTADA",
+    "video": "https://www.youtube.com/embed/GQcxZnH7KEo",
+    "direccion": "Carretera Federal México-Cuernavaca, Km. 60, calle Ma. Bonita L-4, Sierra Encantada, CP. 62517 Huitzilac, Morelos"
+},
+{
+    "nombre": "BREMEN",
+    "video": "https://www.youtube.com/embed/WgfliZLGQis",
+    "direccion": "San Simón #227, col. Santa María Insurgentes"
+},
+{
+    "nombre": "TIERRA ADENTRO",
+    "video": "https://www.youtube.com/embed/o_RNxrMgoN0",
+    "direccion": "Av. Nevado #112, col. Portales"
+},
+{
+    "nombre": "LOVECRAFT CAFÉ",
+    "video": "https://www.youtube.com/embed/tQH5sgvtygY",
+    "direccion": "Lorenzo Boturini, esquina Calle 1325, col. Del Parque"
+},
+{
+    "nombre": "RESTAURANTE VILLA RICA",
+    "video": "https://www.youtube.com/embed/OD2M_XlX3Hw",
+    "direccion": "Calle Mocambo #527, Playa de Oro, 94290 Boca del Río"
+},
+{
+    "nombre": "BAR BLANCA NIEVES",
+    "video": "https://www.youtube.com/embed/WHvU8824qOs",
+    "direccion": "Av. Venustiano Carranza s/n, Centro, Tlacotalpan, Ver."
+},
+{
+    "nombre": "PANADERÍA EL RESOBADO",
+    "video": "https://www.youtube.com/embed/p9lsZsk2Mh4",
+    "direccion": "Constitución #3, Centro, Coatepec, Ver."
+},
+{
+    "nombre": "LA PARROQUIA DE VERACRUZ",
+    "video": "https://www.youtube.com/embed/tEeJIgCnC7g",
+    "direccion": "Insurgentes Veracruzanos 340-3, col. Centro, Veracruz, México"
+},
+{
+    "nombre": "LA ESTRELLA DE ORO",
+    "video": "https://www.youtube.com/embed/mVQm5KoHLU8",
+    "direccion": "Constitución # 10, Centro, Coatepec, Ver."
+},
+{
+    "nombre": "COMEDOR ESCONDIDO",
+    "video": "https://www.youtube.com/embed/NDbiDja0kw8",
+    "direccion": "Tabaqueros #16, col. Centro"
+},
+{
+    "nombre": "SABORES DEL PERÚ",
+    "video": "https://www.youtube.com/embed/3ODSMuQkdaA",
+    "direccion": "Juan José Eguiara y Eguren #69, col. Viaducto Piedad"
+},
+{
+    "nombre": "GALERA",
+    "video": "https://www.youtube.com/embed/VLTgYGJ93l4",
+    "direccion": "Dr. Carmona y Valle #147, col. Doctores"
+},
+{
+    "nombre": "EL JARDÍN DE ANATOLIA",
+    "video": "https://www.youtube.com/embed/0zDADcOR9ME",
+    "direccion": "Agustín González de Cossío # 242, col. Del Valle."
+},
+{
+    "nombre": "CORAZONCITO HUASTECO",
+    "video": "https://www.youtube.com/embed/eY53zXfgK30",
+    "direccion": "Juan Hernández y Dávalos #25, col. Algarín"
+},
+{
+    "nombre": "TAQUERÍA LAS MUÑECAS",
+    "video": "https://www.youtube.com/embed/6UAeyOT4qLQ",
+    "direccion": "Toltecas, MZ. 58 Lte. 3, col. Santo Domingo, Ciudad de México"
+},
+{
+    "nombre": "LA CAÑITA",
+    "video": "https://www.youtube.com/embed/0BlC5LZ9TGo",
+    "direccion": "Dr. Andrade #24, col. Doctores"
+},
+{
+    "nombre": "MAFALDA, RESTAURANTE ARGENTINO",
+    "video": "https://www.youtube.com/embed/YmMgja1OxD8",
+    "direccion": "Hidalgo #10, col. Del Carmen, Coyoacán"
+},
+{
+    "nombre": "KIIN THAI- VIET EATERY",
+    "video": "https://www.youtube.com/embed/PLITJOvDhME",
+    "direccion": "Orizaba # 219, col. Roma Norte, CDMX"
+},
+{
+    "nombre": "MARCEVA",
+    "video": "https://www.youtube.com/embed/n5nfst9hU-g",
+    "direccion": "Calle Mariano Quevedo #17, Morelia, Mich."
+},
+{
+    "nombre": "CACTUX",
+    "video": "https://www.youtube.com/embed/4Q226VW-KrU",
+    "direccion": "Calle Héroe de Nacozari #191, Morelia, Mich."
+},
+{
+    "nombre": "CAFÉ BUDAPEST",
+    "video": "https://www.youtube.com/embed/ipA0GM5zcmM",
+    "direccion": "Avenida Tamaulipas #130, col. Hipódromo Condesa"
+},
+{
+    "nombre": "PANADERÍA MADRID",
+    "video": "https://www.youtube.com/embed/fMCsCrZpwZc",
+    "direccion": "Calle 5 de Febrero 25, Centro histórico, Ciudad de México."
+},
+{
+    "nombre": "BITUTE",
+    "video": "https://www.youtube.com/embed/b7Jy9VtCI3w",
+    "direccion": "Florencia #18, Col. Juárez, Ciudad de México"
+},
+{
+    "nombre": "PASTELERÍA LA MINIATURA",
+    "video": "https://www.youtube.com/embed/dSV8xBhpMyY",
+    "direccion": "Av. Niños Héroes #64, col. Doctores."
+},
+{
+    "nombre": "HELADOS MAQUIXCO",
+    "video": "https://www.youtube.com/embed/molxbtaM4NA",
+    "direccion": "Bahía de Santa Bárbara #102 A, Col. Verónica Anzures"
+},
+{
+    "nombre": "TACOS “LA MORENA”",
+    "video": "https://www.youtube.com/embed/v3OCaPrIlBk",
+    "direccion": "Lago Gascasónica #111, col. San Diego Ocoyoacac"
+},
+{
+    "nombre": "EL DUX DE VENECIA",
+    "video": "https://www.youtube.com/embed/KSnZR1wZUz8",
+    "direccion": "Avenida Azcapotzalco # 586, centro de Azcapotzalco"
+},
+{
+    "nombre": "RINCÓN UKRANIANO",
+    "video": "https://www.youtube.com/embed/Q5DS9SU9gB0",
+    "direccion": "Diagonal San Antonio #1513, col. Narvarte"
+},
+{
+    "nombre": "ASU MECHA",
+    "video": "https://www.youtube.com/embed/84b6Li5Emls",
+    "direccion": "Miguel Schultz #10 D, col. San Rafael"
+},
+{
+    "nombre": "TACOS DE CANASTA “LA ABUELA”",
+    "video": "https://www.youtube.com/embed/OjvvsTS945A",
+    "direccion": "Camino a Nextengo #137, col. Sta. Cruz Acayucan"
+},
+{
+    "nombre": "TACOS LAS TABLITAS",
+    "video": "https://www.youtube.com/embed/FdfzsTn__SI",
+    "direccion": "Felipe Carrillo Puerto #223, col. Popotla, Ciudad de México"
+},
+{
+    "nombre": "TOUR DE TAMALES",
+    "video": "https://www.youtube.com/embed/yivfPavVzb0",
+    "direccion": "Rio Fuerte # 6A, esquina Eje 4, col. Real del Moral"
+},
+{
+    "nombre": "TAQUERÍA 'LA CONSENTIDA'",
+    "video": "https://www.youtube.com/embed/fUu7HwBP_6w",
+    "direccion": "Mercado Jorge Jiménez Cantú, Av. Del Valle Del Yang-Tse Local 186, Valle de Aragón 1ra Secc, 57100 Nezahualcóyotl, Méx."
+},
+{
+    "nombre": "RESTAURANTE ALBA",
+    "video": "https://www.youtube.com/embed/TCVk1GeKsuA",
+    "direccion": "Marsella 80, col. Juárez, del. Cuauhtémoc, C.P. 06600, Ciudad de México."
+},
+{
+    "nombre": "SWEET GIRL MOVES",
+    "video": "https://www.youtube.com/embed/9az1lmeRKXE",
+    "direccion": "Av. Yucatan #3, col. Hipódromo Condesa, delegación Cuauhtémoc, CP 06100, CDMX."
+},
+{
+    "nombre": "CAFÉ CORTEZ",
+    "video": "https://www.youtube.com/embed/EoF4xxYWgYA",
+    "direccion": "Gómez Farías #8, col. Centro, Chihuahua, Chih."
+},
+{
+    "nombre": "CAMINO A COMALA, CAFETERIA",
+    "video": "https://www.youtube.com/embed/Et0QssSNddw",
+    "direccion": "Mariano Azuela 27, Santa María la Ribera, deleg. Cuauhtémoc, CP 06400, CDMX, México."
+},
+{
+    "nombre": "MOSHE'S COCINA JUDÍA",
+    "video": "https://www.youtube.com/embed/uQjfHRsMsjw",
+    "direccion": "Havre 83, Colonia Juárez"
+},
+{
+    "nombre": "MARI'S PATRY, PATISSERÍA FINA JAPONESA",
+    "video": "https://www.youtube.com/embed/MGvdftzxPGs",
+    "direccion": "Heriberto Frías 438# col. Narvarte Poniente"
+},
+{
+    "nombre": "BELLO CAFÉ",
+    "video": "https://www.youtube.com/embed/bY3TxDH8DR4",
+    "direccion": "Manuel Carpio #158, Sta. María la Ribera"
+},
+{
+    "nombre": "MARÍA CIENTO 38",
+    "video": "https://www.youtube.com/embed/SGiSBt8Ybkw",
+    "direccion": "Santa María La Ribera #138, col. Santa María la Ribera"
+},
+{
+    "nombre": "SCARY WITCHES BAR",
+    "video": "https://www.youtube.com/embed/o4FvNLqMe_g",
+    "direccion": "Oslo #3 Zona Rosa 06600 Ciudad de México"
+},
+{
+    "nombre": "GATORTA",
+    "video": "https://www.youtube.com/embed/1JMOvlPgSI4",
+    "direccion": "Puebla #182, Col. Roma"
+},
+{
+    "nombre": "FAT BOY MOVES",
+    "video": "https://www.youtube.com/embed/h26zRhWKc14",
+    "direccion": "Tamaulipas #147, col. Hipódromo Condesa"
+},
+{
+    "nombre": "EL LECHÓN ILUSTRADO",
+    "video": "https://www.youtube.com/embed/j4XqAGcQigQ",
+    "direccion": "Truco #5, col. Centro, Guanajuato"
+},
+{
+    "nombre": "BRASA RODIZIO DE PIZZAS",
+    "video": "https://www.youtube.com/embed/BOGV0aq1rRw",
+    "direccion": "Coahuila #148, Roma, Ciudad de México"
+},
+{
+    "nombre": "PAN DE NUBE",
+    "video": "https://www.youtube.com/embed/kYpLyO20bik",
+    "direccion": "\nDiagonal San Antonio #922, col. Del Valle."
+},
+{
+    "nombre": "SABOR DE LUNA, COMIDA PREHISPÁNICA",
+    "video": "https://www.youtube.com/embed/-32bDXCU7Bs",
+    "direccion": "Guadalupe I. Ramírez #180, col. San Marcos, Ciudad de México"
+},
+{
+    "nombre": "GIROFLE",
+    "video": "https://www.youtube.com/embed/vLfl3tt4O7E",
+    "direccion": "2 ote. 15-b col. centro 72000 Puebla de Zaragoza, México"
+},
+{
+    "nombre": "LA PASITA",
+    "video": "https://www.youtube.com/embed/8yfaOdY8OT4",
+    "direccion": "Av. 5 Oriente #602, Centro, Puebla de Zaragoza"
+},
+{
+    "nombre": "Sabores de San Pedro Cholula y Puebla",
+    "video": "https://www.youtube.com/embed/fu1laxseKlU",
+    "direccion": "6 Norte #602, Barrio de Jesús Tlatempa, San Pedro Cholula"
+},
+{
+    "nombre": "RESTAURANTE JAUJA",
+    "video": "https://www.youtube.com/embed/aIhPrLpbUms",
+    "direccion": "Irlanda #17, San Andrés Coyoacán"
+},
+{
+    "nombre": "CAT CAFÉ DE LA GATERÍA",
+    "video": "https://www.youtube.com/embed/OBcq_AFApYk",
+    "direccion": "Tabasco #337, col. Roma Norte"
+},
+{
+    "nombre": "RESTAURANTE EL MIRÓN",
+    "video": "https://www.youtube.com/watch?v=g7-mDZT1i1M&pp=ygUUZWwgbWlyw7NuIGl0aW5lcmFyaW8%3D",
+    "direccion": "Salvador Díaz Mirón #147-C, col. Sta. María la Ribera"
+},
+{
+    "nombre": "BRAVO LONCHERÍA",
+    "video": "www.youtube.com/embed/JyscDCNWvZs",
+    "direccion": "Río Sena #87, col. Cuauhtémoc"
+},
+{
+    "nombre": "DELICIAS FRANCESAS",
+    "video": "www.youtube.com/embed/Ai40Yh0ST-o",
+    "direccion": "Tehuantepec y Chilpancingo, col. Roma"
+},
+{
+    "nombre": "LE MAISON DE FAMILLE",
+    "video": "www.youtube.com/embed/Ai40Yh0ST-o",
+    "direccion": "Colima #152, col. Roma, Ciudad de México"
+},
+{
+    "nombre": "LE PETIT RESTO",
+    "video": "www.youtube.com/embed/Ai40Yh0ST-o",
+    "direccion": "San Antonio #100, col. Nápoles"
+},
+{
+    "nombre": "BIRRIERÍAS EN LAS 9 ESQUINAS",
+    "video": "www.youtube.com/embed/1yQ39kH-cLg",
+    "direccion": "Plaza de las 9 esquinas, Centro, Guadalajara, Jal."
+},
+{
+    "nombre": "VEGETARIANISMO URBANO",
+    "video": "www.youtube.com/embed/DRd-c1TlZ_0",
+    "direccion": "Av. Bucareli #69, col. Juárez"
+},
+{
+    "nombre": "VINÍCOLA URBANA",
+    "video": "www.youtube.com/embed/ozxJf9rv0SA",
+    "direccion": "Presidente Masaryk #29, Polanco"
+},
+{
+    "nombre": "CASA MERLOS",
+    "video": "www.youtube.com/embed/Le76dKWiesw",
+    "direccion": "Victoriano Zepeda no. 80, col. Observatorio, Ciudad de México"
+},
+{
+    "nombre": "RESTAURANTE “CAFÉ GOURMET” - COMIDA IRANÍ",
+    "video": "www.youtube.com/embed/JeP_GcthwYQ",
+    "direccion": "Tomás Alva Edison no. 95, col. Tabacalera"
+},
+{
+    "nombre": "ESCONDITE",
+    "video": "www.youtube.com/embed/1b7XHucgViw",
+    "direccion": "Francisco Pimentel no. 3, col. San Rafael"
+},
+{
+    "nombre": "COMEDOR VEGETARIANO KRISHNA",
+    "video": "www.youtube.com/embed/XrL11YGeT1o",
+    "direccion": "Tiburcio Montiel #45, col. San Miguel Chapultepec"
+},
+{
+    "nombre": "BAR ARTEMISIA",
+    "video": "http://www.youtube.com/embed/ky1evD8ev5c",
+    "direccion": "Tonalá #23, col. Roma"
+},
+{
+    "nombre": "FINCA VAI",
+    "video": "http://www.youtube.com/embed/0uw22FRkGoY",
+    "direccion": "Carretera Querétaro-Tequisquiapan km 30, Municipio de Colón, Querétaro"
+},
+{
+    "nombre": "RESTAURANTE CHAMULAS",
+    "video": "http://www.youtube.com/embed/h30xYSxnIzE",
+    "direccion": "Bolívar #438, col. Obrera"
+},
+{
+    "nombre": "BAR LILITH",
+    "video": "http://www.youtube.com/embed/B1UGZiC1MdA",
+    "direccion": "Orizaba #125, int. E, col. Roma, Ciudad de México"
+},
+{
+    "nombre": "RESTAURANTE BAR COMICX",
+    "video": "http://www.youtube.com/embed/EhUQejo2USw",
+    "direccion": "Av. Santa Fe #94, col. Santa Fe, Distrito Federal"
+},
+{
+    "nombre": "MUSEO DEL CHOCOLATE",
+    "video": "http://www.youtube.com/embed/S-jRWrs8x1U",
+    "direccion": "Milán #45 esq. Roma, col. Juárez, Ciudad de México"
+},
+{
+    "nombre": "POZOLERÍA LOS TOLUCOS",
+    "video": "",
+    "direccion": "Hernández y Dávalos #40, col. Algarín"
+},
+{
+    "nombre": "RESTAURANTE “CON SABOR A TIXTLA”",
+    "video": "https://www.youtube.com/watch?v=5xuw8O-MbNY&pp=ygUj4oCcQ09OIFNBQk9SIEEgVElYVExB4oCdIGl0aW5lcmFyaW8%3D",
+    "direccion": "Chiapas # 206, entre Manzanillo y Medellín, col. Roma, Ciudad de México"
+},
+{
+    "nombre": "CAFÉ MINICHELISTA",
+    "video": "http://www.youtube.com/embed/videoseries?list=PL37695F163037D1D0&hl=es_MX",
+    "direccion": "Guanábana #197, col. Nueva Santa María"
+}]

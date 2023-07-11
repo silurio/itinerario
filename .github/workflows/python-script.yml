@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: '50 19 * * * America/Mexico_City'
+    - cron: '0 1 * * *'
 
 jobs:
   run-script:
@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt # Replace with the name of your requirements file
       - name: Run script
-        run: python itinerario_data_getter.py # Replace with the path to your Python script
+        run: TZ=America/Mexico_City python itinerario_data_getter.py # Replace with the path to your Python script

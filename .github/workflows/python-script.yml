@@ -1,0 +1,20 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '40 19 * * *'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10.0' # Replace with the version of Python you want to use
+      - name: Install dependencies
+        run: pip install -r requirements.txt # Replace with the name of your requirements file
+      - name: Run script
+        run: python itinerario_data_getter.py # Replace with the path to your Python script

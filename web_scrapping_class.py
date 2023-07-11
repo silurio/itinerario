@@ -155,17 +155,25 @@ class WebScrapping:
                     if 'col' in p.get_text() or '#' in p.get_text() or 'no.' in p.get_text():
                         #Guarda la string en la propiedad direccion del diccionario
                         dicc['direccion'] = p.get_text()
-                        
+                       
                 """
-                Añade el diccionario de un restaurante como un objeto JSON en el archivo
-                restaurantes.json. 
+                Se obtiene el arreglo de JSONs del archivo restaurantes.json, se agrega
+                el objeto JSON del restaurante en cuestión al arreglo
+                """ 
+                data = []
+                with open('assets/restaurantes.json', 'r') as file:
+                    data = json.load(file)
+                data.append(dicc)
+                """
+                Añade todo el arreglo de objetos JSON de los restaurantes, incluido el 
+                restaurante recién añadido, al archivo de restaurantes.json. 
                 El parámetro sure_ascii=False se usa para garantizar que no se escapen los 
                 caracteres que no son ASCII, y el parámetro encoding="utf-8" se usa para 
                 establecer la codificación del archivo en UTF-8. El parámetro indent para
                 formatear el JSON en cuestión
                 """
-                with open('assets/restaurantes.json', 'a', encoding="utf-8") as rest_json:
-                    json.dump(dicc, rest_json, ensure_ascii=False, indent=4)
+                with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
+                    json.dump(data, rest_json, ensure_ascii=False, indent=4)
                 
                 i += 1
                 # Va indicando cuantas URLs de restaurantes se han procesado

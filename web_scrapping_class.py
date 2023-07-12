@@ -186,9 +186,13 @@ class WebScrapping:
                 """
                 if i == 100:
                     break
+            print('Finalizado')
+            return True
         else:
             print('No hay URLs nuevas')
-        print('Finalizado')
+            print('Finalizado')
+            return False
+        
     
     def from_json_to_csv(self):
         """

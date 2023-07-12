@@ -18,6 +18,6 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f itinerario/requirements.txt ]; then pip install -r itinerario/requirements.txt; fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run script
-        run: python itinerario/itinerario_data_getter.py # Replace with the path to your Python script
+        run: python itinerario_data_getter.py # Replace with the path to your Python script

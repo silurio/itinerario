@@ -7,14 +7,19 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10.1"] # Replace with the version of Python you want to use
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.10.1' # Replace with the version of Python you want to use
+          python-version: ${{ matrix.python-version }} 
       - name: Install dependencies
-        run: pip install -r requirements.txt # Replace with the name of your requirements file
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f itinerario/requirements.txt ]; then pip install -r itinerario/requirements.txt; fi
       - name: Run script
-        run: python itinerario_data_getter.py # Replace with the path to your Python script
+        run: python itinerario/itinerario_data_getter.py # Replace with the path to your Python script

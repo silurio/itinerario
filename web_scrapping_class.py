@@ -5,9 +5,12 @@ import time
 import random
 import json
 import pandas as pd
+import googlemaps
 
 class WebScrapping:
     urls_to_scrape = []
+    API_KEY = os.environ["api"]
+
 
     def request_n_download(self):
         """
@@ -69,6 +72,7 @@ class WebScrapping:
                 # line + '\n' if i != len(self.urls_to_scrape) - 1 else line for i, line in self.urls_to_scrape)
                 line + '\n' for line in self.urls_to_scrape)
 
+
     def get_urls(self, content, urls_array):
         """
         Este método obtiene las URLs del contenido
@@ -108,6 +112,7 @@ class WebScrapping:
                 return True
         return False
         
+        
     def get_urls_data(self):
         """
         Este método crea un objeto JSON por cada restaurante recomendado.
@@ -119,6 +124,8 @@ class WebScrapping:
         # with open('assets/urls.txt') as urls_file:
         #     for url in urls_file.readlines():
         #         urls_array.append(url[:-1])
+        
+        gmaps = googlemaps.Client(key=self.API_KEY)
         
         i = 0
         # Si hay URLs nuevas
@@ -139,6 +146,22 @@ class WebScrapping:
                 dicc = {}
                 # Se obtiene el nombre del restaurante, ubicando el elemento HTML h1 con la class especificada
                 dicc['nombre'] = soup.find('h1', {'class': 'is-title post-title-alt'}).get_text()
+                
+                # Busca el sitio en Google Maps por nombre
+                sitio = gmaps.find_place(input=sitio['nombre'], input_type='textquery')
+                
+                # print(sitio)
+                
+                # Obtiene los posibles place IDs, de Google Maps, del sitio
+                sitios = [candidate['place_id'] for candidate in sitio['candidates']]
+                # Si existe un sólo ID para el sitio
+                if len(sitios) == 1:
+                    # Saca el ID del arreglo y lo coloca en la propiedad gmaps_id
+                    dicc['gmaps_id'] = sitios.pop
+                else:
+                    # Agrega el arreglo de IDs a la propiedad gmaps_id
+                    dicc['gmaps_id'] = sitios
+                    
                 # Por cada elemento HTML figure
                 for fig in fig_array:
                     # Si el elemento hijo iframe existe en figure 
@@ -204,6 +227,55 @@ class WebScrapping:
         print('Se crea un CSV a partir de un archivo JSON')
         # Cargue los datos JSON en un DataFrame de pandas
         df = pd.read_json("assets/restaurantes.json")
+        
+        # Retira la columna 'gmaps_id'
+        df = df.drop(['gmaps_id'], axis=1)
 
         # Escribir el DataFrame en un archivo CSV
         df.to_csv("assets/restaurantes.csv", index=False)
+        
+        
+    def obtener_estado_restaurante(self):
+        """
+        Este método verifica y registra el estado de los restaurantes: 
+        Cerrado permanentemente, temporalmente y Abierto
+
+        Args:
+        Returns:
+        """
+        restaurantes = []
+        gmaps = googlemaps.Client(key=self.API_KEY)
+        
+        # Se obtiene el arreglo de JSONs del archivo restaurantes.json
+        with open('assets/restaurantes.json', 'r') as file:
+            restaurantes = json.load(file)
+        
+        # Se repasa el arreglo de restaurantes
+        for sitio in restaurantes:
+            # Si el restaurante tiene un sólo place_id
+            esString = isinstance(sitio['gmaps_id'], str)
+            if sitio['gmaps_id'] != "" and esString:
+
+                detalles_sitio = gmaps.place(place_id=sitio['gmaps_id'])
+                # business_status = detalles_sitio['result']['business_status']
+                business_status = detalles_sitio
+
+                # Si el valor obtenido es un diccionario y tiene la propiedad result
+                if 'result' in business_status:
+                    # Si el valor obtenido es un diccionario y tiene la propiedad business_status
+                    if 'business_status' in business_status['result']:
+                        if business_status == 'CLOSED_PERMANENTLY':
+                            sitio['estado'] = 'Cerrado permanentemente'
+                        elif business_status == 'CLOSED_TEMPORARILY':
+                            sitio['temporal'] = 'Cerrado temporalmente'
+                        else:
+                            sitio['estado'] = 'Abierto'
+                        # print(sitio['estado'])
+            # Si el restaurante tiene varios place_id
+            elif not esString:
+                print("El sitio {} debe revisarse".format(sitio['nombre']))
+        
+        # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
+        with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
+            json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4)        
+        

@@ -1,9 +1,12 @@
 name: Run Python Script
 
 on:
-  # workflow_dispatch:
-  schedule:
-   - cron: '0 1 * * *' # 0 22 L * *
+  workflow_dispatch:
+  # schedule:
+  #  - cron: '0 1 * * *' # 0 22 L * *
+
+env:
+  api: ${{secrets.GOOGLE_MAPS_API}}
 
 jobs:
   run-python:

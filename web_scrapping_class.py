@@ -10,6 +10,7 @@ import googlemaps
 class WebScrapping:
     urls_to_scrape = []
     API_KEY = os.environ["api"]
+    # API_KEY = ''
 
 
     def request_n_download(self):
@@ -157,7 +158,8 @@ class WebScrapping:
                 # Si existe un sólo ID para el sitio
                 if len(sitios) == 1:
                     # Saca el ID del arreglo y lo coloca en la propiedad gmaps_id
-                    dicc['gmaps_id'] = sitios.pop
+                    id = sitios.pop
+                    dicc['gmaps_id'] = id
                 else:
                     # Agrega el arreglo de IDs a la propiedad gmaps_id
                     dicc['gmaps_id'] = sitios
@@ -229,16 +231,17 @@ class WebScrapping:
         df = pd.read_json("assets/restaurantes.json")
         
         # Retira la columna 'gmaps_id'
-        df = df.drop(['gmaps_id'], axis=1)
+        df = df.drop(['gmaps_id', 'lat', 'lng'], axis=1)
 
         # Escribir el DataFrame en un archivo CSV
         df.to_csv("assets/restaurantes.csv", index=False)
         
         
-    def obtener_estado_restaurante(self):
+    def obtener_info_restaurante(self):
         """
         Este método verifica y registra el estado de los restaurantes: 
-        Cerrado permanentemente, temporalmente y Abierto
+        Cerrado permanentemente, temporalmente y Abierto.
+        También obtiene las coordenadas de los mismos
 
         Args:
         Returns:
@@ -270,12 +273,44 @@ class WebScrapping:
                             sitio['temporal'] = 'Cerrado temporalmente'
                         else:
                             sitio['estado'] = 'Abierto'
+                    
+                    # Para la carga masiva de coordenadas
+                    if 'geometry' in business_status['result']:
+                        if 'location' in business_status['result']['geometry']:
+                            coordenadas = business_status['result']['geometry']['location']
+                            sitio['lat'] = coordenadas['lat']
+                            sitio['lng'] = coordenadas['lng']
+                            
                         # print(sitio['estado'])
             # Si el restaurante tiene varios place_id
             elif not esString:
                 print("El sitio {} debe revisarse".format(sitio['nombre']))
+                sitio['lat'] = 0
+                sitio['lng'] = 0
         
         # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
         with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
             json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4)        
         
+    
+    def generacion_masiva_urls(self):
+        """
+        Este método genera URLs en Google Maps para todos los
+        restaurantes usando el place ID
+
+        Args:
+        Returns:
+        """
+        with open('assets/restaurantes.json', 'r') as file:
+            restaurantes = json.load(file)
+            
+        for sitio in restaurantes:
+            if sitio['gmaps_id'] != "":
+                sitio['enlace_google_maps'] = ('https://www.google.com/maps/search/?api=1&query=' +
+                                                str(sitio['lat']) + '%2C' + str(sitio['lng']) + 
+                                                '&query_place_id=' + sitio['gmaps_id'])
+            else:
+                sitio['enlace_google_maps'] = ""
+                
+        with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
+            json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4) 

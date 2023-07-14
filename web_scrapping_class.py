@@ -314,3 +314,92 @@ class WebScrapping:
                 
         with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
             json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4) 
+            
+            
+    def agregar_coordenadas_estado(self, sitio):
+        """
+        Este método corrige coordenadas, estado
+        y URL de un sitio dado
+
+        Args: 
+            sitio: Restaurante a actualizar
+        Returns:
+        """
+        gmaps = googlemaps.Client(key=self.API_KEY)
+
+        # Si el restaurante tiene un sólo place_id
+        esString = isinstance(sitio['gmaps_id'], str)
+        if sitio['gmaps_id'] != "" and esString:
+
+            detalles_sitio = gmaps.place(place_id=sitio['gmaps_id'])
+            # business_status = detalles_sitio['result']['business_status']
+            business_status = detalles_sitio
+
+            # Si el valor obtenido es un diccionario y tiene la propiedad result
+            if 'result' in business_status:
+                # Si el valor obtenido es un diccionario y tiene la propiedad business_status
+                if 'business_status' in business_status['result']:
+                    if business_status == 'CLOSED_PERMANENTLY':
+                        sitio['estado'] = 'Cerrado permanentemente'
+                    elif business_status == 'CLOSED_TEMPORARILY':
+                        sitio['temporal'] = 'Cerrado temporalmente'
+                    else:
+                        sitio['estado'] = 'Abierto'
+                
+                # Para la carga masiva de coordenadas
+                if 'geometry' in business_status['result']:
+                    if 'location' in business_status['result']['geometry']:
+                        coordenadas = business_status['result']['geometry']['location']
+                        sitio['lat'] = coordenadas['lat']
+                        sitio['lng'] = coordenadas['lng']
+                        
+                        sitio['enlace_google_maps'] = ('https://www.google.com/maps/search/?api=1&query=' +
+                                                str(sitio['lat']) + '%2C' + str(sitio['lng']) + 
+                                                '&query_place_id=' + sitio['gmaps_id'])
+                else:
+                    sitio['enlace_google_maps'] = ""
+
+        # Si el restaurante tiene varios place_id
+        elif not esString:
+            print("El sitio {} debe revisarse".format(sitio['nombre']))
+            sitio['lat'] = 0
+            sitio['lng'] = 0
+            sitio['enlace_google_maps'] = ""
+            
+
+    def corrector_sitio(self, nombre_sitio):
+        """
+        Este método corrige coordenadas, estado
+        y URL de un sitio individual
+
+        Args: 
+            nombre_sitio: Nombre del sitio a corregir
+        Returns:
+        """
+        
+        restaurantes = []
+        
+        # Se obtiene el arreglo de JSONs del archivo restaurantes.json
+        with open('assets/restaurantes.json', 'r') as file:
+            restaurantes = json.load(file)
+            
+        sitio = {}
+        # Se busca el sitio, por nombre, en el arreglo de diccionarios
+        for dict in restaurantes:
+            if dict.get("nombre") == nombre_sitio:
+                sitio = dict
+                restaurantes.remove(dict)
+                print('Sitio encontrado')
+                break
+        else:
+            print('Sitio no encontrado')
+
+        if sitio:
+            
+            self.agregar_coordenadas_estado(sitio)
+            restaurantes.append(sitio)
+            
+            # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
+            with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
+                json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4)      
+                

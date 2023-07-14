@@ -1190,16 +1190,6 @@
         "lng": -99.1484691
     },
     {
-        "nombre": "TIERRA ADENTRO",
-        "video": "https://www.youtube.com/embed/o_RNxrMgoN0",
-        "direccion": "Av. Nevado #112, col. Portales",
-        "gmaps_id": "ChIJpwufhNr_0YUR8esEKvgd71w",
-        "estado": "Abierto",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4305746%2C-99.156622&query_place_id=ChIJpwufhNr_0YUR8esEKvgd71w",
-        "lat": 19.4305746,
-        "lng": -99.156622
-    },
-    {
         "nombre": "LOVECRAFT CAFÉ",
         "video": "https://www.youtube.com/embed/tQH5sgvtygY",
         "direccion": "Lorenzo Boturini, esquina Calle 1325, col. Del Parque",
@@ -1908,5 +1898,15 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4653939%2C-99.16817359999999&query_place_id=ChIJh6ixyZL40YUR7DsNkbMfToE",
         "lat": 19.4653939,
         "lng": -99.16817359999999
+    },
+    {
+        "nombre": "TIERRA ADENTRO",
+        "video": "https://www.youtube.com/embed/o_RNxrMgoN0",
+        "direccion": "Av. Nevado #112, col. Portales",
+        "gmaps_id": "ChIJu9XkWSf_0YURt7AOecCIv4w",
+        "estado": "Abierto",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3596185%2C-99.1485749&query_place_id=ChIJu9XkWSf_0YURt7AOecCIv4w",
+        "lat": 19.3596185,
+        "lng": -99.1485749
     }
 ]

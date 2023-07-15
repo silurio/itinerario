@@ -232,6 +232,12 @@ class WebScrapping:
         
         # Retira la columna 'gmaps_id'
         df = df.drop(['gmaps_id', 'lat', 'lng'], axis=1)
+        
+        # Renombrando columnas para el CSV    
+        df = df.rename(columns={
+            'video': 'recomendacion de itinerario',
+            'enlace_google_maps': 'enlace al sitio en google maps'
+        })
 
         # Escribir el DataFrame en un archivo CSV
         df.to_csv("assets/restaurantes.csv", index=False)
@@ -344,7 +350,7 @@ class WebScrapping:
                     elif business_status == 'CLOSED_TEMPORARILY':
                         sitio['temporal'] = 'Cerrado temporalmente'
                     else:
-                        sitio['estado'] = 'Abierto'
+                        sitio['estado'] = 'En operaciones'
                 
                 # Para la carga masiva de coordenadas
                 if 'geometry' in business_status['result']:

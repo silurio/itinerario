@@ -1070,16 +1070,6 @@
         "lng": -103.371356
     },
     {
-        "nombre": "TOUR SONORENSE",
-        "video": "https://www.youtube.com/embed/KDioMtVL-nM",
-        "direccion": "Esperanza # 1205, Col. Narvarte.",
-        "gmaps_id": "ChIJZT6oOzH50YURAbK-fKrWcbo",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.434208%2C-99.1513664&query_place_id=ChIJZT6oOzH50YURAbK-fKrWcbo",
-        "lat": 19.434208,
-        "lng": -99.1513664
-    },
-    {
         "nombre": "TIERRADENTRO",
         "video": "https://www.youtube.com/embed/V3Tpca7ULKI",
         "direccion": "Milán #22, Col. Juárez, Ciudad de México",
@@ -1100,14 +1090,14 @@
         "lng": -99.1564691
     },
     {
-        "nombre": "TOUR DE GASTRONOMÍA ALEMANA",
+        "nombre": "SAMADHI CAFÉ",
         "video": "https://www.youtube.com/embed/cnNGmixokOg",
         "direccion": "Av. Municipio Libre #344, Sta. Cruz Atoyac",
-        "gmaps_id": "ChIJHUMfYOcc0oURuFX9NTqV42U",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4198774%2C-99.1633543&query_place_id=ChIJHUMfYOcc0oURuFX9NTqV42U",
-        "lat": 19.4198774,
-        "lng": -99.1633543
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "RESTAURANTE ODRA",
@@ -1458,16 +1448,6 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4508447%2C-99.1799757&query_place_id=ChIJ6RPtPKP40YURhUnrPDMhn3c",
         "lat": 19.4508447,
         "lng": -99.1799757
-    },
-    {
-        "nombre": "TOUR DE TAMALES",
-        "video": "https://www.youtube.com/embed/yivfPavVzb0",
-        "direccion": "Rio Fuerte # 6A, esquina Eje 4, col. Real del Moral",
-        "gmaps_id": "ChIJeY2KyRn90YURVgZ4zskjs14",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4177036%2C-99.1318344&query_place_id=ChIJeY2KyRn90YURVgZ4zskjs14",
-        "lat": 19.4177036,
-        "lng": -99.1318344
     },
     {
         "nombre": "TAQUERÍA 'LA CONSENTIDA'",
@@ -1908,5 +1888,65 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3665276%2C-99.1668392&query_place_id=ChIJ2xD7Lhv_0YURRgCDjx86ssM",
         "lat": 19.3665276,
         "lng": -99.1668392
+    },
+    {
+        "nombre": "EL MOUSTRON NARVARTE",
+        "video": "https://www.youtube.com/embed/KDioMtVL-nM",
+        "direccion": "Esperanza 1205, Narvarte Oriente, Benito Juárez, 03020 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJX4-3fxv_0YUREj5H6QLWU74",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3999963%2C-99.1509901&query_place_id=ChIJX4-3fxv_0YUREj5H6QLWU74",
+        "lat": 19.3999963,
+        "lng": -99.1509901
+    },
+    {
+        "nombre": "SONORA STREET FOOD",
+        "video": "https://www.youtube.com/embed/KDioMtVL-nM",
+        "direccion": "Monterrey 293, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJNebHAxb_0YUR-9ieRP1LiK0",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4081413%2C-99.1618038&query_place_id=ChIJNebHAxb_0YUR-9ieRP1LiK0",
+        "lat": 19.4081413,
+        "lng": -99.1618038
+    },
+    {
+        "nombre": "TACOS SONOLOA",
+        "video": "https://www.youtube.com/embed/KDioMtVL-nM",
+        "direccion": "Ahorro Postal#925 Esquina Simon Bolivar, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJkyaxLv7-0YURjUZwwKV1A3s",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.38908799999999%2C-99.145206&query_place_id=ChIJkyaxLv7-0YURjUZwwKV1A3s",
+        "lat": 19.38908799999999,
+        "lng": -99.145206
+    },
+    {
+        "nombre": "RESTAURANTE FRITZ",
+        "video": "https://www.youtube.com/embed/cnNGmixokOg",
+        "direccion": "Av. Dr. Río de la Loza 221, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJo2qXsy7_0YURgS65Rp3YrAE",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.425835%2C-99.15138759999999&query_place_id=ChIJo2qXsy7_0YURgS65Rp3YrAE",
+        "lat": 19.425835,
+        "lng": -99.15138759999999
+    },
+    {
+        "nombre": "TAMALES EMPORIO",
+        "video": "https://www.youtube.com/embed/yivfPavVzb0",
+        "direccion": "Manuel María Contreras 18-A, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJk7yu7sj40YURneHUDIgOy0o",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4413636%2C-99.16395759999999&query_place_id=ChIJk7yu7sj40YURneHUDIgOy0o",
+        "lat": 19.4413636,
+        "lng": -99.16395759999999
+    },
+    {
+        "nombre": "TAMALITO CORAZÓN",
+        "video": "https://www.youtube.com/embed/yivfPavVzb0",
+        "direccion": "Av. Cuauhtémoc 1, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJF9iLDiX_0YURrBXdxbazStE",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4186536%2C-99.154423&query_place_id=ChIJF9iLDiX_0YURrBXdxbazStE",
+        "lat": 19.4186536,
+        "lng": -99.154423
     }
 ]

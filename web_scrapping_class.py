@@ -263,6 +263,7 @@ class WebScrapping:
         for sitio in restaurantes:
             # Si el restaurante tiene un sólo place_id
             esString = isinstance(sitio['gmaps_id'], str)
+            
             if sitio['gmaps_id'] != "" and esString:
 
                 detalles_sitio = gmaps.place(place_id=sitio['gmaps_id'])
@@ -273,12 +274,12 @@ class WebScrapping:
                 if 'result' in business_status:
                     # Si el valor obtenido es un diccionario y tiene la propiedad business_status
                     if 'business_status' in business_status['result']:
-                        if business_status == 'CLOSED_PERMANENTLY':
+                        if business_status['result']['business_status'] == 'CLOSED_PERMANENTLY':
                             sitio['estado'] = 'Cerrado permanentemente'
-                        elif business_status == 'CLOSED_TEMPORARILY':
-                            sitio['temporal'] = 'Cerrado temporalmente'
+                        elif business_status['result']['business_status'] == 'CLOSED_TEMPORARILY':
+                            sitio['estado'] = 'Cerrado temporalmente'
                         else:
-                            sitio['estado'] = 'Abierto'
+                            sitio['estado'] = 'En operaciones'
                     
                     # Para la carga masiva de coordenadas
                     if 'geometry' in business_status['result']:
@@ -288,6 +289,9 @@ class WebScrapping:
                             sitio['lng'] = coordenadas['lng']
                             
                         # print(sitio['estado'])
+                        
+                # print(sitio)
+                
             # Si el restaurante tiene varios place_id
             elif not esString:
                 print("El sitio {} debe revisarse".format(sitio['nombre']))
@@ -345,10 +349,10 @@ class WebScrapping:
             if 'result' in business_status:
                 # Si el valor obtenido es un diccionario y tiene la propiedad business_status
                 if 'business_status' in business_status['result']:
-                    if business_status == 'CLOSED_PERMANENTLY':
+                    if business_status['result']['business_status'] == 'CLOSED_PERMANENTLY':
                         sitio['estado'] = 'Cerrado permanentemente'
-                    elif business_status == 'CLOSED_TEMPORARILY':
-                        sitio['temporal'] = 'Cerrado temporalmente'
+                    elif business_status['result']['business_status'] == 'CLOSED_TEMPORARILY':
+                        sitio['estado'] = 'Cerrado temporalmente'
                     else:
                         sitio['estado'] = 'En operaciones'
                 

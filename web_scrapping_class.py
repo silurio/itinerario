@@ -326,7 +326,7 @@ class WebScrapping:
             json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4) 
             
             
-    def agregar_coordenadas_estado(self, sitio):
+    def agregar_coordenadas_estado_url(self, sitio):
         """
         Este método corrige coordenadas, estado
         y URL de un sitio dado
@@ -377,7 +377,7 @@ class WebScrapping:
             sitio['enlace_google_maps'] = ""
             
 
-    def corrector_sitio(self, nombre_sitio):
+    def corrector_sitios(self, sitios):
         """
         Este método corrige coordenadas, estado
         y URL de un sitio individual
@@ -392,24 +392,29 @@ class WebScrapping:
         # Se obtiene el arreglo de JSONs del archivo restaurantes.json
         with open('assets/restaurantes.json', 'r') as file:
             restaurantes = json.load(file)
-            
-        sitio = {}
-        # Se busca el sitio, por nombre, en el arreglo de diccionarios
-        for dict in restaurantes:
-            if dict.get("nombre") == nombre_sitio:
-                sitio = dict
-                restaurantes.remove(dict)
-                print('Sitio encontrado')
-                break
-        else:
-            print('Sitio no encontrado')
+        
+        corregidos = 0
+        for nombre_sitio in sitios:
+            sitio = {}
+            # Se busca el sitio, por nombre, en el arreglo de diccionarios
+            for dict in restaurantes:
+                if dict.get("nombre") == nombre_sitio:
+                    sitio = dict
+                    restaurantes.remove(dict)
+                    print('Sitio encontrado')
+                    break
 
-        if sitio:
-            
-            self.agregar_coordenadas_estado(sitio)
-            restaurantes.append(sitio)
-            
+            if sitio:
+                
+                self.agregar_coordenadas_estado_url(sitio)
+                restaurantes.append(sitio)
+                corregidos += 1 
+
+            else:
+                print('Sitio no encontrado')
+        
+        if corregidos > 0:
             # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
             with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
-                json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4)      
+                json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4) 
                 

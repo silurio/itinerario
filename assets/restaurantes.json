@@ -94,7 +94,7 @@
         "video": "https://youtu.be/aNTpBYJW-Zg",
         "direccion": "Calle 10, Barrio de San Francisco, Campeche",
         "gmaps_id": "ChIJsyomw7P40YURqBDjLkiUPlw",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4364254%2C-99.1748617&query_place_id=ChIJsyomw7P40YURqBDjLkiUPlw",
         "lat": 19.4364254,
         "lng": -99.1748617
@@ -284,7 +284,7 @@
         "video": "https://www.youtube.com/embed/8C6G0xNIXgo?feature=oembed",
         "direccion": "Callejón San Antonio Abad 106, col. Esperanza",
         "gmaps_id": "ChIJDz5SGMb-0YURg1WrYGrldSs",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4213161%2C-99.1277849&query_place_id=ChIJDz5SGMb-0YURg1WrYGrldSs",
         "lat": 19.4213161,
         "lng": -99.1277849
@@ -324,7 +324,7 @@
         "video": "https://www.youtube.com/embed/5Xt7BacITuA?feature=oembed",
         "direccion": "Calle Chimalcoyotl 116A, Toriello Guerra, Tlalpan",
         "gmaps_id": "ChIJ9WKR28UBzoURVFBbGQUkhXY",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2954802%2C-99.1641751&query_place_id=ChIJ9WKR28UBzoURVFBbGQUkhXY",
         "lat": 19.2954802,
         "lng": -99.1641751
@@ -454,7 +454,7 @@
         "video": "https://youtu.be/jp7rK_2dD0g",
         "direccion": "Calle Norte 89-A, Local 24-C, Clavería",
         "gmaps_id": "ChIJv11Mavf50YURHVpP4w4Uzfc",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4687589%2C-99.18249089999999&query_place_id=ChIJv11Mavf50YURHVpP4w4Uzfc",
         "lat": 19.4687589,
         "lng": -99.18249089999999
@@ -484,7 +484,7 @@
         "video": "https://www.youtube.com/embed/p3RbF-QPFGM?feature=oembed",
         "direccion": "Ángel Urraza 1503, col. Vértiz Narvarte",
         "gmaps_id": "ChIJtRY4PKb_0YURH8_uZsXm0xg",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3665043%2C-99.12882019999999&query_place_id=ChIJtRY4PKb_0YURH8_uZsXm0xg",
         "lat": 19.3665043,
         "lng": -99.12882019999999
@@ -534,7 +534,7 @@
         "video": "https://www.youtube.com/embed/IXQwC7VrXk8?feature=oembed",
         "direccion": "Calle Mina #13, Acatlán de Osorio",
         "gmaps_id": "ChIJx_gd3zX_0YURhh2ieItWFZ0",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4261362%2C-99.1659729&query_place_id=ChIJx_gd3zX_0YURhh2ieItWFZ0",
         "lat": 19.4261362,
         "lng": -99.1659729
@@ -762,7 +762,7 @@
     {
         "nombre": "PÁT PATZ",
         "video": "https://www.youtube.com/embed/T0QTAjKUg1U?feature=oembed",
-        "direccion": "Obrero Mundial #634, col. Atenor Salas",
+        "direccion": "Oslo 7, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
         "gmaps_id": "ChIJ32ud9kn_0YURW8eG2N2a8H8",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.427774%2C-99.16359&query_place_id=ChIJ32ud9kn_0YURW8eG2N2a8H8",
@@ -874,7 +874,7 @@
         "video": "https://www.youtube.com/embed/u4al3tqJRmQ",
         "direccion": "San Luis Potosí #130, Roma Norte.",
         "gmaps_id": "ChIJ0cSew47_0YURMPA3Pry1S3A",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4137792%2C-99.1606748&query_place_id=ChIJ0cSew47_0YURMPA3Pry1S3A",
         "lat": 19.4137792,
         "lng": -99.1606748
@@ -1254,7 +1254,7 @@
         "video": "https://www.youtube.com/embed/NDbiDja0kw8",
         "direccion": "Tabaqueros #16, col. Centro",
         "gmaps_id": "ChIJka7DVcz-0YURIKJpaUdzhMc",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4304549%2C-99.1314893&query_place_id=ChIJka7DVcz-0YURIKJpaUdzhMc",
         "lat": 19.4304549,
         "lng": -99.1314893
@@ -1384,7 +1384,7 @@
         "video": "https://www.youtube.com/embed/b7Jy9VtCI3w",
         "direccion": "Florencia #18, Col. Juárez, Ciudad de México",
         "gmaps_id": "ChIJheovDCp2zoUR_cufcVWL6Ng",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=18.8229181%2C-99.1893733&query_place_id=ChIJheovDCp2zoUR_cufcVWL6Ng",
         "lat": 18.8229181,
         "lng": -99.1893733
@@ -1404,7 +1404,7 @@
         "video": "https://www.youtube.com/embed/molxbtaM4NA",
         "direccion": "Bahía de Santa Bárbara #102 A, Col. Verónica Anzures",
         "gmaps_id": "ChIJ0yqeJAbr0YURiGYrmY2v3_o",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.685445%2C-98.890833&query_place_id=ChIJ0yqeJAbr0YURiGYrmY2v3_o",
         "lat": 19.685445,
         "lng": -98.890833
@@ -1430,21 +1430,11 @@
         "lng": -99.18680359999999
     },
     {
-        "nombre": "RINCÓN UKRANIANO",
-        "video": "https://www.youtube.com/embed/Q5DS9SU9gB0",
-        "direccion": "Diagonal San Antonio #1513, col. Narvarte",
-        "gmaps_id": "ChIJ2xD7Lhv_0YURRgCDjx86ssM",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3665276%2C-99.1668392&query_place_id=ChIJ2xD7Lhv_0YURRgCDjx86ssM",
-        "lat": 19.3665276,
-        "lng": -99.1668392
-    },
-    {
         "nombre": "ASU MECHA",
         "video": "https://www.youtube.com/embed/84b6Li5Emls",
         "direccion": "Miguel Schultz #10 D, col. San Rafael",
         "gmaps_id": "ChIJMe4YpAT_0YURzeOHxo30upA",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3771045%2C-99.1742711&query_place_id=ChIJMe4YpAT_0YURzeOHxo30upA",
         "lat": 19.3771045,
         "lng": -99.1742711
@@ -1594,7 +1584,7 @@
         "video": "https://www.youtube.com/embed/h26zRhWKc14",
         "direccion": "Tamaulipas #147, col. Hipódromo Condesa",
         "gmaps_id": "ChIJlbl19UL_0YURc-0obH7jD2c",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4093424%2C-99.1761251&query_place_id=ChIJlbl19UL_0YURc-0obH7jD2c",
         "lat": 19.4093424,
         "lng": -99.1761251
@@ -1604,7 +1594,7 @@
         "video": "https://www.youtube.com/embed/j4XqAGcQigQ",
         "direccion": "Truco #5, col. Centro, Guanajuato",
         "gmaps_id": "ChIJ7z4t5wd0K4QRzTEomK-14Ms",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=21.0165942%2C-101.2521084&query_place_id=ChIJ7z4t5wd0K4QRzTEomK-14Ms",
         "lat": 21.0165942,
         "lng": -101.2521084
@@ -1714,7 +1704,7 @@
         "video": "www.youtube.com/embed/Ai40Yh0ST-o",
         "direccion": "Tehuantepec y Chilpancingo, col. Roma",
         "gmaps_id": "ChIJ0R6IPmv_0YURFDSVJnByc78",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4039278%2C-99.1685023&query_place_id=ChIJ0R6IPmv_0YURFDSVJnByc78",
         "lat": 19.4039278,
         "lng": -99.1685023
@@ -1764,7 +1754,7 @@
         "video": "www.youtube.com/embed/ozxJf9rv0SA",
         "direccion": "Presidente Masaryk #29, Polanco",
         "gmaps_id": "ChIJpy7D0az40YURttiGkQjYC3E",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.382513%2C-99.2531281&query_place_id=ChIJpy7D0az40YURttiGkQjYC3E",
         "lat": 19.382513,
         "lng": -99.2531281
@@ -1884,7 +1874,7 @@
         "video": "https://www.youtube.com/watch?v=5xuw8O-MbNY&pp=ygUj4oCcQ09OIFNBQk9SIEEgVElYVExB4oCdIGl0aW5lcmFyaW8%3D",
         "direccion": "Chiapas # 206, entre Manzanillo y Medellín, col. Roma, Ciudad de México",
         "gmaps_id": "ChIJneg9uT__0YURFpcFa7jLc5g",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4116387%2C-99.1657027&query_place_id=ChIJneg9uT__0YURFpcFa7jLc5g",
         "lat": 19.4116387,
         "lng": -99.1657027
@@ -1908,5 +1898,15 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3596185%2C-99.1485749&query_place_id=ChIJu9XkWSf_0YURt7AOecCIv4w",
         "lat": 19.3596185,
         "lng": -99.1485749
+    },
+    {
+        "nombre": "RINCÓN UKRANIANO",
+        "video": "https://www.youtube.com/embed/Q5DS9SU9gB0",
+        "direccion": "Diagonal San Antonio #1513, col. Narvarte",
+        "gmaps_id": "ChIJ2xD7Lhv_0YURRgCDjx86ssM",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3665276%2C-99.1668392&query_place_id=ChIJ2xD7Lhv_0YURRgCDjx86ssM",
+        "lat": 19.3665276,
+        "lng": -99.1668392
     }
 ]

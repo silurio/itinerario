@@ -158,7 +158,7 @@ class WebScrapping:
                 # Si existe un sólo ID para el sitio
                 if len(sitios) == 1:
                     # Saca el ID del arreglo y lo coloca en la propiedad gmaps_id
-                    id = sitios.pop
+                    id = sitios.pop()
                     dicc['gmaps_id'] = id
                 else:
                     # Agrega el arreglo de IDs a la propiedad gmaps_id
@@ -417,4 +417,54 @@ class WebScrapping:
             # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
             with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
                 json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4) 
+
+         
+    def obtener_place_id_direccion(self):
+        """
+        Este método obtiene la información restante de un sitio
+        que sólo tiene su dirección y la URL de recomendación
+
+        Args: 
+        Returns:
+        """
+        restaurantes = []
+        
+        # Se obtiene el arreglo de JSONs del archivo restaurantes.json
+        with open('assets/restaurantes.json', 'r') as file:
+            restaurantes = json.load(file)
+        
+        gmaps = googlemaps.Client(key=self.API_KEY)
+        
+        restaurantes_por_actualizar = []
+        # Se busca el sitio, por nombre, en el arreglo de diccionarios
+        for dict in restaurantes:
+            if dict.get("direccion") == "":
+                restaurantes.remove(dict)
+                restaurantes_por_actualizar.append(dict)
+
+        if len(restaurantes_por_actualizar) > 0:
+            for sitio in restaurantes_por_actualizar:
+                # Busca el sitio en Google Maps por nombre
+                rest = gmaps.find_place(input=sitio['nombre'], input_type='textquery')
                 
+                print(sitio['nombre'])
+                
+                # Obtiene los posibles place IDs, de Google Maps, del sitio
+                places_ids = [candidate['place_id'] for candidate in rest['candidates']]
+                # Si existe un sólo ID para el sitio
+                if len(places_ids) == 1:
+                    # Saca el ID del arreglo y lo coloca en la propiedad gmaps_id
+                    id = places_ids.pop()
+                    detalles = gmaps.place(place_id=id, fields=['formatted_address'])
+                    sitio['gmaps_id'] = id
+                    sitio['direccion'] = detalles['result']['formatted_address']
+                    self.agregar_coordenadas_estado_url(sitio)
+                else:
+                    # Agrega el arreglo de IDs a la propiedad gmaps_id
+                    sitio['gmaps_id'] = places_ids
+            
+            todos = restaurantes + restaurantes_por_actualizar
+            
+            with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
+                    json.dump(todos, rest_json, ensure_ascii=False, indent=4) 
+                    

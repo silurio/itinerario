@@ -582,7 +582,7 @@
     {
         "nombre": "SALVAXE",
         "video": "https://www.youtube.com/embed/ipsCbNUZBeU?feature=oembed",
-        "direccion": "Isabel La Católica 1147-local i, Independencia, Benito Juárez, 03630 Ciudad de México, CDMX",
+        "direccion": "Isabel La Católica 1147-local i, Independencia, Benito Juárez, 03630 Ciudad de México",
         "gmaps_id": "ChIJFwR4TuT_0YURauGqBMswZ1w",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3807869%2C-99.1439468&query_place_id=ChIJFwR4TuT_0YURauGqBMswZ1w",
@@ -1861,7 +1861,7 @@
     },
     {
         "nombre": "CAFÉ MINICHELISTA",
-        "video": "http://www.youtube.com/embed/videoseries?list=PL37695F163037D1D0&hl=es_MX",
+        "video": "https://www.youtube.com/watch?v=XUUtzKGGsdo",
         "direccion": "Guanábana #197, col. Nueva Santa María",
         "gmaps_id": "ChIJh6ixyZL40YUR7DsNkbMfToE",
         "estado": "En operaciones",

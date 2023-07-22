@@ -1948,5 +1948,125 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4186536%2C-99.154423&query_place_id=ChIJF9iLDiX_0YURrBXdxbazStE",
         "lat": 19.4186536,
         "lng": -99.154423
+    },
+    {
+        "nombre": "LA CHIVA TORTAS AHOGADAS",
+        "video": "https://www.youtube.com/watch?v=-7p_S2fdEhM&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=3",
+        "direccion": "esquina con, Calle Ruiz Dael, Rosa de Castilla s/n, Alfonso XIII, 01460 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJK_tGAC8A0oURWdQmOPug_6w",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3740745%2C-99.19809939999999&query_place_id=ChIJK_tGAC8A0oURWdQmOPug_6w",
+        "lat": 19.3740745,
+        "lng": -99.19809939999999
+    },
+    {
+        "nombre": "DON BLAS CENADURÍA",
+        "video": "https://www.youtube.com/watch?v=lTIyHPsYD0M&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=11",
+        "direccion": "C. Manuel M. Ponce 84, Panamericano, 76040 Santiago de Querétaro, Qro.",
+        "gmaps_id": "ChIJn7MtQ8lE04URcXwWUif2Omo",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=20.583141%2C-100.3765126&query_place_id=ChIJn7MtQ8lE04URcXwWUif2Omo",
+        "lat": 20.583141,
+        "lng": -100.3765126
+    },
+    {
+        "nombre": "MAXIMILIANO CANTINA GAY",
+        "video": "https://www.youtube.com/watch?v=UeYHDkuBKBM&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=14",
+        "direccion": "C. José Ma. Morelos 4 Ote, Centro Histórico, Centro, 76000 Santiago de Querétaro, Qro.",
+        "gmaps_id": "ChIJTY2IHFBb04URBFzecOkN1_E",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=20.5950474%2C-100.3926074&query_place_id=ChIJTY2IHFBb04URBFzecOkN1_E",
+        "lat": 20.5950474,
+        "lng": -100.3926074
+    },
+    {
+        "nombre": "SALWA'S  GASTRONOMÍA",
+        "video": "https://www.youtube.com/watch?v=zGXqfQiS5i0&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=18",
+        "direccion": "Av. Coyoacán 301, código 2, Colonia del Valle, Benito Juárez, 03100 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJrXxcg_3_0YURcRAJu9v7MW0",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3946818%2C-99.1665738&query_place_id=ChIJrXxcg_3_0YURcRAJu9v7MW0",
+        "lat": 19.3946818,
+        "lng": -99.1665738
+    },
+    {
+        "nombre": "GUAU TAP",
+        "video": "https://www.youtube.com/watch?v=35Z5Oo05zS0&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=23",
+        "direccion": "C. Guillermo Prieto 45-Loc. 1A, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJseHt6Hj50YURSZ9WgORv3EM",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4375398%2C-99.16234539999999&query_place_id=ChIJseHt6Hj50YURSZ9WgORv3EM",
+        "lat": 19.4375398,
+        "lng": -99.16234539999999
+    },
+    {
+        "nombre": "ESQUINA DE BUENOS AIRES",
+        "video": "https://www.youtube.com/watch?v=QWGkh8LazVg&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=27",
+        "direccion": "Quintana Roo 1, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX, México",
+        "gmaps_id": "ChIJFRby0BX_0YURR7XKmqjVCQU",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4059915%2C-99.1629494&query_place_id=ChIJFRby0BX_0YURR7XKmqjVCQU",
+        "lat": 19.4059915,
+        "lng": -99.1629494
+    },
+    {
+        "nombre": "EL PAMBAZO LOCO",
+        "video": "https://www.youtube.com/watch?v=GBqCJ5h5mh8&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=32",
+        "direccion": "Calz. Magdalena Mixhuca 15, Magdalena Mixihuca, Venustiano Carranza, 15850 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ2f9zK77-0YURBv1lcws8CWw",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4107108%2C-99.1206268&query_place_id=ChIJ2f9zK77-0YURBv1lcws8CWw",
+        "lat": 19.4107108,
+        "lng": -99.1206268
+    },
+    {
+        "nombre": "MAYAHUEL RESTAURANTE & GRILL TEOTIHUACÁN",
+        "video": "https://www.youtube.com/watch?v=FqsUvHGom_8&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=40",
+        "direccion": "Felipe Carrillo Puerto No. 3 San Francisco Mazapa, Manzana 015, 55830 San Juan Teotihuacan de Arista, Méx., Mexico",
+        "gmaps_id": "ChIJfWXBQYLq0YURmo9tFpvJcBI",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.691523%2C-98.83774269999999&query_place_id=ChIJfWXBQYLq0YURmo9tFpvJcBI",
+        "lat": 19.691523,
+        "lng": -98.83774269999999
+    },
+    {
+        "nombre": "ROJO Y NEGRO",
+        "video": "https://www.youtube.com/watch?v=cGIfrQUX0uE&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=52",
+        "direccion": "Amezquite #415, Pedregal de Santo Domingo, Coyoacán, 04369 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJD1HhFZIBzoURscKyP7iXMqo",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3218649%2C-99.16977&query_place_id=ChIJD1HhFZIBzoURscKyP7iXMqo",
+        "lat": 19.3218649,
+        "lng": -99.16977
+    },
+    {
+        "nombre": "PARADERO CONOCIDO",
+        "video": "https://www.youtube.com/watch?v=RAQIA20u7uE&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=36",
+        "direccion": "Ayuntamiento 103-Local A, Colonia Centro, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ_7ml93b_0YURJ5IxMLsEWk4",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.431313%2C-99.1476275&query_place_id=ChIJ_7ml93b_0YURJ5IxMLsEWk4",
+        "lat": 19.431313,
+        "lng": -99.1476275
+    },
+    {
+        "nombre": "SNACK WARS",
+        "video": "https://www.youtube.com/watch?v=ydmEDCcwXqw&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=62",
+        "direccion": "Lerdo 284-Local 9A, Tlatelolco, Cuauhtémoc, 06900 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJIUZDPTv50YURmFHXftC42kM",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4528937%2C-99.14149409999999&query_place_id=ChIJIUZDPTv50YURmFHXftC42kM",
+        "lat": 19.4528937,
+        "lng": -99.14149409999999
+    },
+    {
+        "nombre": "LA CUEVA DE QUETZALCOATL",
+        "video": "https://www.youtube.com/watch?v=RBFh25VQ0W8&list=PLrFkZrRQk9nkzOt_cjxI6a3KRqEfePxOy&index=47",
+        "direccion": "Neteotiloyan 483, 55850 San Martín Centro, Méx., Mexico",
+        "gmaps_id": "ChIJkwKoOaDq0YURApihpY0Jcks",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.7088545%2C-98.83806419999999&query_place_id=ChIJkwKoOaDq0YURApihpY0Jcks",
+        "lat": 19.7088545,
+        "lng": -98.83806419999999
     }
 ]

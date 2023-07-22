@@ -132,6 +132,13 @@ class WebScrapping:
         # Si hay URLs nuevas
         if len(self.urls_to_scrape) > 0:
             print('En Progreso de obtener nuevos restaurantes de las URLs nuevas')
+            
+            restaurantes = []
+        
+            # Se obtiene el arreglo de JSONs del archivo restaurantes.json
+            with open('assets/restaurantes.json', 'r') as file:
+                restaurantes = json.load(file)
+            
             # for url in urls_array[:self.new_urls]:
             for url in self.urls_to_scrape:
                 request = requests.get(url)
@@ -147,6 +154,17 @@ class WebScrapping:
                 dicc = {}
                 # Se obtiene el nombre del restaurante, ubicando el elemento HTML h1 con la class especificada
                 dicc['nombre'] = soup.find('h1', {'class': 'is-title post-title-alt'}).get_text()
+                
+                elemento_registrado = False
+                # Se busca el sitio, por nombre, en el arreglo de restaurantes
+                for dict in restaurantes:
+                    if dict.get("nombre") == dicc['nombre']:
+                        elemento_registrado = True
+                        break
+                
+                # Si el sitio ya existe, salta a la siguiente URL
+                if elemento_registrado:
+                    continue
                 
                 # Busca el sitio en Google Maps por nombre
                 sitio = gmaps.find_place(input=sitio['nombre'], input_type='textquery')
@@ -439,8 +457,8 @@ class WebScrapping:
         # Se busca el sitio, por nombre, en el arreglo de diccionarios
         for dict in restaurantes:
             if dict.get("direccion") == "":
-                restaurantes.remove(dict)
                 restaurantes_por_actualizar.append(dict)
+                restaurantes.remove(dict)
 
         if len(restaurantes_por_actualizar) > 0:
             for sitio in restaurantes_por_actualizar:

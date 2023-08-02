@@ -1673,11 +1673,11 @@
         "nombre": "BRAVO LONCHERÍA",
         "video": "www.youtube.com/embed/JyscDCNWvZs",
         "direccion": "Río Sena #87, col. Cuauhtémoc",
-        "gmaps_id": "ChIJDVEeEDX_0YURvVBnPfvIbnQ",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4297029%2C-99.165932&query_place_id=ChIJDVEeEDX_0YURvVBnPfvIbnQ",
-        "lat": 19.4297029,
-        "lng": -99.165932
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "DELICIAS FRANCESAS",

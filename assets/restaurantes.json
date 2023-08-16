@@ -1633,11 +1633,11 @@
         "nombre": "CAT CAFÉ DE LA GATERÍA",
         "video": "https://www.youtube.com/embed/OBcq_AFApYk",
         "direccion": "Tabasco #337, col. Roma Norte",
-        "gmaps_id": "ChIJdZb0GZb_0YURKqNa-lIlTgs",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3889926%2C-99.1857069&query_place_id=ChIJdZb0GZb_0YURKqNa-lIlTgs",
-        "lat": 19.3889926,
-        "lng": -99.1857069
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "RESTAURANTE EL MIRÓN",

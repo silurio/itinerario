@@ -10,16 +10,6 @@
         "lng": -99.15791379999999
     },
     {
-        "nombre": "RESTAURANTE AMALIA",
-        "video": "https://www.youtube.com/embed/Yf8z5rSlcn0?feature=oembed",
-        "direccion": "Calle Violeta 57, col. Buenavista",
-        "gmaps_id": "ChIJd76Fi9H_0YURynHWfmje7vw",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.408342%2C-99.145251&query_place_id=ChIJd76Fi9H_0YURynHWfmje7vw",
-        "lat": 19.408342,
-        "lng": -99.145251
-    },
-    {
         "nombre": "BAR EL HIPOPÓTAMO",
         "video": "https://www.youtube.com/embed/d9z4ZDCrTsE?feature=oembed",
         "direccion": "Avenida Brasil #401, San Telmo, Buenos Aires",
@@ -482,7 +472,7 @@
     {
         "nombre": "KYRIE VASILI",
         "video": "https://www.youtube.com/embed/p3RbF-QPFGM?feature=oembed",
-        "direccion": "Ángel Urraza 1503, col. Vértiz Narvarte",
+        "direccion": "Conmutador 92, Amp Sinatel, Iztapalapa, 09479 Ciudad de México, CDMX",
         "gmaps_id": "ChIJtRY4PKb_0YURH8_uZsXm0xg",
         "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3665043%2C-99.12882019999999&query_place_id=ChIJtRY4PKb_0YURH8_uZsXm0xg",
@@ -773,11 +763,11 @@
         "nombre": "GATO GORDO",
         "video": "https://www.youtube.com/embed/hJIRJgmk1tw?feature=oembed",
         "direccion": "Río Pánuco #191, Cuauhtémoc",
-        "gmaps_id": "ChIJmcOc-z8B0oURAhPOQ_4Vj_Y",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3296983%2C-99.28572349999999&query_place_id=ChIJmcOc-z8B0oURAhPOQ_4Vj_Y",
-        "lat": 19.3296983,
-        "lng": -99.28572349999999
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "EL DESASTRE",
@@ -973,11 +963,11 @@
         "nombre": "DHARMA MOMOS",
         "video": "https://www.youtube.com/embed/c55o6-SIL0E",
         "direccion": "Gobernador Rafael Rebollar #138, Col. San Miguel Chapultepec.",
-        "gmaps_id": "ChIJU4GJgLz50YUReSaqlj-snrA",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4362009%2C-99.1506981&query_place_id=ChIJU4GJgLz50YUReSaqlj-snrA",
-        "lat": 19.4362009,
-        "lng": -99.1506981
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "CAFÉ LA PAGODA",
@@ -1258,16 +1248,6 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4015556%2C-99.13238860000001&query_place_id=ChIJPY-sBe_-0YURuqbVBTTzYL0",
         "lat": 19.4015556,
         "lng": -99.13238860000001
-    },
-    {
-        "nombre": "GALERA",
-        "video": "https://www.youtube.com/embed/VLTgYGJ93l4",
-        "direccion": "Dr. Carmona y Valle #147, col. Doctores",
-        "gmaps_id": "ChIJIWpK4vj_0YURDUx_--PvZAs",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4201101%2C-99.1533343&query_place_id=ChIJIWpK4vj_0YURDUx_--PvZAs",
-        "lat": 19.4201101,
-        "lng": -99.1533343
     },
     {
         "nombre": "EL JARDÍN DE ANATOLIA",
@@ -2068,5 +2048,25 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.7088545%2C-98.83806419999999&query_place_id=ChIJkwKoOaDq0YURApihpY0Jcks",
         "lat": 19.7088545,
         "lng": -98.83806419999999
+    },
+    {
+        "nombre": "GALERA",
+        "video": "https://www.youtube.com/embed/VLTgYGJ93l4",
+        "direccion": "Dr. Carmona y Valle #147, col. Doctores",
+        "gmaps_id": "ChIJIWpK4vj_0YURDUx_--PvZAs",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4201101%2C-99.1533343&query_place_id=ChIJIWpK4vj_0YURDUx_--PvZAs",
+        "lat": 19.4201101,
+        "lng": -99.1533343
+    },
+    {
+        "nombre": "RESTAURANTE AMALIA",
+        "video": "https://www.youtube.com/embed/Yf8z5rSlcn0?feature=oembed",
+        "direccion": "Calle Violeta 57, col. Buenavista",
+        "gmaps_id": "ChIJ75amtNf40YURTSvEtE1sGwo",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4416144%2C-99.1473299&query_place_id=ChIJ75amtNf40YURTSvEtE1sGwo",
+        "lat": 19.4416144,
+        "lng": -99.1473299
     }
 ]

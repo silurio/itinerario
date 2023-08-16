@@ -1700,16 +1700,6 @@
         "lng": -103.348513
     },
     {
-        "nombre": "VEGETARIANISMO URBANO",
-        "video": "www.youtube.com/embed/DRd-c1TlZ_0",
-        "direccion": "Av. Bucareli #69, col. Juárez",
-        "gmaps_id": "ChIJgVR6BlL50YURSXz_dL78jH4",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4384571%2C-99.137541&query_place_id=ChIJgVR6BlL50YURSXz_dL78jH4",
-        "lat": 19.4384571,
-        "lng": -99.137541
-    },
-    {
         "nombre": "VINÍCOLA URBANA",
         "video": "www.youtube.com/embed/ozxJf9rv0SA",
         "direccion": "Presidente Masaryk #29, Polanco",
@@ -2068,5 +2058,35 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4416144%2C-99.1473299&query_place_id=ChIJ75amtNf40YURTSvEtE1sGwo",
         "lat": 19.4416144,
         "lng": -99.1473299
+    },
+    {
+        "nombre": "DISTRITO MASALA",
+        "video": "www.youtube.com/embed/DRd-c1TlZ_0",
+        "direccion": "Calle Emiliano Zapata 1-Local 5, San Lucas Tepetlacalco, 54055 Tlalnepantla de Baz, Méx.",
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "nombre": "CATE DE MI CORAZON",
+        "video": "www.youtube.com/embed/DRd-c1TlZ_0",
+        "direccion": "Eje 3 Sur 295, Colonia Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "nombre": "POR SIEMPRE VEGANA",
+        "video": "www.youtube.com/embed/DRd-c1TlZ_0",
+        "direccion": "C. Manzanillo 18, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJfT1XDD__0YURr8iCX8sG0og",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4114918%2C-99.16610849999999&query_place_id=ChIJfT1XDD__0YURr8iCX8sG0og",
+        "lat": 19.4114918,
+        "lng": -99.16610849999999
     }
 ]

@@ -9,8 +9,8 @@ import googlemaps
 
 class WebScrapping:
     urls_to_scrape = []
-    API_KEY = os.environ["api"]
-    # API_KEY = ''
+    # API_KEY = os.environ["api"]
+    API_KEY = ''
 
 
     def request_n_download(self):

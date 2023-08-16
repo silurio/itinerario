@@ -793,11 +793,11 @@
         "nombre": "SABORES DE JALISCO",
         "video": "https://www.youtube.com/embed/Yh2CyJYE70g?feature=oembed",
         "direccion": "Av. Patriotismo #84, Escandón",
-        "gmaps_id": "ChIJaTg5T9n-0YURY_GLcZVsjy4",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4159772%2C-99.1410604&query_place_id=ChIJaTg5T9n-0YURY_GLcZVsjy4",
-        "lat": 19.4159772,
-        "lng": -99.1410604
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "TALLER SIROP",

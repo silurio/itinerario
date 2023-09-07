@@ -9,8 +9,8 @@ import googlemaps
 
 class WebScrapping:
     urls_to_scrape = []
-    # API_KEY = os.environ["api"]
-    API_KEY = ''
+    API_KEY = os.environ["api"]
+    # API_KEY = ''
 
 
     def request_n_download(self):
@@ -271,6 +271,7 @@ class WebScrapping:
         Returns:
         """
         restaurantes = []
+        restaurantes_place_ids_caducos = []
         gmaps = googlemaps.Client(key=self.API_KEY)
         
         # Se obtiene el arreglo de JSONs del archivo restaurantes.json
@@ -284,37 +285,47 @@ class WebScrapping:
             
             if sitio['gmaps_id'] != "" and esString:
 
-                detalles_sitio = gmaps.place(place_id=sitio['gmaps_id'])
-                # business_status = detalles_sitio['result']['business_status']
-                business_status = detalles_sitio
+                try:
+                    detalles_sitio = gmaps.place(place_id=sitio['gmaps_id'])
+                    # business_status = detalles_sitio['result']['business_status']
+                    business_status = detalles_sitio
 
-                # Si el valor obtenido es un diccionario y tiene la propiedad result
-                if 'result' in business_status:
-                    # Si el valor obtenido es un diccionario y tiene la propiedad business_status
-                    if 'business_status' in business_status['result']:
-                        if business_status['result']['business_status'] == 'CLOSED_PERMANENTLY':
-                            sitio['estado'] = 'Cerrado permanentemente'
-                        elif business_status['result']['business_status'] == 'CLOSED_TEMPORARILY':
-                            sitio['estado'] = 'Cerrado temporalmente'
-                        else:
-                            sitio['estado'] = 'En operaciones'
-                    
-                    # Para la carga masiva de coordenadas
-                    if 'geometry' in business_status['result']:
-                        if 'location' in business_status['result']['geometry']:
-                            coordenadas = business_status['result']['geometry']['location']
-                            sitio['lat'] = coordenadas['lat']
-                            sitio['lng'] = coordenadas['lng']
-                            
-                        # print(sitio['estado'])
+                    # Si el valor obtenido es un diccionario y tiene la propiedad result
+                    if 'result' in business_status:
+                        # Si el valor obtenido es un diccionario y tiene la propiedad business_status
+                        if 'business_status' in business_status['result']:
+                            if business_status['result']['business_status'] == 'CLOSED_PERMANENTLY':
+                                sitio['estado'] = 'Cerrado permanentemente'
+                            elif business_status['result']['business_status'] == 'CLOSED_TEMPORARILY':
+                                sitio['estado'] = 'Cerrado temporalmente'
+                            else:
+                                sitio['estado'] = 'En operaciones'
                         
-                # print(sitio)
+                        # Para la carga masiva de coordenadas
+                        if 'geometry' in business_status['result']:
+                            if 'location' in business_status['result']['geometry']:
+                                coordenadas = business_status['result']['geometry']['location']
+                                sitio['lat'] = coordenadas['lat']
+                                sitio['lng'] = coordenadas['lng']
+                                
+                            # print(sitio['estado'])
+                            
+                    # print(sitio)
+                except:
+                    print("El sitio {} tiene un place ID caduco".format(sitio['nombre']))
+                    restaurantes_place_ids_caducos.append(sitio['nombre'])
                 
             # Si el restaurante tiene varios place_id
             elif not esString:
                 print("El sitio {} debe revisarse".format(sitio['nombre']))
                 sitio['lat'] = 0
                 sitio['lng'] = 0
+        
+        # Almacena los restaurantes con place IDs caducos en un archivo de texto, el cual
+        # se sobrescribirá en la sig. ejecución 
+        if len(restaurantes_place_ids_caducos) > 0:
+            with open('assets/place_ids_caducos.txt', 'w', encoding="utf-8") as caducos:
+                caducos.writelines(line + '\n' for line in restaurantes_place_ids_caducos)
         
         # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
         with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:

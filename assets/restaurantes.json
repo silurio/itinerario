@@ -170,16 +170,6 @@
         "lng": -99.0585672
     },
     {
-        "nombre": "BIRRIA TECATITLÁN",
-        "video": "https://www.youtube.com/embed/XNWs3ls6vxM?feature=oembed",
-        "direccion": "Nogal 12, Santa María la Ribera",
-        "gmaps_id": "ChIJiaIMBuqTL4QRWN3Ve2Mv2pE",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4710483%2C-103.3076197&query_place_id=ChIJiaIMBuqTL4QRWN3Ve2Mv2pE",
-        "lat": 19.4710483,
-        "lng": -103.3076197
-    },
-    {
         "nombre": "TAQUERÍA LOS CARAMELOS",
         "video": "https://www.youtube.com/embed/NNDw-FSJPnw?feature=oembed",
         "direccion": "Bajío 321, Roma Sur",
@@ -344,7 +334,7 @@
         "video": "https://www.youtube.com/embed/NShi3FO6Vy8?feature=oembed",
         "direccion": "Calzada México-Tacuba 114, col. Anáhuac 1a Secc., Miguel Hidalgo ",
         "gmaps_id": "ChIJC64r9q750YUR4ZunJ569ikk",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4458764%2C-99.1697483&query_place_id=ChIJC64r9q750YUR4ZunJ569ikk",
         "lat": 19.4458764,
         "lng": -99.1697483
@@ -443,11 +433,11 @@
         "nombre": "BUCHIDO",
         "video": "https://youtu.be/jp7rK_2dD0g",
         "direccion": "Calle Norte 89-A, Local 24-C, Clavería",
-        "gmaps_id": "ChIJv11Mavf50YURHVpP4w4Uzfc",
+        "gmaps_id": "",
         "estado": "Cerrado permanentemente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4687589%2C-99.18249089999999&query_place_id=ChIJv11Mavf50YURHVpP4w4Uzfc",
-        "lat": 19.4687589,
-        "lng": -99.18249089999999
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "AHUMADOS PELICAN",
@@ -655,9 +645,9 @@
         "direccion": "Tizimín #193, esq. Hopelchén, col. Lomas de Padierna",
         "gmaps_id": "ChIJc8pb72T_zYURLeZTUzY3UYs",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2889564%2C-99.22341929999999&query_place_id=ChIJc8pb72T_zYURLeZTUzY3UYs",
-        "lat": 19.2889564,
-        "lng": -99.22341929999999
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2673424%2C-99.1761564&query_place_id=ChIJc8pb72T_zYURLeZTUzY3UYs",
+        "lat": 19.2673424,
+        "lng": -99.1761564
     },
     {
         "nombre": "MAIZAJO",
@@ -744,7 +734,7 @@
         "video": "https://www.youtube.com/embed/Uia96OxhGIE?feature=oembed",
         "direccion": "Sur 73, #273, col. Sinatel",
         "gmaps_id": "ChIJiw_PZfP_0YURNut_uPtM3tI",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3595889%2C-99.1343844&query_place_id=ChIJiw_PZfP_0YURNut_uPtM3tI",
         "lat": 19.3595889,
         "lng": -99.1343844
@@ -878,16 +868,6 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3959221%2C-99.1481094&query_place_id=ChIJnbbEeM3_0YURKJIVJNMJ6tw",
         "lat": 19.3959221,
         "lng": -99.1481094
-    },
-    {
-        "nombre": "NAAN. CURRY VEGANO",
-        "video": "https://www.youtube.com/embed/BI2_ocvfPCY",
-        "direccion": "Santa María la Ribera #12 (entrada por el Jardín Mascarones)",
-        "gmaps_id": "ChIJSb0ElJH_0YURySmdf6ck9ME",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4102567%2C-99.16933619999999&query_place_id=ChIJSb0ElJH_0YURySmdf6ck9ME",
-        "lat": 19.4102567,
-        "lng": -99.16933619999999
     },
     {
         "nombre": "DIINOS TACOS & ANTOJOS",
@@ -1122,7 +1102,7 @@
     {
         "nombre": "MUKYU",
         "video": "https://www.youtube.com/embed/YfkJF2e66vQ",
-        "direccion": "Herodoto #53, col. Nueva Anzures",
+        "direccion": "Río Nazas 24, Cuauhtémoc, 06500 Ciudad de México, CDMX",
         "gmaps_id": "ChIJczVRWrP40YURVmBPbuxlHdE",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4326821%2C-99.16609109999999&query_place_id=ChIJczVRWrP40YURVmBPbuxlHdE",
@@ -1165,9 +1145,9 @@
         "direccion": "San Simón #227, col. Santa María Insurgentes",
         "gmaps_id": "ChIJ8dYcVeD40YUR901HMyIY3c0",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4592621%2C-99.1484691&query_place_id=ChIJ8dYcVeD40YUR901HMyIY3c0",
-        "lat": 19.4592621,
-        "lng": -99.1484691
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4591451%2C-99.1482193&query_place_id=ChIJ8dYcVeD40YUR901HMyIY3c0",
+        "lat": 19.4591451,
+        "lng": -99.1482193
     },
     {
         "nombre": "LOVECRAFT CAFÉ",
@@ -1252,7 +1232,7 @@
     {
         "nombre": "EL JARDÍN DE ANATOLIA",
         "video": "https://www.youtube.com/embed/0zDADcOR9ME",
-        "direccion": "Agustín González de Cossío # 242, col. Del Valle.",
+        "direccion": "Av. México 180, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX",
         "gmaps_id": "ChIJp6dt7-7_0YURBFN98F4Acjc",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3576746%2C-99.1697361&query_place_id=ChIJp6dt7-7_0YURBFN98F4Acjc",
@@ -1444,7 +1424,7 @@
         "video": "https://www.youtube.com/embed/TCVk1GeKsuA",
         "direccion": "Marsella 80, col. Juárez, del. Cuauhtémoc, C.P. 06600, Ciudad de México.",
         "gmaps_id": "ChIJQ7PTnCQB0oUR3BM4Eyrbo_4",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4246364%2C-99.16081249999999&query_place_id=ChIJQ7PTnCQB0oUR3BM4Eyrbo_4",
         "lat": 19.4246364,
         "lng": -99.16081249999999
@@ -1733,11 +1713,11 @@
         "nombre": "ESCONDITE",
         "video": "www.youtube.com/embed/1b7XHucgViw",
         "direccion": "Francisco Pimentel no. 3, col. San Rafael",
-        "gmaps_id": "ChIJK2SdH6T-0YURgv2RUOp7Qq0",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4184148%2C-99.1069887&query_place_id=ChIJK2SdH6T-0YURgv2RUOp7Qq0",
-        "lat": 19.4184148,
-        "lng": -99.1069887
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "COMEDOR VEGETARIANO KRISHNA",
@@ -1755,9 +1735,9 @@
         "direccion": "Tonalá #23, col. Roma",
         "gmaps_id": "ChIJvYjjXDf_0YUR3wZXAO6MFKo",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4207222%2C-99.1634612&query_place_id=ChIJvYjjXDf_0YUR3wZXAO6MFKo",
-        "lat": 19.4207222,
-        "lng": -99.1634612
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4207265%2C-99.1634259&query_place_id=ChIJvYjjXDf_0YUR3wZXAO6MFKo",
+        "lat": 19.4207265,
+        "lng": -99.1634259
     },
     {
         "nombre": "FINCA VAI",
@@ -1914,7 +1894,7 @@
         "video": "https://www.youtube.com/embed/yivfPavVzb0",
         "direccion": "Av. Cuauhtémoc 1, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
         "gmaps_id": "ChIJF9iLDiX_0YURrBXdxbazStE",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4186536%2C-99.154423&query_place_id=ChIJF9iLDiX_0YURrBXdxbazStE",
         "lat": 19.4186536,
         "lng": -99.154423
@@ -1955,9 +1935,9 @@
         "direccion": "Av. Coyoacán 301, código 2, Colonia del Valle, Benito Juárez, 03100 Ciudad de México, CDMX",
         "gmaps_id": "ChIJrXxcg_3_0YURcRAJu9v7MW0",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3946818%2C-99.1665738&query_place_id=ChIJrXxcg_3_0YURcRAJu9v7MW0",
-        "lat": 19.3946818,
-        "lng": -99.1665738
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.394682%2C-99.16663539999999&query_place_id=ChIJrXxcg_3_0YURcRAJu9v7MW0",
+        "lat": 19.394682,
+        "lng": -99.16663539999999
     },
     {
         "nombre": "GUAU TAP",
@@ -2088,5 +2068,25 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4114918%2C-99.16610849999999&query_place_id=ChIJfT1XDD__0YURr8iCX8sG0og",
         "lat": 19.4114918,
         "lng": -99.16610849999999
+    },
+    {
+        "nombre": "NAAN",
+        "video": "https://www.youtube.com/embed/BI2_ocvfPCY",
+        "direccion": "Entrada por Jardín Mascarones, Santa María La Ribera 12, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJD7KgPHb50YURhVThO6ikKao",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4418977%2C-99.15874&query_place_id=ChIJD7KgPHb50YURhVThO6ikKao",
+        "lat": 19.4418977,
+        "lng": -99.15874
+    },
+    {
+        "nombre": "TECATITLÁN",
+        "video": "https://www.youtube.com/embed/XNWs3ls6vxM?feature=oembed",
+        "direccion": "C. Nogal 12, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJuanvKsb40YURYNVDmHoNHyk",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4437416%2C-99.1649126&query_place_id=ChIJuanvKsb40YURYNVDmHoNHyk",
+        "lat": 19.4437416,
+        "lng": -99.1649126
     }
 ]

@@ -2058,5 +2058,55 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.65420139999999%2C-99.0732046&query_place_id=ChIJrRP-Qanz0YURKe90F3CD9rI",
         "lat": 19.65420139999999,
         "lng": -99.0732046
+    },
+    {
+        "nombre": "EL JARDÍN DE LILITH",
+        "video": "https://www.youtube.com/watch?v=9-6CgrRAwpQ",
+        "direccion": "Calle José Antonio Torres, Asturias, Cuauhtémoc, 06890 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJqYO9-Ij_0YURuVy09ZIodDE",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4081576%2C-99.1335332&query_place_id=ChIJqYO9-Ij_0YURuVy09ZIodDE",
+        "lat": 19.4081576,
+        "lng": -99.1335332
+    },
+    {
+        "nombre": "LOS PAMBACITOS",
+        "video": "https://www.youtube.com/watch?v=RwSwGHQtRuA",
+        "direccion": "Av Progreso 61, Escandón I Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX, México",
+        "gmaps_id": "ChIJeyVZhmj_0YUR7Lb_LIrpm2M",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4056312%2C-99.1816206&query_place_id=ChIJeyVZhmj_0YUR7Lb_LIrpm2M",
+        "lat": 19.4056312,
+        "lng": -99.1816206
+    },
+    {
+        "nombre": "PECO PECO",
+        "video": "https://www.youtube.com/watch?v=zF9OLyKbKRU",
+        "direccion": "Eugenia 732, Col del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX, México",
+        "gmaps_id": "ChIJm4Eendj_0YURwUIwd7HtUyU",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3871738%2C-99.16583639999999&query_place_id=ChIJm4Eendj_0YURwUIwd7HtUyU",
+        "lat": 19.3871738,
+        "lng": -99.16583639999999
+    },
+    {
+        "nombre": "FOGONES MX",
+        "video": "https://www.youtube.com/watch?v=B3Q66nQjSgw",
+        "direccion": "Escocia 58, Parque San Andrés, Coyoacán, 04040 Ciudad de México, CDMX, México",
+        "gmaps_id": "ChIJmUDgZI__0YURTELnBMZ82ns",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3483272%2C-99.1472265&query_place_id=ChIJmUDgZI__0YURTELnBMZ82ns",
+        "lat": 19.3483272,
+        "lng": -99.1472265
+    },
+    {
+        "nombre": "LE CAMÉLÉON",
+        "video": "https://www.youtube.com/watch?v=WjzkRxZT8zE",
+        "direccion": "Manuel Payno 87, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX, México",
+        "gmaps_id": "ChIJ33j6Idz-0YURFJUz5289bpA",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4138578%2C-99.1398071&query_place_id=ChIJ33j6Idz-0YURFJUz5289bpA",
+        "lat": 19.4138578,
+        "lng": -99.1398071
     }
 ]

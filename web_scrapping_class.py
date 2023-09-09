@@ -4,13 +4,16 @@ import os
 import time
 import random
 import json
+import sys
 import pandas as pd
 import googlemaps
+from unidecode import unidecode
 
 class WebScrapping:
     urls_to_scrape = []
     API_KEY = os.environ["api"]
     # API_KEY = ''
+    calle = ['route', 'point_of_interest', 'establishment']
 
 
     def request_n_download(self):
@@ -265,12 +268,15 @@ class WebScrapping:
         """
         Este método verifica y registra el estado de los restaurantes: 
         Cerrado permanentemente, temporalmente y Abierto.
-        También obtiene las coordenadas de los mismos
+        También obtiene las coordenadas de los mismos.
+        Verifica si la dirección de Itinerario coincide con la de Maps
 
         Args:
         Returns:
         """
         restaurantes = []
+        restaurantes_place_ids_caducos = []
+        restaurantes_direcciones_diferentes = []
         gmaps = googlemaps.Client(key=self.API_KEY)
         
         # Se obtiene el arreglo de JSONs del archivo restaurantes.json
@@ -284,37 +290,72 @@ class WebScrapping:
             
             if sitio['gmaps_id'] != "" and esString:
 
-                detalles_sitio = gmaps.place(place_id=sitio['gmaps_id'])
-                # business_status = detalles_sitio['result']['business_status']
-                business_status = detalles_sitio
+                try:
+                    detalles_sitio = gmaps.place(place_id=sitio['gmaps_id'])
+                    # business_status = detalles_sitio['result']['business_status']
+                    business_status = detalles_sitio
 
-                # Si el valor obtenido es un diccionario y tiene la propiedad result
-                if 'result' in business_status:
-                    # Si el valor obtenido es un diccionario y tiene la propiedad business_status
-                    if 'business_status' in business_status['result']:
-                        if business_status['result']['business_status'] == 'CLOSED_PERMANENTLY':
-                            sitio['estado'] = 'Cerrado permanentemente'
-                        elif business_status['result']['business_status'] == 'CLOSED_TEMPORARILY':
-                            sitio['estado'] = 'Cerrado temporalmente'
-                        else:
-                            sitio['estado'] = 'En operaciones'
-                    
-                    # Para la carga masiva de coordenadas
-                    if 'geometry' in business_status['result']:
-                        if 'location' in business_status['result']['geometry']:
-                            coordenadas = business_status['result']['geometry']['location']
-                            sitio['lat'] = coordenadas['lat']
-                            sitio['lng'] = coordenadas['lng']
-                            
-                        # print(sitio['estado'])
+                    # Si el valor obtenido es un diccionario y tiene la propiedad result
+                    if 'result' in business_status:
+                        # Si el valor obtenido es un diccionario y tiene la propiedad business_status
+                        if 'business_status' in business_status['result']:
+                            if business_status['result']['business_status'] == 'CLOSED_PERMANENTLY':
+                                sitio['estado'] = 'Cerrado permanentemente'
+                            elif business_status['result']['business_status'] == 'CLOSED_TEMPORARILY':
+                                sitio['estado'] = 'Cerrado temporalmente'
+                            else:
+                                sitio['estado'] = 'En operaciones'
                         
-                # print(sitio)
+                        # Para la carga masiva de coordenadas
+                        if 'geometry' in business_status['result']:
+                            if 'location' in business_status['result']['geometry']:
+                                coordenadas = business_status['result']['geometry']['location']
+                                sitio['lat'] = coordenadas['lat']
+                                sitio['lng'] = coordenadas['lng']
+                                
+                            # print(sitio['estado'])
+                        
+                        # Verifica si la dirección registrada coincide con la del sitio localizado en Maps
+                        if 'address_components' in business_status['result']:
+                            dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
+                                            if any(valor in dicc['types'] for valor in self.calle)].pop()
+                            
+                            address = unidecode(sitio['direccion'].lower())
+                            
+                            if unidecode(dicc_encontrado['long_name'].lower()) in address or \
+                                unidecode(dicc_encontrado['short_name'].lower()) in address:
+                                pass
+                            else:
+                                print("El sitio {} tiene una dirección distinta".format(sitio['nombre']))
+                                restaurantes_direcciones_diferentes.append(sitio['nombre'] + ': ' + sitio['direccion'])
+                                restaurantes_direcciones_diferentes.append(dicc_encontrado['long_name'] + ', '
+                                                                           + dicc_encontrado['short_name'])                              
+                            
+                    # print(sitio)
+                except:
+                    exc_type, exc_value = sys.exc_info()
+                    print(f"An error occurred: {exc_type.__name__}: {exc_value}")
+                    print("El sitio {} tiene un place ID caduco".format(sitio['nombre']))
+                    restaurantes_place_ids_caducos.append(sitio['nombre'])
                 
             # Si el restaurante tiene varios place_id
             elif not esString:
                 print("El sitio {} debe revisarse".format(sitio['nombre']))
                 sitio['lat'] = 0
                 sitio['lng'] = 0
+        
+        # Almacena los restaurantes con place IDs caducos en un archivo de texto, el cual
+        # se sobrescribirá en la sig. ejecución 
+        if len(restaurantes_place_ids_caducos) > 0:
+            with open('assets/place_ids_caducos.txt', 'w', encoding="utf-8") as caducos:
+                caducos.writelines(line + '\n' for line in restaurantes_place_ids_caducos)
+        
+        # Almacena los restaurantes con direcciones distintas, entre la de Itinerario y Maps,
+        # en un archivo de texto, el cual se sobrescribirá en la sig. ejecución
+        if len(restaurantes_direcciones_diferentes) > 0:
+            with open('assets/direcciones_distintas.txt', 'w', encoding="utf-8") as distintas:
+                distintas.writelines(line + "\n\n" if i % 2 == 1 else line + "\n" 
+                                     for i, line in enumerate(restaurantes_direcciones_diferentes))
         
         # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
         with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
@@ -347,7 +388,8 @@ class WebScrapping:
     def agregar_coordenadas_estado_url(self, sitio):
         """
         Este método corrige coordenadas, estado
-        y URL de un sitio dado
+        y URL de un sitio dado. También verifica si la 
+        dirección de Itinerario coincide con la de Maps
 
         Args: 
             sitio: Restaurante a actualizar
@@ -363,8 +405,10 @@ class WebScrapping:
             # business_status = detalles_sitio['result']['business_status']
             business_status = detalles_sitio
 
+            # print(business_status)
             # Si el valor obtenido es un diccionario y tiene la propiedad result
             if 'result' in business_status:
+                
                 # Si el valor obtenido es un diccionario y tiene la propiedad business_status
                 if 'business_status' in business_status['result']:
                     if business_status['result']['business_status'] == 'CLOSED_PERMANENTLY':
@@ -383,9 +427,24 @@ class WebScrapping:
                         
                         sitio['enlace_google_maps'] = ('https://www.google.com/maps/search/?api=1&query=' +
                                                 str(sitio['lat']) + '%2C' + str(sitio['lng']) + 
-                                                '&query_place_id=' + sitio['gmaps_id'])
+                                                '&query_place_id=' + sitio['gmaps_id'])        
                 else:
                     sitio['enlace_google_maps'] = ""
+                    
+                if 'address_components' in business_status['result']:
+                    dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
+                                    if any(valor in dicc['types'] for valor in self.calle)].pop()
+                    
+                    address = unidecode(sitio['direccion'].lower())
+                    print(address)
+                    print(unidecode(dicc_encontrado['long_name'].lower()))
+                    print(unidecode(dicc_encontrado['short_name'].lower()))
+                          
+                    if unidecode(dicc_encontrado['long_name'].lower()) in address or \
+                        unidecode(dicc_encontrado['short_name'].lower()) in address:
+                        pass
+                    else:
+                        print("El sitio {} tiene una dirección distinta".format(sitio['nombre']) + "\n\n")
 
         # Si el restaurante tiene varios place_id
         elif not esString:

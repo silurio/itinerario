@@ -2,7 +2,7 @@
     {
         "nombre": "KOSINA",
         "video": "https://www.youtube.com/embed/L2mkweB3lds?feature=oembed",
-        "direccion": "Sor Juana Ines de la Cruz #64, Santa María la Ribera",
+        "direccion": "C. Sor Juana Ines de la Cruz 64G, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
         "gmaps_id": "ChIJlw9zYTv50YUROU31aTGYUrw",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4450436%2C-99.15791379999999&query_place_id=ChIJlw9zYTv50YUROU31aTGYUrw",
@@ -12,17 +12,17 @@
     {
         "nombre": "BAR EL HIPOPÓTAMO",
         "video": "https://www.youtube.com/embed/d9z4ZDCrTsE?feature=oembed",
-        "direccion": "Avenida Brasil #401, San Telmo, Buenos Aires",
-        "gmaps_id": "ChIJOQAvtLv_0YURN-h_YJXtNE0",
+        "direccion": "Avenida Brasil 401, 43008450, C1154AAE Buenos Aires, Argentina",
+        "gmaps_id": "ChIJMe7lSM00o5URws7g9D1SsIA",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4024249%2C-99.1719737&query_place_id=ChIJOQAvtLv_0YURN-h_YJXtNE0",
-        "lat": 19.4024249,
-        "lng": -99.1719737
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=-34.6252715%2C-58.3711662&query_place_id=ChIJMe7lSM00o5URws7g9D1SsIA",
+        "lat": -34.6252715,
+        "lng": -58.3711662
     },
     {
         "nombre": "CALDOS DE GALLINA “EL GORDITO”",
         "video": "https://www.youtube.com/embed/TF4rERilVvU?feature=oembed",
-        "direccion": "Av. Ricardo Flores Magón 325, Atlampa",
+        "direccion": "Avenida Ricardo Flores Magón 325, Atlampa, Cuauhtémoc, 06450 Ciudad de México, CDMX",
         "gmaps_id": "ChIJVVWhdN340YURNm2GfVNZKmo",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4545237%2C-99.15424519999999&query_place_id=ChIJVVWhdN340YURNm2GfVNZKmo",
@@ -82,22 +82,12 @@
     {
         "nombre": "TAQUERÍA CHICO CHÉ",
         "video": "https://youtu.be/aNTpBYJW-Zg",
-        "direccion": "Calle 10, Barrio de San Francisco, Campeche",
-        "gmaps_id": "ChIJsyomw7P40YURqBDjLkiUPlw",
-        "estado": "Cerrado temporalmente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4364254%2C-99.1748617&query_place_id=ChIJsyomw7P40YURqBDjLkiUPlw",
-        "lat": 19.4364254,
-        "lng": -99.1748617
-    },
-    {
-        "nombre": "TAQUERÍA NORMA RUELAS",
-        "video": "https://youtu.be/GzUyU8mW7Dk",
-        "direccion": "Fidel Velázquez, # 24023, San Francisco de Campeche",
-        "gmaps_id": "ChIJEzmdnP4DzoURK7UbyRthpoM",
+        "direccion": "C. 10, Barrio de San Francisco, 24010 Campeche, Camp.",
+        "gmaps_id": "ChIJJ8FHxkAz-IUR9QwsHgHm3lM",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2929546%2C-99.0362064&query_place_id=ChIJEzmdnP4DzoURK7UbyRthpoM",
-        "lat": 19.2929546,
-        "lng": -99.0362064
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.8502483%2C-90.52151459999999&query_place_id=ChIJJ8FHxkAz-IUR9QwsHgHm3lM",
+        "lat": 19.8502483,
+        "lng": -90.52151459999999
     },
     {
         "nombre": "EL MERCADITO PERUANO",
@@ -172,7 +162,7 @@
     {
         "nombre": "TAQUERÍA LOS CARAMELOS",
         "video": "https://www.youtube.com/embed/NNDw-FSJPnw?feature=oembed",
-        "direccion": "Bajío 321, Roma Sur",
+        "direccion": "C. Bajío 321, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
         "gmaps_id": "ChIJnZBjSN3_0YURnkzMrNIlI6E",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4027915%2C-99.1686695&query_place_id=ChIJnZBjSN3_0YURnkzMrNIlI6E",
@@ -192,22 +182,12 @@
     {
         "nombre": "MONJAS CLARISAS DE SAN JUANICO",
         "video": "https://www.youtube.com/embed/sB7BD9a0iXk?feature=oembed",
-        "direccion": "Tláloc 3, Tlalnepantla, Estado de México",
+        "direccion": "Cda. Tlaloc 3, San Juan Ixhuatepec, 54180 Tlalnepantla de Baz, Méx.",
         "gmaps_id": "ChIJWx2Vkfr50YURONOoF9sMKYY",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.5184432%2C-99.11024929999999&query_place_id=ChIJWx2Vkfr50YURONOoF9sMKYY",
         "lat": 19.5184432,
         "lng": -99.11024929999999
-    },
-    {
-        "nombre": "MEGA ANTOJITOS MEXICANOS MARTÍNEZ",
-        "video": "https://www.youtube.com/embed/8vIO6e2EcZk?feature=oembed",
-        "direccion": "Prolongación Cerrada José López Bonaga #260, Local 197",
-        "gmaps_id": "ChIJZ_7bqUXz0YURdmrfQiPlzSQ",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.6610512%2C-99.0984771&query_place_id=ChIJZ_7bqUXz0YURdmrfQiPlzSQ",
-        "lat": 19.6610512,
-        "lng": -99.0984771
     },
     {
         "nombre": "CASA KIM",
@@ -222,7 +202,7 @@
     {
         "nombre": "VENDAVAL",
         "video": "https://www.youtube.com/embed/tGOnYBzQpxs?feature=oembed",
-        "direccion": "Guillermo Prieto 46, col. San Rafael",
+        "direccion": "C. Guillermo Prieto 46, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX",
         "gmaps_id": "ChIJM159oYf50YURqlC1-XjOpXQ",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4373956%2C-99.1626331&query_place_id=ChIJM159oYf50YURqlC1-XjOpXQ",
@@ -252,7 +232,7 @@
     {
         "nombre": "POLLOS SIN-ALOAS",
         "video": "https://www.youtube.com/embed/fx-RVrgR7Ok?feature=oembed",
-        "direccion": "Doctor Rafael Lucio 134, col. Doctores, Ciudad de México",
+        "direccion": "C. Rafael Lucio 134, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX",
         "gmaps_id": "ChIJRUrU9yX_0YURb7USMU1SsiY",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4206331%2C-99.152034&query_place_id=ChIJRUrU9yX_0YURb7USMU1SsiY",
@@ -362,7 +342,7 @@
     {
         "nombre": "RAÍCES CENTRO CULTURAL",
         "video": "https://www.youtube.com/embed/MpEQ62S3Pjs?feature=oembed",
-        "direccion": "Av. Pdte. Plutarco Elías Calles #1810, Banjidal",
+        "direccion": "Avenida Presidente Plutarco Elías Calles 1810, Banjidal, Iztapalapa, 09450 Ciudad de México, CDMX",
         "gmaps_id": "ChIJo0xPs7T_0YURUNcR2oRhQM4",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3633518%2C-99.1383118&query_place_id=ChIJo0xPs7T_0YURUNcR2oRhQM4",
@@ -422,7 +402,7 @@
     {
         "nombre": "LA SÚPER ATÓMICA, TORTAS DE LENGUA DESDE 1947",
         "video": "https://youtu.be/QivcobQN27s",
-        "direccion": "Eligio Ancona 238, Santa María la Ribera",
+        "direccion": "C. Eligio Ancona 238, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
         "gmaps_id": "ChIJFT40L8L40YURQOdPlkTfgWo",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4532211%2C-99.1616718&query_place_id=ChIJFT40L8L40YURQOdPlkTfgWo",
@@ -492,7 +472,7 @@
     {
         "nombre": "LONCHERÍA SUVAI",
         "video": "https://www.youtube.com/embed/bl6JXrme_Jg?feature=oembed",
-        "direccion": "Concepción Beistegui #619, Del Valle",
+        "direccion": "Campos Elíseos 295, IV, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
         "gmaps_id": "ChIJbV9hS77_0YUR_Z6-2uHzYLA",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.42720389999999%2C-99.19716240000001&query_place_id=ChIJbV9hS77_0YUR_Z6-2uHzYLA",
@@ -508,16 +488,6 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4117166%2C-99.1627843&query_place_id=ChIJIU45y9D_0YURVQjTbRrv-3M",
         "lat": 19.4117166,
         "lng": -99.1627843
-    },
-    {
-        "nombre": "COCINA DE HUMO Y AGUARDIENTE “DON TOÑO”",
-        "video": "https://www.youtube.com/embed/IXQwC7VrXk8?feature=oembed",
-        "direccion": "Calle Mina #13, Acatlán de Osorio",
-        "gmaps_id": "ChIJx_gd3zX_0YURhh2ieItWFZ0",
-        "estado": "Cerrado permanentemente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4261362%2C-99.1659729&query_place_id=ChIJx_gd3zX_0YURhh2ieItWFZ0",
-        "lat": 19.4261362,
-        "lng": -99.1659729
     },
     {
         "nombre": "BLU CAFÉ",
@@ -542,7 +512,7 @@
     {
         "nombre": "HUESITOS EL GÜERO",
         "video": "https://www.youtube.com/embed/Hc_DDZhnks8?feature=oembed",
-        "direccion": "H. Congreso de la Unión Oriente #95, col. Mártires de Río Blanco",
+        "direccion": "H.Congreso de la Unión Oriente 95, Mártires de Río Blanco, Gustavo A. Madero, 07880 Ciudad de México, CDMX",
         "gmaps_id": "ChIJfQ2pl2j50YUR9bltFxbw22s",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.462256%2C-99.1131461&query_place_id=ChIJfQ2pl2j50YUR9bltFxbw22s",
@@ -552,7 +522,7 @@
     {
         "nombre": "XUVA",
         "video": "https://www.youtube.com/embed/SaYnEGm4Qs0?feature=oembed",
-        "direccion": "Salvador Díaz Mirón #128, Santa María La Ribera",
+        "direccion": "Calle Salvador Díaz Mirón 128, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
         "gmaps_id": "ChIJ-2kCr_L50YURL_aXt6H7BuY",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4489027%2C-99.15838620000001&query_place_id=ChIJ-2kCr_L50YURL_aXt6H7BuY",
@@ -592,7 +562,7 @@
     {
         "nombre": "DON LÁZARO EL VIAJERO",
         "video": "https://www.youtube.com/embed/XisfUTP43Xs?feature=oembed",
-        "direccion": "Av. Instituto Técnico Industrial #241, Col. Santa María la Ribera",
+        "direccion": "Circuito Interior Instituto Técnico Industrial 241, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
         "gmaps_id": "ChIJj1dQDsH40YURhsDE4qeRpLU",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4519714%2C-99.16392409999999&query_place_id=ChIJj1dQDsH40YURhsDE4qeRpLU",
@@ -642,12 +612,12 @@
     {
         "nombre": "EL SUEÑO DE FRIDA (CAFÉ)",
         "video": "https://www.youtube.com/embed/4-gA7ewoU4I?feature=oembed",
-        "direccion": "Tizimín #193, esq. Hopelchén, col. Lomas de Padierna",
+        "direccion": "Mirasol 16, San Pedro Mártir, Tlalpan, 14650 Ciudad de México, CDMX",
         "gmaps_id": "ChIJc8pb72T_zYURLeZTUzY3UYs",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2673424%2C-99.1761564&query_place_id=ChIJc8pb72T_zYURLeZTUzY3UYs",
-        "lat": 19.2673424,
-        "lng": -99.1761564
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2673248%2C-99.1760856&query_place_id=ChIJc8pb72T_zYURLeZTUzY3UYs",
+        "lat": 19.2673248,
+        "lng": -99.1760856
     },
     {
         "nombre": "MAIZAJO",
@@ -660,9 +630,9 @@
         "lng": -99.17146989999999
     },
     {
-        "nombre": "Pupusería La Piscucha",
+        "nombre": "PUPUSERÍA LA PISCUCHA",
         "video": "https://www.youtube.com/embed/FarkgrR816E?feature=oembed",
-        "direccion": "Nogal #275, Santa María la Ribera",
+        "direccion": "C. Nogal 275, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
         "gmaps_id": "ChIJA1rFno750YURMiGakYoILHM",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4542859%2C-99.1630046&query_place_id=ChIJA1rFno750YURMiGakYoILHM",
@@ -682,7 +652,7 @@
     {
         "nombre": "TORTAS DE LA CUCHILLA DESDE 1915",
         "video": "https://www.youtube.com/embed/Yz3TSMD1Es8?feature=oembed",
-        "direccion": "Dr. Liceaga #167, col. Doctores",
+        "direccion": "Calle Dr Liceaga 167, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX",
         "gmaps_id": "ChIJDT0dOi__0YURX35-Clula9s",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4225558%2C-99.1519014&query_place_id=ChIJDT0dOi__0YURX35-Clula9s",
@@ -712,7 +682,7 @@
     {
         "nombre": "HOLLAND WAFELS",
         "video": "https://www.youtube.com/embed/xpAcMIxDzMI?feature=oembed",
-        "direccion": "Versalles #78, col. Juárez",
+        "direccion": "C. Versalles 78, Juárez, Cuauhtémoc, 06600 Juárez, CDMX",
         "gmaps_id": "ChIJJQ8aLTn_0YURBphEGG9G93s",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4282542%2C-99.15533029999999&query_place_id=ChIJJQ8aLTn_0YURBphEGG9G93s",
@@ -802,7 +772,7 @@
     {
         "nombre": "TALLER XILOTL",
         "video": "https://www.youtube.com/embed/3D7ITSuph78?feature=oembed",
-        "direccion": "Privada Arce #3, esquina Dr. Arce, col. Doctores, CDMX",
+        "direccion": "Biarritz 2, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
         "gmaps_id": "ChIJudBwkKj_0YURByPLsAEHlzc",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4236271%2C-99.16984199999999&query_place_id=ChIJudBwkKj_0YURByPLsAEHlzc",
@@ -812,7 +782,7 @@
     {
         "nombre": "RESTAURANTE ALBERTO'S",
         "video": "https://www.youtube.com/embed/M6g5HmHJ_oo?feature=oembed",
-        "direccion": "Tepantongo #246, Reynosa Tamaulipas, Azcapotzalco",
+        "direccion": "C. Tepantongo 246, Reynosa Tamaulipas, Azcapotzalco, 02200 Ciudad de México, CDMX",
         "gmaps_id": "ChIJtx82pHb40YURdEVhuQNLHA4",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4950919%2C-99.1853687&query_place_id=ChIJtx82pHb40YURdEVhuQNLHA4",
@@ -822,7 +792,7 @@
     {
         "nombre": "CHICAGO BERNIE'S BEEF BIKE",
         "video": "https://www.youtube.com/embed/8eYgysqx3ps?feature=oembed",
-        "direccion": "Francisco Pimentel #14, col. San Rafael",
+        "direccion": "Ignacio Manuel Altamirano 86, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX",
         "gmaps_id": "ChIJhRguV-T50YUR8mM6i6wkrfc",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4372959%2C-99.1626763&query_place_id=ChIJhRguV-T50YUR8mM6i6wkrfc",
@@ -833,14 +803,14 @@
         "nombre": "RESTAURANTE TEMPORADA",
         "video": "https://www.youtube.com/embed/HEfpYOrl3yk?feature=oembed",
         "direccion": "Joaquín Velázquez de León #89, col. San Rafael",
-        "gmaps_id": "ChIJE2xb7lgBzoURbxa0EDhxzfI",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2962276%2C-99.1838894&query_place_id=ChIJE2xb7lgBzoURbxa0EDhxzfI",
-        "lat": 19.2962276,
-        "lng": -99.1838894
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
-        "nombre": "Srita. PIBIL",
+        "nombre": "SRITA. PIBIL",
         "video": "https://www.youtube.com/embed/7MLIsoyVzFM?feature=oembed",
         "direccion": "Miguel Laurent 75 - L34 Mercado, Tlacoquemecatl del Valle, Ciudad de México",
         "gmaps_id": "",
@@ -863,16 +833,16 @@
         "nombre": "AMASIJO PANADERÍA",
         "video": "https://www.youtube.com/embed/zmszKLysmy4",
         "direccion": "Caleta #554 Local A, col. Narvarte, Ciudad de México",
-        "gmaps_id": "ChIJnbbEeM3_0YURKJIVJNMJ6tw",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3959221%2C-99.1481094&query_place_id=ChIJnbbEeM3_0YURKJIVJNMJ6tw",
-        "lat": 19.3959221,
-        "lng": -99.1481094
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
-        "nombre": "DIINOS TACOS & ANTOJOS",
+        "nombre": "DIVINOS TACOS & ANTOJOS",
         "video": "https://www.youtube.com/embed/gM5YTlKfG2k",
-        "direccion": "Gabino Barreda #117 Local A, Col. San Rafael, Ciudad de México",
+        "direccion": "C. Gabino Barreda 117, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX",
         "gmaps_id": "ChIJB3ig2Eb50YURQ1uhMgFYNGw",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4361788%2C-99.16443989999999&query_place_id=ChIJB3ig2Eb50YURQ1uhMgFYNGw",
@@ -892,7 +862,7 @@
     {
         "nombre": "HAMBURGUESAS EL CABALLO DE TROYA RACING",
         "video": "https://www.youtube.com/embed/HcSaXfoAOdI",
-        "direccion": "Norte 33 #80, col. Moctezuma, 2ª sección, Ciudad de México",
+        "direccion": "Calle Norte 33 #80, col. Moctezuma, 2ª sección, Ciudad de México",
         "gmaps_id": "ChIJ_____wD80YURM0ujyI8Hn78",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4353616%2C-99.09295069999999&query_place_id=ChIJ_____wD80YURM0ujyI8Hn78",
@@ -912,7 +882,7 @@
     {
         "nombre": "AFROMENÚ",
         "video": "",
-        "direccion": "Oriente 184 362, col. Moctezuma 2ª Sección",
+        "direccion": "Calle Oriente 182 362b, Moctezuma 2da Secc, Venustiano Carranza, 15530 Ciudad de México, CDMX",
         "gmaps_id": "ChIJV20kA4D40YURRMvsLrXYUKw",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4323535%2C-99.0911084&query_place_id=ChIJV20kA4D40YURRMvsLrXYUKw",
@@ -922,7 +892,7 @@
     {
         "nombre": "PELIGRO AL FONDO",
         "video": "https://www.youtube.com/embed/cC06m4IIV6c",
-        "direccion": "Lerdo de Tejada #2170, col. Americana, Guadalajara, Jal.",
+        "direccion": "C. Miguel Lerdo de Tejada 2170, Col Americana, Americana, 44150 Guadalajara, Jal.",
         "gmaps_id": "ChIJ0xiPFA-uKIQRhCbICqAITMA",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=20.6715705%2C-103.3720119&query_place_id=ChIJ0xiPFA-uKIQRhCbICqAITMA",
@@ -932,7 +902,7 @@
     {
         "nombre": "TEJUINO MARCELINO",
         "video": "https://www.youtube.com/embed/2FwWGTdfY3M",
-        "direccion": "Joaquín Angulo #819, col. Capilla de Jesús, Guadalajara, Jalisco.",
+        "direccion": "C. Joaquin Angulo 819, Artesanos, 44200 Guadalajara, Jal.",
         "gmaps_id": "ChIJ-8JQCAaxKIQRFzg-VN4zNMQ",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=20.6818123%2C-103.3564723&query_place_id=ChIJ-8JQCAaxKIQRFzg-VN4zNMQ",
@@ -972,12 +942,12 @@
     {
         "nombre": "EL ESCAPULARIO",
         "video": "https://www.youtube.com/embed/wj_3MqDup6M",
-        "direccion": "García Vigil #617 altos, Centro, Oaxaca de Juárez, Oax.",
-        "gmaps_id": "ChIJlaTXnemJzYUR3Yi2iFfQ8pI",
+        "direccion": "C. de Manuel García Vigil 617, RUTA INDEPENDENCIA, Centro, 68000 Oaxaca de Juárez, Oax.",
+        "gmaps_id": "ChIJx2e5Ojwix4URbo17sHbAOco",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2940434%2C-99.6549081&query_place_id=ChIJlaTXnemJzYUR3Yi2iFfQ8pI",
-        "lat": 19.2940434,
-        "lng": -99.6549081
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=17.0676918%2C-96.72447969999999&query_place_id=ChIJx2e5Ojwix4URbo17sHbAOco",
+        "lat": 17.0676918,
+        "lng": -96.72447969999999
     },
     {
         "nombre": "MEXCAL “DEL AMIGO”",
@@ -1002,22 +972,12 @@
     {
         "nombre": "TLAYUDAS EL NEGRO",
         "video": "https://www.youtube.com/embed/cWUs65y5BJ0",
-        "direccion": "Av. Independencia # 310, Centro, Oaxaca de Juárez, Oax.",
-        "gmaps_id": "ChIJnxhIAUkix4URTVRIaXUAqes",
+        "direccion": "Av. de la Independencia 310, Zona Lunes Feb 09, Centro, 68000 Oaxaca de Juárez, Oax.",
+        "gmaps_id": "ChIJW1x72Skjx4URf1nmEKcQ6uc",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=17.0579319%2C-96.71444699999999&query_place_id=ChIJnxhIAUkix4URTVRIaXUAqes",
-        "lat": 17.0579319,
-        "lng": -96.71444699999999
-    },
-    {
-        "nombre": "FRUTAS CRISTALIZADAS",
-        "video": "https://www.youtube.com/embed/XTeo99eEHAQ",
-        "direccion": "Av. República Federal Sur, # 53, col. Santa Martha Acatitla",
-        "gmaps_id": "ChIJUT2szqv90YURLJN9by1-z7s",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4100695%2C-99.09223539999999&query_place_id=ChIJUT2szqv90YURLJN9by1-z7s",
-        "lat": 19.4100695,
-        "lng": -99.09223539999999
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=17.0625738%2C-96.72860879999999&query_place_id=ChIJW1x72Skjx4URf1nmEKcQ6uc",
+        "lat": 17.0625738,
+        "lng": -96.72860879999999
     },
     {
         "nombre": "BIRRIA DON CHUY",
@@ -1032,7 +992,7 @@
     {
         "nombre": "VAGO IMPERIAL CAFÉ",
         "video": "https://www.youtube.com/embed/Jm8JMzgrDic",
-        "direccion": "José Guadalupe Zuno #2143, Col. Lafayette, Guadalajara, Jal.",
+        "direccion": "C. José Guadalupe Zuno Hernández 2143, Col Americana, Obrera, 44140 Guadalajara, Jal.",
         "gmaps_id": "ChIJu-k0Tw-uKIQR3XxW3OI7ZRg",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=20.6702954%2C-103.371356&query_place_id=ChIJu-k0Tw-uKIQR3XxW3OI7ZRg",
@@ -1042,7 +1002,7 @@
     {
         "nombre": "TIERRADENTRO",
         "video": "https://www.youtube.com/embed/V3Tpca7ULKI",
-        "direccion": "Milán #22, Col. Juárez, Ciudad de México",
+        "direccion": "C. Milan 22, Juárez, Cuauhtémoc, 06600 Juárez, CDMX",
         "gmaps_id": "ChIJpwufhNr_0YUR8esEKvgd71w",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4305746%2C-99.156622&query_place_id=ChIJpwufhNr_0YUR8esEKvgd71w",
@@ -1092,7 +1052,7 @@
     {
         "nombre": "LA VASCONIA",
         "video": "https://www.youtube.com/embed/1JZ9n4qcI7I",
-        "direccion": "Tacuba #73, Centro Histórico",
+        "direccion": "C. de Tacuba 73, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06020 Ciudad de México, CDMX",
         "gmaps_id": "ChIJhcUobr340YUR71fklueZkmc",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4351212%2C-99.1351383&query_place_id=ChIJhcUobr340YUR71fklueZkmc",
@@ -1142,7 +1102,7 @@
     {
         "nombre": "BREMEN",
         "video": "https://www.youtube.com/embed/WgfliZLGQis",
-        "direccion": "San Simón #227, col. Santa María Insurgentes",
+        "direccion": "Calz San Simon 227, Santa María Insurgentes, Cuauhtémoc, 06430 Ciudad de México, CDMX",
         "gmaps_id": "ChIJ8dYcVeD40YUR901HMyIY3c0",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4591451%2C-99.1482193&query_place_id=ChIJ8dYcVeD40YUR901HMyIY3c0",
@@ -1172,17 +1132,17 @@
     {
         "nombre": "BAR BLANCA NIEVES",
         "video": "https://www.youtube.com/embed/WHvU8824qOs",
-        "direccion": "Av. Venustiano Carranza s/n, Centro, Tlacotalpan, Ver.",
-        "gmaps_id": "ChIJ9fq-YdH-0YURa3zaK7Gz8lc",
+        "direccion": "Centro, 95460 Tlacotalpan, Veracruz",
+        "gmaps_id": "ChIJyXYIIxdTwoURUCkwvlgMILI",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4273224%2C-99.13811469999999&query_place_id=ChIJ9fq-YdH-0YURa3zaK7Gz8lc",
-        "lat": 19.4273224,
-        "lng": -99.13811469999999
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=18.6117625%2C-95.6607052&query_place_id=ChIJyXYIIxdTwoURUCkwvlgMILI",
+        "lat": 18.6117625,
+        "lng": -95.6607052
     },
     {
         "nombre": "PANADERÍA EL RESOBADO",
         "video": "https://www.youtube.com/embed/p9lsZsk2Mh4",
-        "direccion": "Constitución #3, Centro, Coatepec, Ver.",
+        "direccion": "C. Constitución 3, Centro, 91500 Coatepec, Ver.",
         "gmaps_id": "ChIJC5aZxiMt24URwkABlcP1nUs",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4545031%2C-96.9578959&query_place_id=ChIJC5aZxiMt24URwkABlcP1nUs",
@@ -1192,22 +1152,22 @@
     {
         "nombre": "LA PARROQUIA DE VERACRUZ",
         "video": "https://www.youtube.com/embed/tEeJIgCnC7g",
-        "direccion": "Insurgentes Veracruzanos 340-3, col. Centro, Veracruz, México",
-        "gmaps_id": "ChIJ__dPkdL-0YUR0EWCs4_9qe4",
+        "direccion": "P.º Insurgentes Veracruzanos 340, Centro, 91700 Veracruz, Ver.",
+        "gmaps_id": "ChIJHziM9r5Gw4URIqgAQwdrP2c",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4313806%2C-99.135392&query_place_id=ChIJ__dPkdL-0YUR0EWCs4_9qe4",
-        "lat": 19.4313806,
-        "lng": -99.135392
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2012934%2C-96.1351332&query_place_id=ChIJHziM9r5Gw4URIqgAQwdrP2c",
+        "lat": 19.2012934,
+        "lng": -96.1351332
     },
     {
         "nombre": "LA ESTRELLA DE ORO",
         "video": "https://www.youtube.com/embed/mVQm5KoHLU8",
-        "direccion": "Constitución # 10, Centro, Coatepec, Ver.",
-        "gmaps_id": "ChIJJZCiN4L_0YURpyTVbNPFHW4",
+        "direccion": "C. Constitución 10, Centro, 91500 Coatepec, Ver.",
+        "gmaps_id": "ChIJE_MkwiMt24URj7G0PWyOsvs",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4166948%2C-99.1163955&query_place_id=ChIJJZCiN4L_0YURpyTVbNPFHW4",
-        "lat": 19.4166948,
-        "lng": -99.1163955
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4547714%2C-96.9576159&query_place_id=ChIJE_MkwiMt24URj7G0PWyOsvs",
+        "lat": 19.4547714,
+        "lng": -96.9576159
     },
     {
         "nombre": "COMEDOR ESCONDIDO",
@@ -1222,7 +1182,7 @@
     {
         "nombre": "SABORES DEL PERÚ",
         "video": "https://www.youtube.com/embed/3ODSMuQkdaA",
-        "direccion": "Juan José Eguiara y Eguren #69, col. Viaducto Piedad",
+        "direccion": "C. Juan José Eguiara y Eguren 69, Viaducto Piedad, Iztacalco, 08200 Ciudad de México, CDMX",
         "gmaps_id": "ChIJPY-sBe_-0YURuqbVBTTzYL0",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4015556%2C-99.13238860000001&query_place_id=ChIJPY-sBe_-0YURuqbVBTTzYL0",
@@ -1242,7 +1202,7 @@
     {
         "nombre": "CORAZONCITO HUASTECO",
         "video": "https://www.youtube.com/embed/eY53zXfgK30",
-        "direccion": "Juan Hernández y Dávalos #25, col. Algarín",
+        "direccion": "C. Juan E. Hernández y Davalos 25, Algarín, Cuauhtémoc, 06880 Ciudad de México, CDMX",
         "gmaps_id": "ChIJK0o3UuD-0YURDg_zr-N6zr8",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4066814%2C-99.1434063&query_place_id=ChIJK0o3UuD-0YURDg_zr-N6zr8",
@@ -1252,7 +1212,7 @@
     {
         "nombre": "TAQUERÍA LAS MUÑECAS",
         "video": "https://www.youtube.com/embed/6UAeyOT4qLQ",
-        "direccion": "Toltecas, MZ. 58 Lte. 3, col. Santo Domingo, Ciudad de México",
+        "direccion": "C. Toltecas 58, Pedregal de Santo Domingo, Coyoacán, 04369 Ciudad de México, CDMX",
         "gmaps_id": "ChIJOUaAXTwAzoURQI9675EWUro",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3222721%2C-99.16358749999999&query_place_id=ChIJOUaAXTwAzoURQI9675EWUro",
@@ -1272,7 +1232,7 @@
     {
         "nombre": "MAFALDA, RESTAURANTE ARGENTINO",
         "video": "https://www.youtube.com/embed/YmMgja1OxD8",
-        "direccion": "Hidalgo #10, col. Del Carmen, Coyoacán",
+        "direccion": "Av Miguel Hidalgo 2, San Lucas, Coyoacán, 04030 Ciudad de México, CDMX",
         "gmaps_id": "ChIJrRVBDc7_0YURS3A-_K_nLaU",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3513444%2C-99.15182279999999&query_place_id=ChIJrRVBDc7_0YURS3A-_K_nLaU",
@@ -1282,7 +1242,7 @@
     {
         "nombre": "KIIN THAI- VIET EATERY",
         "video": "https://www.youtube.com/embed/PLITJOvDhME",
-        "direccion": "Orizaba # 219, col. Roma Norte, CDMX",
+        "direccion": "Cda. Orizaba 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
         "gmaps_id": "ChIJd-U8b5L_0YUR5kyuCWshsYw",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4119958%2C-99.1583526&query_place_id=ChIJd-U8b5L_0YUR5kyuCWshsYw",
@@ -1292,7 +1252,7 @@
     {
         "nombre": "MARCEVA",
         "video": "https://www.youtube.com/embed/n5nfst9hU-g",
-        "direccion": "Calle Mariano Quevedo #17, Morelia, Mich.",
+        "direccion": "Tte. Mariano Quevedo 17, Mariano Michelena, 58195 Morelia, Mich.",
         "gmaps_id": "ChIJFzw7LhYMLYQR8qdf1GKs2sg",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.6757394%2C-101.2300853&query_place_id=ChIJFzw7LhYMLYQR8qdf1GKs2sg",
@@ -1333,11 +1293,11 @@
         "nombre": "BITUTE",
         "video": "https://www.youtube.com/embed/b7Jy9VtCI3w",
         "direccion": "Florencia #18, Col. Juárez, Ciudad de México",
-        "gmaps_id": "ChIJheovDCp2zoUR_cufcVWL6Ng",
+        "gmaps_id": "",
         "estado": "Cerrado temporalmente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=18.8229181%2C-99.1893733&query_place_id=ChIJheovDCp2zoUR_cufcVWL6Ng",
-        "lat": 18.8229181,
-        "lng": -99.1893733
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "PASTELERÍA LA MINIATURA",
@@ -1383,16 +1343,16 @@
         "nombre": "ASU MECHA",
         "video": "https://www.youtube.com/embed/84b6Li5Emls",
         "direccion": "Miguel Schultz #10 D, col. San Rafael",
-        "gmaps_id": "ChIJMe4YpAT_0YURzeOHxo30upA",
+        "gmaps_id": "",
         "estado": "Cerrado permanentemente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3771045%2C-99.1742711&query_place_id=ChIJMe4YpAT_0YURzeOHxo30upA",
-        "lat": 19.3771045,
-        "lng": -99.1742711
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "TACOS DE CANASTA “LA ABUELA”",
         "video": "https://www.youtube.com/embed/OjvvsTS945A",
-        "direccion": "Camino a Nextengo #137, col. Sta. Cruz Acayucan",
+        "direccion": "Calle Camino a Nextengo #137, col. Sta. Cruz Acayucan",
         "gmaps_id": "ChIJBQ9i-34C0oURUxz13I-l5IE",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4740387%2C-99.19262259999999&query_place_id=ChIJBQ9i-34C0oURUxz13I-l5IE",
@@ -1412,7 +1372,7 @@
     {
         "nombre": "TAQUERÍA 'LA CONSENTIDA'",
         "video": "https://www.youtube.com/embed/fUu7HwBP_6w",
-        "direccion": "Mercado Jorge Jiménez Cantú, Av. Del Valle Del Yang-Tse Local 186, Valle de Aragón 1ra Secc, 57100 Nezahualcóyotl, Méx.",
+        "direccion": "Interior del mercado Jorge Jiménez Cantú, Av Del Valle Del Yang - Tse 223, Valle de Aragon 1ra Secc, 57100 Nezahualcóyotl, Méx.",
         "gmaps_id": "ChIJHdOx4BP70YURMjC07iKEL04",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4911753%2C-99.0557341&query_place_id=ChIJHdOx4BP70YURMjC07iKEL04",
@@ -1422,7 +1382,7 @@
     {
         "nombre": "RESTAURANTE ALBA",
         "video": "https://www.youtube.com/embed/TCVk1GeKsuA",
-        "direccion": "Marsella 80, col. Juárez, del. Cuauhtémoc, C.P. 06600, Ciudad de México.",
+        "direccion": "Calle Marsella 80, col. Juárez, del. Cuauhtémoc, C.P. 06600, Ciudad de México.",
         "gmaps_id": "ChIJQ7PTnCQB0oUR3BM4Eyrbo_4",
         "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4246364%2C-99.16081249999999&query_place_id=ChIJQ7PTnCQB0oUR3BM4Eyrbo_4",
@@ -1452,7 +1412,7 @@
     {
         "nombre": "CAMINO A COMALA, CAFETERIA",
         "video": "https://www.youtube.com/embed/Et0QssSNddw",
-        "direccion": "Mariano Azuela 27, Santa María la Ribera, deleg. Cuauhtémoc, CP 06400, CDMX, México.",
+        "direccion": "Calle Amado Nervo 3, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
         "gmaps_id": "ChIJsb0jbND40YURqGXQnLNHEV4",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4429339%2C-99.1549773&query_place_id=ChIJsb0jbND40YURqGXQnLNHEV4",
@@ -1522,7 +1482,7 @@
     {
         "nombre": "FAT BOY MOVES",
         "video": "https://www.youtube.com/embed/h26zRhWKc14",
-        "direccion": "Tamaulipas #147, col. Hipódromo Condesa",
+        "direccion": "Avenida Tamaulipas #147, col. Hipódromo Condesa",
         "gmaps_id": "ChIJlbl19UL_0YURc-0obH7jD2c",
         "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4093424%2C-99.1761251&query_place_id=ChIJlbl19UL_0YURc-0obH7jD2c",
@@ -1532,22 +1492,12 @@
     {
         "nombre": "EL LECHÓN ILUSTRADO",
         "video": "https://www.youtube.com/embed/j4XqAGcQigQ",
-        "direccion": "Truco #5, col. Centro, Guanajuato",
+        "direccion": "Baratillo 11, Zona Centro, 36000 Guanajuato, Gto.",
         "gmaps_id": "ChIJ7z4t5wd0K4QRzTEomK-14Ms",
         "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=21.0165942%2C-101.2521084&query_place_id=ChIJ7z4t5wd0K4QRzTEomK-14Ms",
         "lat": 21.0165942,
         "lng": -101.2521084
-    },
-    {
-        "nombre": "BRASA RODIZIO DE PIZZAS",
-        "video": "https://www.youtube.com/embed/BOGV0aq1rRw",
-        "direccion": "Coahuila #148, Roma, Ciudad de México",
-        "gmaps_id": "ChIJARqEzYjHz4URkudeIdlYQxc",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.0634389%2C-98.3040307&query_place_id=ChIJARqEzYjHz4URkudeIdlYQxc",
-        "lat": 19.0634389,
-        "lng": -98.3040307
     },
     {
         "nombre": "PAN DE NUBE",
@@ -1563,16 +1513,16 @@
         "nombre": "SABOR DE LUNA, COMIDA PREHISPÁNICA",
         "video": "https://www.youtube.com/embed/-32bDXCU7Bs",
         "direccion": "Guadalupe I. Ramírez #180, col. San Marcos, Ciudad de México",
-        "gmaps_id": "ChIJle2Jwl4BzoURk17pOxlfmZs",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.2653951%2C-99.10502579999999&query_place_id=ChIJle2Jwl4BzoURk17pOxlfmZs",
-        "lat": 19.2653951,
-        "lng": -99.10502579999999
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "GIROFLE",
         "video": "https://www.youtube.com/embed/vLfl3tt4O7E",
-        "direccion": "2 ote. 15-b col. centro 72000 Puebla de Zaragoza, México",
+        "direccion": "Av 2 Ote 15-Local B, Centro histórico de Puebla, 72000 Puebla, Pue.",
         "gmaps_id": "ChIJJwI7B-fAz4URSGHwOUGf4Ss",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.0444233%2C-98.1969263&query_place_id=ChIJJwI7B-fAz4URSGHwOUGf4Ss",
@@ -1582,32 +1532,32 @@
     {
         "nombre": "LA PASITA",
         "video": "https://www.youtube.com/embed/8yfaOdY8OT4",
-        "direccion": "Av. 5 Oriente #602, Centro, Puebla de Zaragoza",
-        "gmaps_id": "ChIJJ4kFSgL90YURpuWdyecpfDc",
+        "direccion": "Av 5 Ote 602, Centro histórico de Puebla, 72000 Puebla, Pue.",
+        "gmaps_id": "ChIJR8EWm-jAz4URFlGENG9sZ7s",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3878306%2C-99.05016769999999&query_place_id=ChIJJ4kFSgL90YURpuWdyecpfDc",
-        "lat": 19.3878306,
-        "lng": -99.05016769999999
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.041068%2C-98.1958848&query_place_id=ChIJR8EWm-jAz4URFlGENG9sZ7s",
+        "lat": 19.041068,
+        "lng": -98.1958848
     },
     {
-        "nombre": "Sabores de San Pedro Cholula y Puebla",
+        "nombre": "LA NORBERTA",
         "video": "https://www.youtube.com/embed/fu1laxseKlU",
-        "direccion": "6 Norte #602, Barrio de Jesús Tlatempa, San Pedro Cholula",
-        "gmaps_id": "ChIJ7VzNWjTJz4URaMZd9Ja0iuI",
+        "direccion": "Calle 6 Nte. 602, Barrio de Jesús Tlatempa, 72760 San Andrés Cholula, Pue.",
+        "gmaps_id": "ChIJ8_mmuiXGz4URLrWRe5udRI0",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.0492889%2C-98.3098711&query_place_id=ChIJ7VzNWjTJz4URaMZd9Ja0iuI",
-        "lat": 19.0492889,
-        "lng": -98.3098711
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.0623273%2C-98.3012844&query_place_id=ChIJ8_mmuiXGz4URLrWRe5udRI0",
+        "lat": 19.0623273,
+        "lng": -98.3012844
     },
     {
         "nombre": "RESTAURANTE JAUJA",
         "video": "https://www.youtube.com/embed/aIhPrLpbUms",
         "direccion": "Irlanda #17, San Andrés Coyoacán",
-        "gmaps_id": "ChIJNzKLMdL40YURMmumfRkDFgQ",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4364653%2C-99.15003809999999&query_place_id=ChIJNzKLMdL40YURMmumfRkDFgQ",
-        "lat": 19.4364653,
-        "lng": -99.15003809999999
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "CAT CAFÉ DE LA GATERÍA",
@@ -1623,11 +1573,11 @@
         "nombre": "RESTAURANTE EL MIRÓN",
         "video": "https://www.youtube.com/watch?v=g7-mDZT1i1M&pp=ygUUZWwgbWlyw7NuIGl0aW5lcmFyaW8%3D",
         "direccion": "Salvador Díaz Mirón #147-C, col. Sta. María la Ribera",
-        "gmaps_id": "ChIJkQ6OLv350YURaUni3tAlahs",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4481279%2C-99.15425499999999&query_place_id=ChIJkQ6OLv350YURaUni3tAlahs",
-        "lat": 19.4481279,
-        "lng": -99.15425499999999
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "BRAVO LONCHERÍA",
@@ -1653,11 +1603,11 @@
         "nombre": "LE MAISON DE FAMILLE",
         "video": "www.youtube.com/embed/Ai40Yh0ST-o",
         "direccion": "Colima #152, col. Roma, Ciudad de México",
-        "gmaps_id": "ChIJ8ex7hUrErBIRj1gUM43aZGA",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=44.7998012%2C1.6184326&query_place_id=ChIJ8ex7hUrErBIRj1gUM43aZGA",
-        "lat": 44.7998012,
-        "lng": 1.6184326
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "LE PETIT RESTO",
@@ -1672,7 +1622,7 @@
     {
         "nombre": "BIRRIERÍAS EN LAS 9 ESQUINAS",
         "video": "www.youtube.com/embed/1yQ39kH-cLg",
-        "direccion": "Plaza de las 9 esquinas, Centro, Guadalajara, Jal.",
+        "direccion": "C. Colón 384, Zona Centro, 44100 Guadalajara, Jal.",
         "gmaps_id": "ChIJSYBc7PmxKIQRr7dE1qkQKkU",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=20.6706857%2C-103.348513&query_place_id=ChIJSYBc7PmxKIQRr7dE1qkQKkU",
@@ -1683,16 +1633,16 @@
         "nombre": "VINÍCOLA URBANA",
         "video": "www.youtube.com/embed/ozxJf9rv0SA",
         "direccion": "Presidente Masaryk #29, Polanco",
-        "gmaps_id": "ChIJpy7D0az40YURttiGkQjYC3E",
+        "gmaps_id": "",
         "estado": "Cerrado permanentemente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.382513%2C-99.2531281&query_place_id=ChIJpy7D0az40YURttiGkQjYC3E",
-        "lat": 19.382513,
-        "lng": -99.2531281
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "CASA MERLOS",
         "video": "www.youtube.com/embed/Le76dKWiesw",
-        "direccion": "Victoriano Zepeda no. 80, col. Observatorio, Ciudad de México",
+        "direccion": "C. Gral. Victoriano Zepeda 80, Observatorio, Miguel Hidalgo, 11860 Ciudad de México, CDMX",
         "gmaps_id": "ChIJZbtxwd0B0oURxleYUjCVgyU",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4049084%2C-99.1965597&query_place_id=ChIJZbtxwd0B0oURxleYUjCVgyU",
@@ -1703,11 +1653,11 @@
         "nombre": "RESTAURANTE “CAFÉ GOURMET” - COMIDA IRANÍ",
         "video": "www.youtube.com/embed/JeP_GcthwYQ",
         "direccion": "Tomás Alva Edison no. 95, col. Tabacalera",
-        "gmaps_id": "ChIJD1ti-a__0YURw9oZ313AU7A",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.373903%2C-99.15631409999999&query_place_id=ChIJD1ti-a__0YURw9oZ313AU7A",
-        "lat": 19.373903,
-        "lng": -99.15631409999999
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "ESCONDITE",
@@ -1722,7 +1672,7 @@
     {
         "nombre": "COMEDOR VEGETARIANO KRISHNA",
         "video": "www.youtube.com/embed/XrL11YGeT1o",
-        "direccion": "Tiburcio Montiel #45, col. San Miguel Chapultepec",
+        "direccion": "Gobernador Tiburcio Montiel 45 Col, San Miguel Chapultepec I Secc, Miguel Hidalgo, 11850 Ciudad de México, CDMX",
         "gmaps_id": "ChIJnwoegln_0YURJ6jmfv7B8yI",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4129661%2C-99.1858637&query_place_id=ChIJnwoegln_0YURJ6jmfv7B8yI",
@@ -1753,26 +1703,26 @@
         "nombre": "RESTAURANTE CHAMULAS",
         "video": "http://www.youtube.com/embed/h30xYSxnIzE",
         "direccion": "Bolívar #438, col. Obrera",
-        "gmaps_id": "ChIJJR0fURv_0YUR9GsU5vzYCno",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3984989%2C-99.15132489999999&query_place_id=ChIJJR0fURv_0YUR9GsU5vzYCno",
-        "lat": 19.3984989,
-        "lng": -99.15132489999999
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
-        "nombre": "BAR LILITH",
+        "nombre": "BAR LILIT",
         "video": "http://www.youtube.com/embed/B1UGZiC1MdA",
         "direccion": "Orizaba #125, int. E, col. Roma, Ciudad de México",
-        "gmaps_id": "ChIJybWW9n390YURw3lk-YI8eOc",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4106769%2C-99.08325900000001&query_place_id=ChIJybWW9n390YURw3lk-YI8eOc",
-        "lat": 19.4106769,
-        "lng": -99.08325900000001
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "RESTAURANTE BAR COMICX",
         "video": "http://www.youtube.com/embed/EhUQejo2USw",
-        "direccion": "Av. Santa Fe #94, col. Santa Fe, Distrito Federal",
+        "direccion": "Eje 1 Nte. 259, Buenavista, Cuauhtémoc, 06350 Ciudad de México, CDMX",
         "gmaps_id": "ChIJge_h5Nv40YURmjwxHgr2Vz0",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4505653%2C-99.1512006&query_place_id=ChIJge_h5Nv40YURmjwxHgr2Vz0",
@@ -1782,7 +1732,7 @@
     {
         "nombre": "MUSEO DEL CHOCOLATE",
         "video": "http://www.youtube.com/embed/S-jRWrs8x1U",
-        "direccion": "Milán #45 esq. Roma, col. Juárez, Ciudad de México",
+        "direccion": "C. Milan 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
         "gmaps_id": "ChIJfbxVhjL_0YURCiDlh4xnSpM",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4294473%2C-99.15723369999999&query_place_id=ChIJfbxVhjL_0YURCiDlh4xnSpM",
@@ -1792,7 +1742,7 @@
     {
         "nombre": "POZOLERÍA LOS TOLUCOS",
         "video": "",
-        "direccion": "Hernández y Dávalos #40, col. Algarín",
+        "direccion": "C. Juan E. Hernández y Davalos 40, Algarín, Cuauhtémoc, 06880 Ciudad de México, CDMX",
         "gmaps_id": "ChIJz3Kw_uD-0YURQ_sDPVeDXfs",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4068473%2C-99.1425524&query_place_id=ChIJz3Kw_uD-0YURQ_sDPVeDXfs",
@@ -1802,7 +1752,7 @@
     {
         "nombre": "RESTAURANTE “CON SABOR A TIXTLA”",
         "video": "https://www.youtube.com/watch?v=5xuw8O-MbNY&pp=ygUj4oCcQ09OIFNBQk9SIEEgVElYVExB4oCdIGl0aW5lcmFyaW8%3D",
-        "direccion": "Chiapas # 206, entre Manzanillo y Medellín, col. Roma, Ciudad de México",
+        "direccion": "C. de Chiapas 206, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
         "gmaps_id": "ChIJneg9uT__0YURFpcFa7jLc5g",
         "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4116387%2C-99.1657027&query_place_id=ChIJneg9uT__0YURFpcFa7jLc5g",
@@ -1833,11 +1783,11 @@
         "nombre": "RINCÓN UKRANIANO",
         "video": "https://www.youtube.com/embed/Q5DS9SU9gB0",
         "direccion": "Diagonal San Antonio #1513, col. Narvarte",
-        "gmaps_id": "ChIJ2xD7Lhv_0YURRgCDjx86ssM",
+        "gmaps_id": "",
         "estado": "Cerrado permanentemente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3665276%2C-99.1668392&query_place_id=ChIJ2xD7Lhv_0YURRgCDjx86ssM",
-        "lat": 19.3665276,
-        "lng": -99.1668392
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "EL MOUSTRON NARVARTE",
@@ -1872,7 +1822,7 @@
     {
         "nombre": "RESTAURANTE FRITZ",
         "video": "https://www.youtube.com/embed/cnNGmixokOg",
-        "direccion": "Av. Dr. Río de la Loza 221, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX",
+        "direccion": "Avenida Doctor Río de la Loza 221, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX",
         "gmaps_id": "ChIJo2qXsy7_0YURgS65Rp3YrAE",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.425835%2C-99.15138759999999&query_place_id=ChIJo2qXsy7_0YURgS65Rp3YrAE",
@@ -2022,12 +1972,12 @@
     {
         "nombre": "GALERA",
         "video": "https://www.youtube.com/embed/VLTgYGJ93l4",
-        "direccion": "Dr. Carmona y Valle #147, col. Doctores",
-        "gmaps_id": "ChIJIWpK4vj_0YURDUx_--PvZAs",
+        "direccion": "Calle Dr. Carmona y Valle 147, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX",
+        "gmaps_id": "",
         "estado": "Cerrado permanentemente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4201101%2C-99.1533343&query_place_id=ChIJIWpK4vj_0YURDUx_--PvZAs",
-        "lat": 19.4201101,
-        "lng": -99.1533343
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "RESTAURANTE AMALIA",
@@ -2070,6 +2020,16 @@
         "lng": -99.16610849999999
     },
     {
+        "nombre": "TECATITLÁN",
+        "video": "https://www.youtube.com/embed/XNWs3ls6vxM?feature=oembed",
+        "direccion": "C. Nogal 12, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
+        "gmaps_id": "ChIJuanvKsb40YURYNVDmHoNHyk",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4437416%2C-99.1649126&query_place_id=ChIJuanvKsb40YURYNVDmHoNHyk",
+        "lat": 19.4437416,
+        "lng": -99.1649126
+    },
+    {
         "nombre": "NAAN",
         "video": "https://www.youtube.com/embed/BI2_ocvfPCY",
         "direccion": "Entrada por Jardín Mascarones, Santa María La Ribera 12, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
@@ -2080,13 +2040,23 @@
         "lng": -99.15874
     },
     {
-        "nombre": "TECATITLÁN",
-        "video": "https://www.youtube.com/embed/XNWs3ls6vxM?feature=oembed",
-        "direccion": "C. Nogal 12, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
-        "gmaps_id": "ChIJuanvKsb40YURYNVDmHoNHyk",
+        "nombre": "TAQUERÍA NORMA RUELAS",
+        "video": "https://youtu.be/GzUyU8mW7Dk",
+        "direccion": "Fidel Velázquez, 24023 Campeche",
+        "gmaps_id": "ChIJTQGqWdQw-IUR225TjSZsTRs",
         "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4437416%2C-99.1649126&query_place_id=ChIJuanvKsb40YURYNVDmHoNHyk",
-        "lat": 19.4437416,
-        "lng": -99.1649126
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.8712981%2C-90.49051229999999&query_place_id=ChIJTQGqWdQw-IUR225TjSZsTRs",
+        "lat": 19.8712981,
+        "lng": -90.49051229999999
+    },
+    {
+        "nombre": "MEGA ANTOJITOS MEXICANOS MARTÍNEZ",
+        "video": "https://www.youtube.com/embed/8vIO6e2EcZk?feature=oembed",
+        "direccion": "Playa Condesa 218, Granjas Ecatepec, 55029 Ecatepec de Morelos, Méx.",
+        "gmaps_id": "ChIJrRP-Qanz0YURKe90F3CD9rI",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.65420139999999%2C-99.0732046&query_place_id=ChIJrRP-Qanz0YURKe90F3CD9rI",
+        "lat": 19.65420139999999,
+        "lng": -99.0732046
     }
 ]

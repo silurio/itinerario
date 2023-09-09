@@ -1313,11 +1313,11 @@
         "nombre": "HELADOS MAQUIXCO",
         "video": "https://www.youtube.com/embed/molxbtaM4NA",
         "direccion": "Bahía de Santa Bárbara #102 A, Col. Verónica Anzures",
-        "gmaps_id": "ChIJ0yqeJAbr0YURiGYrmY2v3_o",
+        "gmaps_id": "",
         "estado": "Cerrado temporalmente",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.685445%2C-98.890833&query_place_id=ChIJ0yqeJAbr0YURiGYrmY2v3_o",
-        "lat": 19.685445,
-        "lng": -98.890833
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "TACOS “LA MORENA”",

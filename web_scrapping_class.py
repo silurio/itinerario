@@ -317,19 +317,23 @@ class WebScrapping:
                         
                         # Verifica si la dirección registrada coincide con la del sitio localizado en Maps
                         if 'address_components' in business_status['result']:
-                            dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
-                                            if any(valor in dicc['types'] for valor in self.calle)].pop()
-                            
-                            address = unidecode(sitio['direccion'].lower())
-                            
-                            if unidecode(dicc_encontrado['long_name'].lower()) in address or \
-                                unidecode(dicc_encontrado['short_name'].lower()) in address:
-                                pass
-                            else:
-                                print("El sitio {} tiene una dirección distinta".format(sitio['nombre']))
-                                restaurantes_direcciones_diferentes.append(sitio['nombre'] + ': ' + sitio['direccion'])
-                                restaurantes_direcciones_diferentes.append(dicc_encontrado['long_name'] + ', '
-                                                                           + dicc_encontrado['short_name'])                              
+                            try:
+                                dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
+                                                if any(valor in dicc['types'] for valor in self.calle)].pop()
+                                
+                                address = unidecode(sitio['direccion'].lower())
+                                
+                                if unidecode(dicc_encontrado['long_name'].lower()) in address or \
+                                    unidecode(dicc_encontrado['short_name'].lower()) in address:
+                                    pass
+                                else:
+                                    print("El sitio {} tiene una dirección distinta".format(sitio['nombre']))
+                                    restaurantes_direcciones_diferentes.append(sitio['nombre'] + ': ' + sitio['direccion'])
+                                    restaurantes_direcciones_diferentes.append(dicc_encontrado['long_name'] + ', '
+                                                                            + dicc_encontrado['short_name'])   
+                            except:
+                                # print(business_status['result']['address_components'])
+                                print(f"An error occurred: {sys.exc_info()}")                           
                             
                     # print(sitio)
                 except:
@@ -499,7 +503,7 @@ class WebScrapping:
     def obtener_place_id_direccion(self):
         """
         Este método obtiene la información restante de un sitio
-        que sólo tiene su dirección y la URL de recomendación
+        que sólo tiene su nombre y la URL de recomendación
 
         Args: 
         Returns:

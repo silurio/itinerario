@@ -6,7 +6,11 @@ instanceWS.get_urls_data()
 instanceWS.obtener_info_restaurante()
 instanceWS.generacion_masiva_urls()
 
-# instanceWS.corrector_sitios(["SOPES DE LA OBRERA", "PARRILLADA Y PIZZERIA URUGUAYA QUE ASADO", "COREANA CHICKEN", "ENAK INDONESIAN RESTAURANT(BY ANGEL'S KITCHEN)", "TALLER DE PASTELES", "NIGHTMARES"])
-# instanceWS.obtener_place_id_direccion()
+"""
+instanceWS.corrector_sitios(["MASIOSARE", "CATFECITO", "GLACIAR", "RESTAURANTE EL PORVENIR", 
+                            "CACHETADAS DON PANCHO Y DOÑA ALE", "TORTAS DE LA BARDA RENÉ", "GLACIAR: LIBROS HELADOS",
+                            "BOCADIPAN", "OPPA", "GUIE' HUINI", "BIRRIOSA", "LA NEZIA CAFÉ"])
+instanceWS.obtener_place_id_direccion()
+"""
 
 instanceWS.from_json_to_csv()

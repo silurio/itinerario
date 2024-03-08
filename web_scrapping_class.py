@@ -316,7 +316,7 @@ class WebScrapping:
                             # print(sitio['estado'])
                         
                         # Verifica si la dirección registrada coincide con la del sitio localizado en Maps
-                        if 'address_components' in business_status['result']:
+                        if 'address_components' in business_status['result'] and sitio['estado'] != 'Cerrado permanentemente':
                             try:
                                 dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
                                                 if any(valor in dicc['types'] for valor in self.calle)].pop()
@@ -337,9 +337,9 @@ class WebScrapping:
                             
                     # print(sitio)
                 except:
-                    exc_type, exc_value = sys.exc_info()
-                    print(f"An error occurred: {exc_type.__name__}: {exc_value}")
                     print("El sitio {} tiene un place ID caduco".format(sitio['nombre']))
+                    exc_type, exc_value, exc_traceback = sys.exc_info()
+                    print(f"An error occurred with place ID: {exc_type.__name__}: {exc_value}")
                     restaurantes_place_ids_caducos.append(sitio['nombre'])
                 
             # Si el restaurante tiene varios place_id
@@ -353,6 +353,9 @@ class WebScrapping:
         if len(restaurantes_place_ids_caducos) > 0:
             with open('assets/place_ids_caducos.txt', 'w', encoding="utf-8") as caducos:
                 caducos.writelines(line + '\n' for line in restaurantes_place_ids_caducos)
+        else:
+            with open('assets/place_ids_caducos.txt', 'w'):
+                pass
         
         # Almacena los restaurantes con direcciones distintas, entre la de Itinerario y Maps,
         # en un archivo de texto, el cual se sobrescribirá en la sig. ejecución
@@ -360,6 +363,9 @@ class WebScrapping:
             with open('assets/direcciones_distintas.txt', 'w', encoding="utf-8") as distintas:
                 distintas.writelines(line + "\n\n" if i % 2 == 1 else line + "\n" 
                                      for i, line in enumerate(restaurantes_direcciones_diferentes))
+        else:
+            with open('assets/direcciones_distintas.txt', 'w'):
+                pass
         
         # Almacena el estado actualizado de todos los restaurantes en el archivo restaurantes.json
         with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
@@ -436,19 +442,24 @@ class WebScrapping:
                     sitio['enlace_google_maps'] = ""
                     
                 if 'address_components' in business_status['result']:
-                    dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
-                                    if any(valor in dicc['types'] for valor in self.calle)].pop()
-                    
-                    address = unidecode(sitio['direccion'].lower())
-                    print(address)
-                    print(unidecode(dicc_encontrado['long_name'].lower()))
-                    print(unidecode(dicc_encontrado['short_name'].lower()))
-                          
-                    if unidecode(dicc_encontrado['long_name'].lower()) in address or \
-                        unidecode(dicc_encontrado['short_name'].lower()) in address:
-                        pass
-                    else:
-                        print("El sitio {} tiene una dirección distinta".format(sitio['nombre']) + "\n\n")
+                    try:
+                        dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
+                                        if any(valor in dicc['types'] for valor in self.calle)].pop()
+                        
+                        address = unidecode(sitio['direccion'].lower())
+                        print(address)
+                        print(unidecode(dicc_encontrado['long_name'].lower()))
+                        print(unidecode(dicc_encontrado['short_name'].lower()))
+                            
+                        if unidecode(dicc_encontrado['long_name'].lower()) in address or \
+                            unidecode(dicc_encontrado['short_name'].lower()) in address:
+                            pass
+                        else:
+                            print("El sitio {} tiene una dirección distinta".format(sitio['nombre']) + "\n\n")
+                    except:
+                        print("El sitio {} tiene problema con los componentes de la dirección".format(sitio['nombre']))
+                        exc_type, exc_value, exc_traceback = sys.exc_info()
+                        print(f"An error occurred with address_components: {exc_type.__name__}: {exc_value}")
 
         # Si el restaurante tiene varios place_id
         elif not esString:
@@ -526,23 +537,28 @@ class WebScrapping:
         if len(restaurantes_por_actualizar) > 0:
             for sitio in restaurantes_por_actualizar:
                 # Busca el sitio en Google Maps por nombre
-                rest = gmaps.find_place(input=sitio['nombre'], input_type='textquery')
-                
-                print(sitio['nombre'])
-                
-                # Obtiene los posibles place IDs, de Google Maps, del sitio
-                places_ids = [candidate['place_id'] for candidate in rest['candidates']]
-                # Si existe un sólo ID para el sitio
-                if len(places_ids) == 1:
-                    # Saca el ID del arreglo y lo coloca en la propiedad gmaps_id
-                    id = places_ids.pop()
-                    detalles = gmaps.place(place_id=id, fields=['formatted_address'])
-                    sitio['gmaps_id'] = id
+                if sitio['gmaps_id'] == "":
+                    rest = gmaps.find_place(input=sitio['nombre'], input_type='textquery')
+                    
+                    print(sitio['nombre'])
+                    
+                    # Obtiene los posibles place IDs, de Google Maps, del sitio
+                    places_ids = [candidate['place_id'] for candidate in rest['candidates']]
+                    # Si existe un sólo ID para el sitio
+                    if len(places_ids) == 1:
+                        # Saca el ID del arreglo y lo coloca en la propiedad gmaps_id
+                        id = places_ids.pop()
+                        detalles = gmaps.place(place_id=id, fields=['formatted_address'])
+                        sitio['gmaps_id'] = id
+                        sitio['direccion'] = detalles['result']['formatted_address']
+                        self.agregar_coordenadas_estado_url(sitio)
+                    else:
+                        # Agrega el arreglo de IDs a la propiedad gmaps_id
+                        sitio['gmaps_id'] = places_ids
+                else:
+                    detalles = gmaps.place(place_id=sitio['gmaps_id'], fields=['formatted_address'])
                     sitio['direccion'] = detalles['result']['formatted_address']
                     self.agregar_coordenadas_estado_url(sitio)
-                else:
-                    # Agrega el arreglo de IDs a la propiedad gmaps_id
-                    sitio['gmaps_id'] = places_ids
             
             todos = restaurantes + restaurantes_por_actualizar
             

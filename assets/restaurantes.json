@@ -144,7 +144,7 @@
         "video": "https://www.youtube.com/embed/3srcYZlxJGw?feature=oembed",
         "direccion": "Isabel La Católica 423, Obrera, Cuauhtémoc, 06800 Ciudad de México",
         "gmaps_id": "ChIJx2kOeS7_0YURkvdVk6Sqp9w",
-        "estado": "Cerrado temporalmente",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4114963%2C-99.14023379999999&query_place_id=ChIJx2kOeS7_0YURkvdVk6Sqp9w",
         "lat": 19.4114963,
         "lng": -99.14023379999999
@@ -244,7 +244,7 @@
         "video": "https://www.youtube.com/embed/8C6G0xNIXgo?feature=oembed",
         "direccion": "Callejón San Antonio Abad 106, col. Esperanza",
         "gmaps_id": "ChIJDz5SGMb-0YURg1WrYGrldSs",
-        "estado": "Cerrado temporalmente",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4213161%2C-99.1277849&query_place_id=ChIJDz5SGMb-0YURg1WrYGrldSs",
         "lat": 19.4213161,
         "lng": -99.1277849
@@ -442,7 +442,7 @@
     {
         "nombre": "KYRIE VASILI",
         "video": "https://www.youtube.com/embed/p3RbF-QPFGM?feature=oembed",
-        "direccion": "Conmutador 92, Amp Sinatel, Iztapalapa, 09479 Ciudad de México, CDMX",
+        "direccion": "Eje Central Lázaro Cárdenas 866-loc. A, Niños Heroes de Chapultepec, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX",
         "gmaps_id": "ChIJtRY4PKb_0YURH8_uZsXm0xg",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.384821%2C-99.1470638&query_place_id=ChIJtRY4PKb_0YURH8_uZsXm0xg",
@@ -474,7 +474,7 @@
         "video": "https://www.youtube.com/embed/bl6JXrme_Jg?feature=oembed",
         "direccion": "Campos Elíseos 295, IV, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
         "gmaps_id": "ChIJbV9hS77_0YUR_Z6-2uHzYLA",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.42720389999999%2C-99.19716240000001&query_place_id=ChIJbV9hS77_0YUR_Z6-2uHzYLA",
         "lat": 19.42720389999999,
         "lng": -99.19716240000001
@@ -622,7 +622,7 @@
     {
         "nombre": "MAIZAJO",
         "video": "https://www.youtube.com/embed/rgce7fCj4nU?feature=oembed",
-        "direccion": "Soledad #556, El Jaguey, Azcapotzalco",
+        "direccion": "Fernando Montes de Oca 113, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
         "gmaps_id": "ChIJXbwmJ2b40YURmtGpCDJwN9Q",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.41484549999999%2C-99.178128&query_place_id=ChIJXbwmJ2b40YURmtGpCDJwN9Q",
@@ -934,7 +934,7 @@
         "video": "https://www.youtube.com/embed/Uy0PPmHWMtk",
         "direccion": "Azalea # 39, Xaltocan, Xochimilco",
         "gmaps_id": "ChIJeUIbKjX30YURPLpIihCWTJ0",
-        "estado": "En operaciones",
+        "estado": "Cerrado temporalmente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.5360293%2C-99.1837633&query_place_id=ChIJeUIbKjX30YURPLpIihCWTJ0",
         "lat": 19.5360293,
         "lng": -99.1837633
@@ -1096,8 +1096,8 @@
         "gmaps_id": "ChIJH1_pb7DhzYURGqU3A7U9bxc",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.0108675%2C-99.2300176&query_place_id=ChIJH1_pb7DhzYURGqU3A7U9bxc",
-        "lat": 19.0108675,
-        "lng": -99.2300176
+        "lat": 19.0143631,
+        "lng": -99.223472
     },
     {
         "nombre": "BREMEN",
@@ -1236,8 +1236,8 @@
         "gmaps_id": "ChIJrRVBDc7_0YURS3A-_K_nLaU",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3512929%2C-99.1519582&query_place_id=ChIJrRVBDc7_0YURS3A-_K_nLaU",
-        "lat": 19.3512929,
-        "lng": -99.1519582
+        "lat": 19.3513828,
+        "lng": -99.15174379999999
     },
     {
         "nombre": "KIIN THAI- VIET EATERY",
@@ -1432,12 +1432,12 @@
     {
         "nombre": "MARI'S PATRY, PATISSERÍA FINA JAPONESA",
         "video": "https://www.youtube.com/embed/MGvdftzxPGs",
-        "direccion": "Heriberto Frías 438# col. Narvarte Poniente",
+        "direccion": "Av. Coyoacán 1110, Col del Valle Sur, Benito Juárez, 03140 Benito Juárez, CDMX",
         "gmaps_id": "ChIJq46vTA7_0YUR8pVYIkac2jo",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3948439%2C-99.159538&query_place_id=ChIJq46vTA7_0YUR8pVYIkac2jo",
-        "lat": 19.3948439,
-        "lng": -99.159538
+        "lat": 19.378052,
+        "lng": -99.16926240000001
     },
     {
         "nombre": "BELLO CAFÉ",
@@ -1816,8 +1816,8 @@
         "gmaps_id": "ChIJkyaxLv7-0YURjUZwwKV1A3s",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.38908799999999%2C-99.145206&query_place_id=ChIJkyaxLv7-0YURjUZwwKV1A3s",
-        "lat": 19.38908799999999,
-        "lng": -99.145206
+        "lat": 19.3889736,
+        "lng": -99.1452264
     },
     {
         "nombre": "RESTAURANTE FRITZ",
@@ -1842,12 +1842,12 @@
     {
         "nombre": "TAMALITO CORAZÓN",
         "video": "https://www.youtube.com/embed/yivfPavVzb0",
-        "direccion": "Av. Cuauhtémoc 1, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+        "direccion": "Chihuahua 1, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
         "gmaps_id": "ChIJF9iLDiX_0YURrBXdxbazStE",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4186536%2C-99.154423&query_place_id=ChIJF9iLDiX_0YURrBXdxbazStE",
-        "lat": 19.4186536,
-        "lng": -99.154423
+        "lat": 19.4186521,
+        "lng": -99.1544583
     },
     {
         "nombre": "LA CHIVA TORTAS AHOGADAS",
@@ -1926,8 +1926,8 @@
         "gmaps_id": "ChIJfWXBQYLq0YURmo9tFpvJcBI",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.691523%2C-98.83774269999999&query_place_id=ChIJfWXBQYLq0YURmo9tFpvJcBI",
-        "lat": 19.691523,
-        "lng": -98.83774269999999
+        "lat": 19.6914331,
+        "lng": -98.8377738
     },
     {
         "nombre": "ROJO Y NEGRO",
@@ -1966,8 +1966,8 @@
         "gmaps_id": "ChIJkwKoOaDq0YURApihpY0Jcks",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.7088697%2C-98.8380845&query_place_id=ChIJkwKoOaDq0YURApihpY0Jcks",
-        "lat": 19.7088697,
-        "lng": -98.8380845
+        "lat": 19.708945,
+        "lng": -98.83816449999999
     },
     {
         "nombre": "GALERA",
@@ -2168,5 +2168,115 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3944954%2C-99.1654557&query_place_id=ChIJjVHvCCr_0YURIOl0jCcYthA",
         "lat": 19.3944954,
         "lng": -99.1654557
+    },
+    {
+        "nombre": "MASIOSARE",
+        "video": "https://www.youtube.com/watch?v=ByeMxMsuam4",
+        "direccion": "Felipe Carrillo Puerto 50, Coyoacán, 04000 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJk5oCkP7_0YURzwtrKvOfKHw",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3469852%2C-99.16345369999999&query_place_id=ChIJk5oCkP7_0YURzwtrKvOfKHw",
+        "lat": 19.3469852,
+        "lng": -99.16345369999999
+    },
+    {
+        "nombre": "CATFECITO",
+        "video": "https://www.youtube.com/watch?v=OJm-i9cluSg",
+        "direccion": "Baja California 266. Col. Hipódromo Condesa, Colonia Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJAbwb-Gr_0YURK1H6BIQIMCc",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4057416%2C-99.17042599999999&query_place_id=ChIJAbwb-Gr_0YURK1H6BIQIMCc",
+        "lat": 19.4057416,
+        "lng": -99.17042599999999
+    },
+    {
+        "nombre": "CACHETADAS DON PANCHO Y DOÑA ALE",
+        "video": "https://www.youtube.com/watch?v=f2nqdPe18xk",
+        "direccion": "C. Topiltzin 1010, Barandillas, 89180 Tampico, Tamps., Mexico",
+        "gmaps_id": "ChIJkVjpL0j314URl1AMQYtDcKg",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=22.2336505%2C-97.85818049999999&query_place_id=ChIJkVjpL0j314URl1AMQYtDcKg",
+        "lat": 22.2336505,
+        "lng": -97.85818049999999
+    },
+    {
+        "nombre": "TORTAS DE LA BARDA RENÉ",
+        "video": "https://www.youtube.com/watch?v=0BsyHnpx4hk",
+        "direccion": "TORTAS DE LA BARDA, Héroe de Nacozari SN-S, Zona Centro, 89000 Tampico, Tamps., Mexico",
+        "gmaps_id": "ChIJVQaUGTn314UR9xIgkeXD6nc",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=22.2119359%2C-97.85754469999999&query_place_id=ChIJVQaUGTn314UR9xIgkeXD6nc",
+        "lat": 22.2119359,
+        "lng": -97.85754469999999
+    },
+    {
+        "nombre": "BOCADIPAN",
+        "video": "https://www.youtube.com/watch?v=vLzXxrB5eVk",
+        "direccion": "Salvador Díaz Mirón 115, Zona Centro, 89000 Tampico, Tamps., Mexico",
+        "gmaps_id": "ChIJcwlKbHf314URx59C224jH5M",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=22.2160194%2C-97.8590887&query_place_id=ChIJcwlKbHf314URx59C224jH5M",
+        "lat": 22.2160194,
+        "lng": -97.8590887
+    },
+    {
+        "nombre": "GUIE' HUINI",
+        "video": "https://www.youtube.com/watch?v=6OUZzAz9vq4",
+        "direccion": "Tepalcatitlan & Romulo Escobar, Industrial, Gustavo A. Madero, 07800 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ7z-AdEP50YUR4omsE1e1f2E",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.47611419999999%2C-99.1266545&query_place_id=ChIJ7z-AdEP50YUR4omsE1e1f2E",
+        "lat": 19.47611419999999,
+        "lng": -99.1266545
+    },
+    {
+        "nombre": "BIRRIOSA",
+        "video": "https://www.youtube.com/watch?v=c6YcUJGV2s0",
+        "direccion": "C. Dr. Enrique González Martínez 13, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJJ3Tnt-b50YURJrRfzePu4T0",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4409056%2C-99.1565892&query_place_id=ChIJJ3Tnt-b50YURJrRfzePu4T0",
+        "lat": 19.4409056,
+        "lng": -99.1565892
+    },
+    {
+        "nombre": "LA NEZIA CAFÉ",
+        "video": "https://www.youtube.com/watch?v=GAjlmRLQmA4",
+        "direccion": "07650, Progreso Nacional 169, Ampliación Progreso Nacional, Gustavo A. Madero, 07650 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJaVOtxyX40YURBnQaISidjis",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.5195152%2C-99.1589137&query_place_id=ChIJaVOtxyX40YURBnQaISidjis",
+        "lat": 19.5195152,
+        "lng": -99.1589137
+    },
+    {
+        "nombre": "RESTAURANTE EL PORVENIR",
+        "video": "https://www.youtube.com/watch?v=0G88BKkCpsQ",
+        "direccion": "Herreros & Tipografía 118, Herreros, Venustiano Carranza, 15340 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJi1zxYHL50YURVOQg98mRd1Y",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.439521%2C-99.1129392&query_place_id=ChIJi1zxYHL50YURVOQg98mRd1Y",
+        "lat": 19.439521,
+        "lng": -99.1129392
+    },
+    {
+        "nombre": "GLACIAR: LIBROS HELADOS",
+        "video": "https://www.youtube.com/watch?v=dyS4Y-gIufc",
+        "direccion": "C. Alfonso Herrera 35-local C, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ418M7jD50YURgs5L5kDxlug",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.439621%2C-99.1604043&query_place_id=ChIJ418M7jD50YURgs5L5kDxlug",
+        "lat": 19.439621,
+        "lng": -99.1604043
+    },
+    {
+        "nombre": "OPPA",
+        "video": "https://www.youtube.com/watch?v=7Yvo6pNL5zk",
+        "direccion": "C. de la Prosperidad 29 C, Escandón II Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJIbqRPDT_0YURchoawdI-7Dw",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4030289%2C-99.17482919999999&query_place_id=ChIJIbqRPDT_0YURchoawdI-7Dw",
+        "lat": 19.4030289,
+        "lng": -99.17482919999999
     }
 ]

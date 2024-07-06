@@ -6,7 +6,7 @@ instanceWS.get_urls_data()
 instanceWS.obtener_info_restaurante()
 instanceWS.generacion_masiva_urls()
 
-# instanceWS.corrector_sitios(["DINO ALBINO"])
+# instanceWS.corrector_sitios(["ARTILIANO7"])
 # instanceWS.obtener_place_id_direccion()
 
 instanceWS.from_json_to_csv()

@@ -2420,16 +2420,6 @@
         "lng": -99.18219959999999
     },
     {
-        "nombre": "EL RINCÓN DEL INÚTIL",
-        "video": "https://www.youtube.com/watch?v=Sn55JUFSIQs",
-        "direccion": "Eje Central Lázaro Cárdenas 3, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México",
-        "gmaps_id": "ChIJiVupIar50YURW1LErEooxH0",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4381858%2C-99.14005829999999&query_place_id=ChIJiVupIar50YURW1LErEooxH0",
-        "lat": 19.4381858,
-        "lng": -99.14005829999999
-    },
-    {
         "nombre": "HELADOS DE PULQUE MAYAHUEL",
         "video": "https://www.youtube.com/watch?v=S2cAT2yietA",
         "direccion": "Av. Chimalhuacán 378, Benito Juárez, 57709 Cdad. Nezahualcóyotl, Méx., México",
@@ -2478,5 +2468,15 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.388387%2C-99.18385669999999&query_place_id=ChIJoeaSthT_0YURnT7jSDkt63c",
         "lat": 19.388387,
         "lng": -99.18385669999999
+    },
+    {
+        "nombre": "EL RINCÓN DEL INÚTIL",
+        "video": "https://www.youtube.com/watch?v=Sn55JUFSIQs",
+        "direccion": "Mercado Martínez de la torre L- 416 y 417, Guerrero, Cuauhtémoc, 06300 Cuahutémoc, CDMX, México",
+        "gmaps_id": "ChIJDVtx3if50YURNvSk-FWsYDM",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.445203%2C-99.144167&query_place_id=ChIJDVtx3if50YURNvSk-FWsYDM",
+        "lat": 19.445203,
+        "lng": -99.144167
     }
 ]

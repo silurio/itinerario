@@ -56,8 +56,8 @@
         "gmaps_id": "ChIJkwoJpSr_0YURBQa06III420",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4134098%2C-99.1333846&query_place_id=ChIJkwoJpSr_0YURBQa06III420",
-        "lat": 19.4134098,
-        "lng": -99.1333846
+        "lat": 19.4133872,
+        "lng": -99.1330796
     },
     {
         "nombre": "LOS 3 KUINITOS",
@@ -386,8 +386,8 @@
         "gmaps_id": "ChIJwff3v0D50YURGeN1w6FW8k8",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4407823%2C-99.159729&query_place_id=ChIJwff3v0D50YURGeN1w6FW8k8",
-        "lat": 19.4407823,
-        "lng": -99.159729
+        "lat": 19.4399025,
+        "lng": -99.1602966
     },
     {
         "nombre": "HORTY SALTEÑERÍA",
@@ -434,7 +434,7 @@
         "video": "https://www.youtube.com/embed/dba5mWiMGcU?feature=oembed",
         "direccion": "Tehuantepec 254, col. Roma Sur",
         "gmaps_id": "ChIJM116nlf_0YURiIofh9slilE",
-        "estado": "En operaciones",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4037136%2C-99.16850149999999&query_place_id=ChIJM116nlf_0YURiIofh9slilE",
         "lat": 19.4037136,
         "lng": -99.16850149999999
@@ -623,11 +623,11 @@
         "nombre": "PUPUSERÍA LA PISCUCHA",
         "video": "https://www.youtube.com/embed/FarkgrR816E?feature=oembed",
         "direccion": "C. Nogal 275, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
-        "gmaps_id": "ChIJA1rFno750YURMiGakYoILHM",
-        "estado": "En operaciones",
-        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4542859%2C-99.1630046&query_place_id=ChIJA1rFno750YURMiGakYoILHM",
-        "lat": 19.4542859,
-        "lng": -99.1630046
+        "gmaps_id": "",
+        "estado": "Cerrado permanentemente",
+        "enlace_google_maps": "",
+        "lat": 0,
+        "lng": 0
     },
     {
         "nombre": "PIZZAS IXIM",
@@ -924,7 +924,7 @@
         "video": "https://www.youtube.com/embed/Uy0PPmHWMtk",
         "direccion": "Azalea # 39, Xaltocan, Xochimilco",
         "gmaps_id": "ChIJeUIbKjX30YURPLpIihCWTJ0",
-        "estado": "Cerrado temporalmente",
+        "estado": "Cerrado permanentemente",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.5360293%2C-99.1837633&query_place_id=ChIJeUIbKjX30YURPLpIihCWTJ0",
         "lat": 19.5360293,
         "lng": -99.1837633
@@ -1764,7 +1764,7 @@
         "video": "https://www.youtube.com/embed/o_RNxrMgoN0",
         "direccion": "Av. Nevado #112, col. Portales",
         "gmaps_id": "ChIJu9XkWSf_0YURt7AOecCIv4w",
-        "estado": "Cerrado temporalmente",
+        "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3596185%2C-99.1485749&query_place_id=ChIJu9XkWSf_0YURt7AOecCIv4w",
         "lat": 19.3596185,
         "lng": -99.1485749
@@ -1806,8 +1806,8 @@
         "gmaps_id": "ChIJkyaxLv7-0YURjUZwwKV1A3s",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3890418%2C-99.14520209999999&query_place_id=ChIJkyaxLv7-0YURjUZwwKV1A3s",
-        "lat": 19.3890418,
-        "lng": -99.14520209999999
+        "lat": 19.3889432,
+        "lng": -99.1452016
     },
     {
         "nombre": "RESTAURANTE FRITZ",
@@ -2084,7 +2084,7 @@
         "video": "https://www.youtube.com/watch?v=B3Q66nQjSgw",
         "direccion": "Escocia 58, Parque San Andrés, Coyoacán, 04040 Ciudad de México, CDMX, México",
         "gmaps_id": "ChIJmUDgZI__0YURTELnBMZ82ns",
-        "estado": "Cerrado temporalmente",
+        "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.3483272%2C-99.1472265&query_place_id=ChIJmUDgZI__0YURTELnBMZ82ns",
         "lat": 19.3483272,
         "lng": -99.1472265
@@ -2326,8 +2326,8 @@
         "gmaps_id": "ChIJyeyrJ1z50YURF31Wi65Ce5A",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4820178%2C-99.1200837&query_place_id=ChIJyeyrJ1z50YURF31Wi65Ce5A",
-        "lat": 19.4820178,
-        "lng": -99.1200837
+        "lat": 19.48200689999999,
+        "lng": -99.12005359999999
     },
     {
         "nombre": "SUVAI",
@@ -2432,7 +2432,7 @@
     {
         "nombre": "EL TRAPICHE COMIDA HONDUREÑA",
         "video": "https://www.youtube.com/watch?v=AyqLpSAPqgQ",
-        "direccion": "C. Dra. Joublanc 28 H, Tacubaya, Miguel Hidalgo, 11870 Ciudad de México, CDMX, México",
+        "direccion": "C. Doctora Joublanc 28 H, Tacubaya, Miguel Hidalgo, 11870 Ciudad de México, CDMX",
         "gmaps_id": "ChIJ264GLWH_0YURISZ_nKsa7jA",
         "estado": "En operaciones",
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4027888%2C-99.1860817&query_place_id=ChIJ264GLWH_0YURISZ_nKsa7jA",
@@ -2478,5 +2478,155 @@
         "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.445203%2C-99.144167&query_place_id=ChIJDVtx3if50YURNvSk-FWsYDM",
         "lat": 19.445203,
         "lng": -99.144167
+    },
+    {
+        "nombre": "CERVECERÍA KANTINFLAS",
+        "video": "https://www.youtube.com/watch?v=xN9OnnDxhwA",
+        "direccion": "Zarco 172 accesoria D y E, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ93crnCf50YUR2YpSUZuBkfM",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4474961%2C-99.14471830000001&query_place_id=ChIJ93crnCf50YUR2YpSUZuBkfM",
+        "lat": 19.4474961,
+        "lng": -99.14471830000001
+    },
+    {
+        "nombre": "LIBRES POR SIEMPRE",
+        "video": "https://www.youtube.com/watch?v=60psPDPXvjM",
+        "direccion": "C. Guerrero 244B, Buenavista, Cuauhtémoc, 06350 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJQyvWqXj50YURTLsbzmn73Xo",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4502313%2C-99.14648539999999&query_place_id=ChIJQyvWqXj50YURTLsbzmn73Xo",
+        "lat": 19.4502313,
+        "lng": -99.14648539999999
+    },
+    {
+        "nombre": "BEYEN",
+        "video": "https://www.youtube.com/watch?v=RY2tOz8m_eY",
+        "direccion": "Av. Yucatán 28, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJrWgjj7L_0YUR9JXubH8oyrM",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4162353%2C-99.1660986&query_place_id=ChIJrWgjj7L_0YUR9JXubH8oyrM",
+        "lat": 19.4162353,
+        "lng": -99.1660986
+    },
+    {
+        "nombre": "SAMUDAAY",
+        "video": "https://www.youtube.com/watch?v=OiVN9SDDO9E",
+        "direccion": "Merida 241, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJxQD4Oa__0YUR0afAgfdSTrM",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4123927%2C-99.1558683&query_place_id=ChIJxQD4Oa__0YUR0afAgfdSTrM",
+        "lat": 19.4123927,
+        "lng": -99.1558683
+    },
+    {
+        "nombre": "RINCÓN TLAXCALTECA",
+        "video": "https://www.youtube.com/watch?v=Oj0gKc8yzMA",
+        "direccion": "San Ildefonso 40, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06020 Centro, CDMX, Mexico",
+        "gmaps_id": "ChIJQfd0JQD50YURDxlFg_RRJWE",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4366786%2C-99.1302449&query_place_id=ChIJQfd0JQD50YURDxlFg_RRJWE",
+        "lat": 19.4366786,
+        "lng": -99.1302449
+    },
+    {
+        "nombre": "CUCINAMATTE 82",
+        "video": "https://www.youtube.com/watch?v=XcGChq8MDkM",
+        "direccion": "C. Gabino Barreda 82, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJTfXoeCT_0YUREJTfY8poKG8",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4379848%2C-99.1637322&query_place_id=ChIJTfXoeCT_0YUREJTfY8poKG8",
+        "lat": 19.4379848,
+        "lng": -99.1637322
+    },
+    {
+        "nombre": "TACOS DE HÍGADO REVOLUCIÓN",
+        "video": "https://www.youtube.com/watch?v=e07tV-Ap2MU",
+        "direccion": "C. Andrea del Castagno, Nonoalco, Benito Juárez, 03700 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJNy4K1IH_0YURw2SRjFKbFKU",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.38321119999999%2C-99.1868576&query_place_id=ChIJNy4K1IH_0YURw2SRjFKbFKU",
+        "lat": 19.38321119999999,
+        "lng": -99.1868576
+    },
+    {
+        "nombre": "PALETERÍA MAYA",
+        "video": "https://www.youtube.com/watch?v=daOFvhwflas",
+        "direccion": "Calle Dr Velasco 1-local D, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJp6MiRdj-0YUR3zJP1Oj0N3U",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4190272%2C-99.1436818&query_place_id=ChIJp6MiRdj-0YUR3zJP1Oj0N3U",
+        "lat": 19.4190272,
+        "lng": -99.1436818
+    },
+    {
+        "nombre": "LA ZARZA OAXACA",
+        "video": "https://www.youtube.com/watch?v=rYvTEAC3Lfc",
+        "direccion": "Lerdo 196, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJw_6Ac9H50YUR0JWdYTRxReI",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.450102%2C-99.14161449999999&query_place_id=ChIJw_6Ac9H50YUR0JWdYTRxReI",
+        "lat": 19.450102,
+        "lng": -99.14161449999999
+    },
+    {
+        "nombre": "EL RINCÓN DE MACONDO",
+        "video": "https://www.youtube.com/watch?v=G24LS1Yxdh8",
+        "direccion": "Av. Baja California 39 A, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJf-I5loT_0YUR-QSw4Mks2hM",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4066122%2C-99.1577258&query_place_id=ChIJf-I5loT_0YUR-QSw4Mks2hM",
+        "lat": 19.4066122,
+        "lng": -99.1577258
+    },
+    {
+        "nombre": "TACOS DE HÍGADO RAMÍREZ MORANCHEL",
+        "video": "https://www.youtube.com/watch?v=8y9tkQnYaDo",
+        "direccion": "Matamoros 163, Tepito, Morelos, Cuauhtémoc, 06200 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ3wHn7Dn50YURf-8BAAFZQGg",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.446816%2C-99.12811959999999&query_place_id=ChIJ3wHn7Dn50YURf-8BAAFZQGg",
+        "lat": 19.446816,
+        "lng": -99.12811959999999
+    },
+    {
+        "nombre": "EL MICKY",
+        "video": "https://www.youtube.com/watch?v=K9XGjoTuAWI",
+        "direccion": "Av. Jalisco 165, Tacubaya, Miguel Hidalgo, 11850 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ_zZO8W4B0oURrv-xrOEBYJI",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4056616%2C-99.1853313&query_place_id=ChIJ_zZO8W4B0oURrv-xrOEBYJI",
+        "lat": 19.4056616,
+        "lng": -99.1853313
+    },
+    {
+        "nombre": "CAFÉ LUCKY",
+        "video": "https://www.youtube.com/watch?v=bp8NjfW7aGw",
+        "direccion": "C. Nogal 1A, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJidGQ2tH40YURyL64zqhOxZg",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.44333839999999%2C-99.16477619999999&query_place_id=ChIJidGQ2tH40YURyL64zqhOxZg",
+        "lat": 19.44333839999999,
+        "lng": -99.16477619999999
+    },
+    {
+        "nombre": "LA BARRA DE AL LADO",
+        "video": "https://www.youtube.com/watch?v=sZooHKY-bZk",
+        "direccion": "Sinaloa 250, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJVY4-VgD_0YURkMVtQjhpDck",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4188829%2C-99.1752379&query_place_id=ChIJVY4-VgD_0YURkMVtQjhpDck",
+        "lat": 19.4188829,
+        "lng": -99.1752379
+    },
+    {
+        "nombre": "CACAO PARA TODOS",
+        "video": "https://www.youtube.com/watch?v=ObfotxdchRI",
+        "direccion": "Carlos B. Zetina 82a, Escandón I Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX, Mexico",
+        "gmaps_id": "ChIJ0yMVBIL_0YUR3GwSxxLzgBc",
+        "estado": "En operaciones",
+        "enlace_google_maps": "https://www.google.com/maps/search/?api=1&query=19.4047684%2C-99.18319249999999&query_place_id=ChIJ0yMVBIL_0YUR3GwSxxLzgBc",
+        "lat": 19.4047684,
+        "lng": -99.18319249999999
     }
 ]

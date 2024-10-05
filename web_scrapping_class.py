@@ -442,24 +442,27 @@ class WebScrapping:
                     sitio['enlace_google_maps'] = ""
                     
                 if 'address_components' in business_status['result']:
-                    try:
-                        dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
-                                        if any(valor in dicc['types'] for valor in self.calle)].pop()
-                        
-                        address = unidecode(sitio['direccion'].lower())
-                        print(address)
-                        print(unidecode(dicc_encontrado['long_name'].lower()))
-                        print(unidecode(dicc_encontrado['short_name'].lower()))
+                    if sitio['direccion'] == '':
+                        sitio['direccion'] = business_status['result']['formatted_address']
+                    else :  
+                        try:
+                            dicc_encontrado = [dicc for dicc in business_status['result']['address_components']
+                                            if any(valor in dicc['types'] for valor in self.calle)].pop()
                             
-                        if unidecode(dicc_encontrado['long_name'].lower()) in address or \
-                            unidecode(dicc_encontrado['short_name'].lower()) in address:
-                            pass
-                        else:
-                            print("El sitio {} tiene una dirección distinta".format(sitio['nombre']) + "\n\n")
-                    except:
-                        print("El sitio {} tiene problema con los componentes de la dirección".format(sitio['nombre']))
-                        exc_type, exc_value, exc_traceback = sys.exc_info()
-                        print(f"An error occurred with address_components: {exc_type.__name__}: {exc_value}")
+                            address = unidecode(sitio['direccion'].lower())
+                            print(address)
+                            print(unidecode(dicc_encontrado['long_name'].lower()))
+                            print(unidecode(dicc_encontrado['short_name'].lower()))
+                                
+                            if unidecode(dicc_encontrado['long_name'].lower()) in address or \
+                                unidecode(dicc_encontrado['short_name'].lower()) in address:
+                                pass
+                            else:
+                                print("El sitio {} tiene una dirección distinta".format(sitio['nombre']) + "\n\n")
+                        except:
+                            print("El sitio {} tiene problema con los componentes de la dirección".format(sitio['nombre']))
+                            exc_type, exc_value, exc_traceback = sys.exc_info()
+                            print(f"An error occurred with address_components: {exc_type.__name__}: {exc_value}")
 
         # Si el restaurante tiene varios place_id
         elif not esString:
@@ -565,3 +568,28 @@ class WebScrapping:
             with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
                     json.dump(todos, rest_json, ensure_ascii=False, indent=4) 
                     
+    
+    def agregar_info_basica_restaurante(self, sitios_nuevos):
+        """
+        Este método agrega un restaurante con la información
+        básica proporcionada: su nombre y URL de recomendación
+        """
+        restaurantes = []
+        
+        # Se obtiene el arreglo de JSONs del archivo restaurantes.json
+        with open('assets/restaurantes.json', 'r') as file:
+            restaurantes = json.load(file)
+            
+        for sitio in sitios_nuevos:
+            sitio.update({
+                "direccion": "",
+                "gmaps_id": "",
+                "estado": "",
+                "enlace_google_maps": "",
+                "lat": 0,
+                "lng": 0
+            })
+            restaurantes.append(sitio)
+                    
+        with open('assets/restaurantes.json', 'w', encoding="utf-8") as rest_json:
+                    json.dump(restaurantes, rest_json, ensure_ascii=False, indent=4)
